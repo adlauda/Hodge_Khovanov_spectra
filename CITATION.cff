@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the accompanying manuscript."
+title: "Quantum computing and Khovanov homology"
+type: software
+authors:
+  - family-names: Schmidhuber
+    given-names: Alexander
+  - family-names: Reilly
+    given-names: Michele
+  - family-names: Zanardi
+    given-names: Paolo
+  - family-names: Lloyd
+    given-names: Seth
+  - family-names: Lauda
+    given-names: Aaron
+date-released: "2026-05-29"
+repository-code: "https://github.com/adlauda/Hodge_Khovanov_spectra"
+abstract: "Code, data, and derived numerical outputs accompanying the manuscript Quantum computing and Khovanov homology."
