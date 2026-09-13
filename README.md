@@ -1,33 +1,37 @@
 # Hodge Khovanov Spectra
 
-Code and data for reproducing the numerical spectral-gap figures in
+Manuscript, code, and data for
 "Quantum computing and Khovanov homology."
 
-This repository is intentionally narrow: it contains only the public artifacts
-needed for the paper figures listed below. Exploratory studies, local CARC job
-scripts, diagnostic notebooks, manuscript PDFs, and unrelated derived outputs
-are not included.
+The current paper is [Paper/Current/main.pdf](Paper/Current/main.pdf).
+Edit [Paper/Current/main.tex](Paper/Current/main.tex), which contains the full
+manuscript in one file. The same folder contains the bibliography, figures,
+and instructions for compiling the paper and reproducing its numerical plots.
 
 ## Contents
 
+- `Paper/Current/` - current manuscript, PDF, and supporting files.
+- `Paper/Current/reproducibility/` - current plotting script, numerical tables,
+  database cleanup script and recovery record, and computational diagnostics.
 - `src/spectral_kh/` - Khovanov complex and Hodge Laplacian implementation.
 - `scripts/` - database generation scripts for knots, links, 14-crossing knots,
   and twisted unknots.
-- `visualization/` - plotting scripts for the retained paper figures.
+- `visualization/` - earlier plotting scripts, retained for reference.
 - `data/` - input planar-diagram tables.
 - `databases/` - SQLite result databases used by the plotting scripts.
-- `outputs/plots/` - retained figure files.
+- `outputs/plots/` - earlier figure files, retained for reference.
 
-## Retained Figures
+## Current numerical figures
 
-| Figure file | Generation script | Source database |
-| --- | --- | --- |
-| `outputs/plots/twisted_unknot_gap.png` | `visualization/plot_twisted_unknot_gap.py` | `databases/twisted_unknot_research.db` |
-| `outputs/plots/unified_plot_knots.png` | `visualization/plot_unified_knots.py` | `databases/knot_research.db`, `databases/knot_research_14.db` |
-| `outputs/plots/unified_plot_links.png` | `visualization/plot_unified_links.py` | `databases/link_research.db` |
+The four numerical figures are in `Paper/Current/figures/`.
 
-The paper also uses `10_DoS_Khovanov.png`; the script and source data for that
-figure are not included in this repository.
+- `twisted_unknot_bidegree_gap.png`
+- `observed_knots_gap_distribution.png`
+- `observed_links_gap_distribution.png`
+- `alternating_distinguished_bidegrees.png`
+
+The paper folder also includes the other three diagram files needed to compile
+the manuscript.
 
 ## Install
 
@@ -41,19 +45,15 @@ python -m pip install -e .
 The database-generation scripts import the installed `spectral_kh` package
 directly. No repository-specific environment setup script is required.
 
-## Generate Retained Figures
+## Generate the current numerical figures
 
 ```bash
-python visualization/plot_twisted_unknot_gap.py
-python visualization/plot_unified_knots.py
-python visualization/plot_unified_links.py
+python Paper/Current/reproducibility/plot_submission_numerics.py
 ```
 
-These generate:
-
-- `outputs/plots/twisted_unknot_gap.png`
-- `outputs/plots/unified_plot_knots.png`
-- `outputs/plots/unified_plot_links.png`
+This requires Python 3.11 or later and uses the included databases without
+rerunning the eigensolvers. It writes the four figures and their summary
+tables, checking the input database hashes recorded with the paper.
 
 ## Data Notes
 
@@ -61,5 +61,13 @@ The SQLite databases are included so readers can inspect the numerical data
 without rerunning the full computation. The Python scripts in `scripts/` are the
 database-generation entry points retained for reference and reruns.
 
-`databases/knot_research.db` is about 89 MB, which is below GitHub's hard file
-limit but above its recommended 50 MB threshold.
+`databases/knot_research.db` contains 12,965 knots and 1,401,192 bidegree rows,
+with one row per knot and bidegree. The cleanup preserves retained row IDs
+and adds a unique index to prevent duplicate bidegrees. The selection rule,
+checksums, and removed-row recovery record are in
+`Paper/Current/reproducibility/DATABASE-CLEANUP.json`.
+
+The original database remains available at commit
+`ccfce9a3eaa33f6663ff1e21b158d73aa34b3bea`. To repeat the cleanup, provide that
+original file to `Paper/Current/reproducibility/clean_knot_database.py` with
+`--source`, `--output`, and `--report`, using new output paths.

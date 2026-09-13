@@ -1,0 +1,681 @@
+\begin{thebibliography}{93}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Freedman et~al.(2002{\natexlab{a}})Freedman, Kitaev, and
+  Wang]{freedman2002simulation}
+Michael~H Freedman, Alexei Kitaev, and Zhenghan Wang.
+\newblock Simulation of topological field theories by quantum computers.
+\newblock \emph{Communications in Mathematical Physics}, 227:\penalty0
+  587--603, 2002{\natexlab{a}}.
+
+\bibitem[Aharonov et~al.(2009)Aharonov, Jones, and
+  Landau]{Aharonov-Jones-Landau}
+Dorit Aharonov, Vaughan Jones, and Zeph Landau.
+\newblock A polynomial quantum algorithm for approximating the {J}ones
+  polynomial.
+\newblock \emph{Algorithmica}, 55\penalty0 (3):\penalty0 395--421, 2009.
+\newblock ISSN 0178-4617.
+\newblock \doi{10.1007/s00453-008-9168-0}.
+\newblock URL \url{https://doi.org/10.1007/s00453-008-9168-0}.
+
+\bibitem[Jones(1997)]{jones1997polynomial}
+Vaughan~FR Jones.
+\newblock A polynomial invariant for knots via von neumann algebras.
+\newblock In \emph{Fields Medallists' Lectures}, pages 448--458. World
+  Scientific, 1997.
+
+\bibitem[Kuperberg(2015)]{kuperberg2015hard}
+Greg Kuperberg.
+\newblock How hard is it to approximate the jones polynomial?
+\newblock \emph{Theory of Computing}, 11\penalty0 (1):\penalty0 183--219, 2015.
+
+\bibitem[Freedman et~al.(2002{\natexlab{b}})Freedman, Larsen, and
+  Wang]{FreedmanLarsenWang2002}
+Michael~H. Freedman, Michael Larsen, and Zhenghan Wang.
+\newblock A modular functor which is universal for quantum computation.
+\newblock \emph{Communications in Mathematical Physics}, 227\penalty0
+  (3):\penalty0 605--622, 2002{\natexlab{b}}.
+\newblock \doi{10.1007/s002200200645}.
+
+\bibitem[Aharonov and Arad(2011)]{aharonov2011bqp}
+Dorit Aharonov and Itai Arad.
+\newblock The bqp-hardness of approximating the jones polynomial.
+\newblock \emph{New Journal of Physics}, 13\penalty0 (3):\penalty0 035019,
+  2011.
+
+\bibitem[Witten(1989)]{Witten-Jones}
+Edward Witten.
+\newblock Quantum field theory and the {J}ones polynomial.
+\newblock \emph{Comm. Math. Phys.}, 121\penalty0 (3):\penalty0 351--399, 1989.
+\newblock ISSN 0010-3616,1432-0916.
+\newblock URL \url{http://projecteuclid.org/euclid.cmp/1104178138}.
+
+\bibitem[Reshetikhin and Turaev(1991)]{MR1091619}
+N.~Reshetikhin and V.G. Turaev.
+\newblock Invariants of {$3$}-manifolds via link polynomials and quantum
+  groups.
+\newblock \emph{Invent. Math.}, 103\penalty0 (3):\penalty0 547--597, 1991.
+\newblock ISSN 0020-9910,1432-1297.
+\newblock \doi{10.1007/BF01239527}.
+\newblock URL \url{https://doi.org/10.1007/BF01239527}.
+
+\bibitem[Kauffman(1987{\natexlab{a}})]{Kauff}
+Louis~H. Kauffman.
+\newblock State models and the {J}ones polynomial.
+\newblock \emph{Topology}, 26\penalty0 (3):\penalty0 395--407,
+  1987{\natexlab{a}}.
+\newblock ISSN 0040-9383.
+\newblock \doi{10.1016/0040-9383(87)90009-7}.
+\newblock URL \url{https://doi.org/10.1016/0040-9383(87)90009-7}.
+
+\bibitem[Jones(1989)]{Jones-stat}
+V.~F.~R. Jones.
+\newblock On knot invariants related to some statistical mechanical models.
+\newblock \emph{Pacific J. Math.}, 137\penalty0 (2):\penalty0 311--334, 1989.
+\newblock ISSN 0030-8730,1945-5844.
+\newblock URL \url{http://projecteuclid.org/euclid.pjm/1102650387}.
+
+\bibitem[Freedman et~al.(2003)Freedman, Kitaev, Larsen, and Wang]{FKLW}
+M.H. Freedman, A.~Kitaev, M.J. Larsen, and Z.~Wang.
+\newblock Topological {Q}uantum {C}omputation.
+\newblock \emph{Bull. Amer. Math. Soc. (N.S.)}, 40\penalty0 (1):\penalty0
+  31--38, 2003.
+\newblock ISSN 0273-0979.
+\newblock \doi{10.1090/S0273-0979-02-00964-3}.
+\newblock URL \url{https://doi.org/10.1090/S0273-0979-02-00964-3}.
+\newblock
+  \href{https://arxiv.org/abs/quant-ph/0101025}{arXiv:quant-ph/0101025}.
+
+\bibitem[Kitaev(2003)]{Kitaev}
+A.~Kitaev.
+\newblock Fault-tolerant quantum computation by anyons.
+\newblock \emph{Ann. Physics}, 303\penalty0 (1):\penalty0 2--30, 2003.
+\newblock ISSN 0003-4916.
+\newblock \doi{10.1016/S0003-4916(02)00018-0}.
+\newblock URL \url{https://doi.org/10.1016/S0003-4916(02)00018-0}.
+\newblock
+  \href{https://arxiv.org/abs/quant-ph/9707021}{arXiv:quant-ph/9707021}.
+
+\bibitem[Khovanov(2000)]{Kh1}
+M.~Khovanov.
+\newblock A categorification of the {J}ones polynomial.
+\newblock \emph{Duke Math. J.}, 101\penalty0 (3):\penalty0 359--426, 2000.
+\newblock \href{http://arxiv.org/abs/9908171}{arXiv:9908171}.
+
+\bibitem[Kronheimer and Mrowka(2011)]{KM}
+P.~B. Kronheimer and T.~S. Mrowka.
+\newblock Khovanov homology is an unknot-detector.
+\newblock \emph{Publ. Math. Inst. Hautes \'{E}tudes Sci.}, 113:\penalty0
+  97--208, 2011.
+\newblock ISSN 0073-8301.
+\newblock \doi{10.1007/s10240-010-0030-y}.
+\newblock URL \url{https://doi.org/10.1007/s10240-010-0030-y}.
+
+\bibitem[Jacobsson(2004)]{Jacobsson2004}
+Magnus Jacobsson.
+\newblock An invariant of link cobordisms from {K}hovanov homology.
+\newblock \emph{Algebraic \& Geometric Topology}, 4:\penalty0 1211--1251, 2004.
+\newblock \doi{10.2140/agt.2004.4.1211}.
+
+\bibitem[Khovanov(2006{\natexlab{a}})]{KhovanovTangleCobordisms2006}
+Mikhail Khovanov.
+\newblock An invariant of tangle cobordisms.
+\newblock \emph{Transactions of the American Mathematical Society},
+  358\penalty0 (1):\penalty0 315--327, 2006{\natexlab{a}}.
+\newblock \doi{10.1090/S0002-9947-05-03665-2}.
+
+\bibitem[Blanchet(2010)]{Blanchet2010}
+Christian Blanchet.
+\newblock An oriented model for {K}hovanov homology.
+\newblock \emph{Journal of Knot Theory and Its Ramifications}, 19\penalty0
+  (2):\penalty0 291--312, 2010.
+\newblock \doi{10.1142/S0218216510007863}.
+
+\bibitem[Clark et~al.(2009)Clark, Morrison, and
+  Walker]{ClarkMorrisonWalker2009}
+David Clark, Scott Morrison, and Kevin Walker.
+\newblock Fixing the functoriality of {K}hovanov homology.
+\newblock \emph{Geometry \& Topology}, 13\penalty0 (3):\penalty0 1499--1582,
+  2009.
+\newblock \doi{10.2140/gt.2009.13.1499}.
+
+\bibitem[Bar-Natan(2002)]{BN1}
+D.~Bar-Natan.
+\newblock On {K}hovanov's categorification of the {J}ones polynomial.
+\newblock \emph{Algebr. Geom. Topol.}, 2:\penalty0 337--370 (electronic), 2002.
+\newblock \href{http://arxiv.org/abs/0201043}{arXiv:0201043}.
+
+\bibitem[Bar-Natan(2007)]{BN3}
+D.~Bar-Natan.
+\newblock Fast khovanov homology computations.
+\newblock \emph{Journal of Knot Theory and Its Ramifications}, 16\penalty0
+  (03):\penalty0 243--255, 2007.
+\newblock \doi{10.1142/S0218216507005294}.
+\newblock URL \url{https://doi.org/10.1142/S0218216507005294}.
+
+\bibitem[Kelomäki and Schütz(2026)]{kelomaki2026}
+Tuomas Kelomäki and Dirk Schütz.
+\newblock On computational complexity of {K}hovanov homology.
+\newblock arXiv preprint arXiv:2601.02119, 2026.
+\newblock URL \url{https://arxiv.org/abs/2601.02119}.
+
+\bibitem[Witten(2012{\natexlab{a}})]{Witten-fivebrane}
+Edward Witten.
+\newblock Fivebranes and knots.
+\newblock \emph{Quantum Topol.}, 3\penalty0 (1):\penalty0 1--137,
+  2012{\natexlab{a}}.
+\newblock ISSN 1663-487X,1664-073X.
+\newblock \doi{10.4171/QT/26}.
+\newblock URL \url{https://doi.org/10.4171/QT/26}.
+
+\bibitem[Witten(2012{\natexlab{b}})]{witten2012khovanov}
+Edward Witten.
+\newblock Khovanov homology and gauge theory.
+\newblock \emph{Proceedings of the Freedman Fest}, 18:\penalty0 291--308,
+  2012{\natexlab{b}}.
+
+\bibitem[Gaiotto and Witten(2012)]{Gaiotto-Witten}
+Davide Gaiotto and Edward Witten.
+\newblock Knot invariants from four-dimensional gauge theory.
+\newblock \emph{Adv. Theor. Math. Phys.}, 16\penalty0 (3):\penalty0 935--1086,
+  2012.
+\newblock ISSN 1095-0761,1095-0753.
+\newblock URL \url{http://projecteuclid.org/euclid.atmp/1363792009}.
+
+\bibitem[Gukov et~al.(2005)Gukov, Schwarz, and Vafa]{Gukov_2005}
+Sergei Gukov, Albert Schwarz, and Cumrun Vafa.
+\newblock Khovanov-rozansky homology and topological strings.
+\newblock \emph{Letters in Mathematical Physics}, 74\penalty0 (1):\penalty0
+  53–74, October 2005.
+\newblock ISSN 1573-0530.
+\newblock \doi{10.1007/s11005-005-0008-8}.
+\newblock URL \url{http://dx.doi.org/10.1007/s11005-005-0008-8}.
+
+\bibitem[Aganagic and Shakirov(2015)]{Aganagic}
+Mina Aganagic and Shamil Shakirov.
+\newblock Knot homology and refined {C}hern-{S}imons index.
+\newblock \emph{Comm. Math. Phys.}, 333\penalty0 (1):\penalty0 187--228, 2015.
+\newblock ISSN 0010-3616,1432-0916.
+\newblock \doi{10.1007/s00220-014-2197-4}.
+\newblock URL \url{https://doi.org/10.1007/s00220-014-2197-4}.
+
+\bibitem[Gukov et~al.(2020)Gukov, Pei, Putrov, and Vafa]{GPPV}
+Sergei Gukov, Du~Pei, Pavel Putrov, and Cumrun Vafa.
+\newblock Bps spectra and 3-manifold invariants.
+\newblock \emph{Journal of Knot Theory and Its Ramifications}, 29\penalty0
+  (02):\penalty0 2040003, 2020.
+\newblock \doi{10.1142/S0218216520400039}.
+\newblock URL \url{https://doi.org/10.1142/S0218216520400039}.
+
+\bibitem[Aganagic(2024)]{Aganagic_2024}
+Mina Aganagic.
+\newblock Knot categorification from mirror symmetry part i: Coherent sheaves.
+\newblock \emph{Advances in Theoretical and Mathematical Physics}, 28\penalty0
+  (4):\penalty0 1151–1239, 2024.
+\newblock ISSN 1095-0753.
+\newblock \doi{10.4310/atmp.241029013633}.
+\newblock URL \url{http://dx.doi.org/10.4310/ATMP.241029013633}.
+
+\bibitem[Lloyd et~al.(2016)Lloyd, Garnerone, and Zanardi]{lloyd2016quantum}
+Seth Lloyd, Silvano Garnerone, and Paolo Zanardi.
+\newblock Quantum algorithms for topological and geometric analysis of data.
+\newblock \emph{Nature communications}, 7\penalty0 (1):\penalty0 10138, 2016.
+
+\bibitem[Berry et~al.(2022)Berry, Su, Gyurik, King, Basso, Barba, Rajput,
+  Wiebe, Dunjko, and Babbush]{GoogleBettiBerry}
+Dominic~W Berry, Yuan Su, Casper Gyurik, Robbie King, Joao Basso, Alexander
+  Del~Toro Barba, Abhishek Rajput, Nathan Wiebe, Vedran Dunjko, and Ryan
+  Babbush.
+\newblock Quantifying quantum advantage in topological data analysis.
+\newblock \emph{arXiv preprint arXiv:2209.13581}, 2022.
+
+\bibitem[Cade and Crichigno(2021)]{cade2021complexity}
+Chris Cade and P~Marcos Crichigno.
+\newblock Complexity of supersymmetric systems and the cohomology problem.
+\newblock \emph{arXiv preprint arXiv:2107.00011}, 2021.
+
+\bibitem[Wehrli(2004)]{wehrli2004spanningtree}
+Stephan~M. Wehrli.
+\newblock A spanning tree model for khovanov homology.
+\newblock arXiv preprint arXiv:math/0409328, 2004.
+\newblock URL \url{https://arxiv.org/abs/math/0409328}.
+
+\bibitem[Champanerkar and Kofman(2009)]{champanerkar2008spanningtrees}
+Abhijit Champanerkar and Ilya Kofman.
+\newblock Spanning trees and {K}hovanov homology.
+\newblock \emph{Proceedings of the American Mathematical Society}, 137\penalty0
+  (6):\penalty0 2157--2167, 2009.
+\newblock \href{https://arxiv.org/abs/math/0607510}{arXiv:math/0607510}.
+
+\bibitem[Wilson(1996)]{Wilson96}
+David~B. Wilson.
+\newblock Generating random spanning trees more quickly than the cover time.
+\newblock In \emph{Proceedings of the Twenty-eighth Annual ACM Symposium on
+  Theory of Computing (STOC)}, pages 296--303, 1996.
+
+\bibitem[Montanaro(2015)]{Montanaro2015}
+Ashley Montanaro.
+\newblock Quantum speedup of monte carlo methods.
+\newblock \emph{Proceedings of the Royal Society A}, 471\penalty0
+  (2181):\penalty0 20150301, 2015.
+\newblock \doi{10.1098/rspa.2015.0301}.
+
+\bibitem[Grlj and Lauda(2026)]{GrljLaudaSpectralGeometry}
+Jernej Grlj and Aaron~D. Lauda.
+\newblock Spectral geometry of {K}hovanov {L}aplacians.
+\newblock \emph{arXiv preprint arXiv:2608.24298}, 2026.
+\newblock URL \url{https://arxiv.org/abs/2608.24298}.
+
+\bibitem[Shor and Jordan(2007)]{shor2007estimating}
+Peter~W Shor and Stephen~P Jordan.
+\newblock Estimating jones polynomials is a complete problem for one clean
+  qubit.
+\newblock \emph{arXiv preprint arXiv:0707.2831}, 2007.
+
+\bibitem[Kauffman(2011)]{Kauffman_2011}
+Louis~H Kauffman.
+\newblock Topological quantum information, virtual jones polynomials and
+  khovanov homology.
+\newblock \emph{New Journal of Physics}, 13\penalty0 (12):\penalty0 125007, dec
+  2011.
+\newblock \doi{10.1088/1367-2630/13/12/125007}.
+\newblock URL \url{https://dx.doi.org/10.1088/1367-2630/13/12/125007}.
+
+\bibitem[Audoux(2014)]{audoux2014application}
+Benjamin Audoux.
+\newblock An application of khovanov homology to quantum codes.
+\newblock \emph{Annales de l’Institut Henri Poincar{\'e} D}, 1\penalty0
+  (2):\penalty0 185--223, 2014.
+
+\bibitem[Harned et~al.(2024)Harned, Konda, Liu, Mudumbi, Shao, and
+  Xiao]{harned2024khovanov}
+Milena Harned, Pranav~Venkata Konda, Felix~Shanglin Liu, Nikhil Mudumbi,
+  Eric~Yuang Shao, and Zheheng Xiao.
+\newblock Khovanov homology and quantum error-correcting codes.
+\newblock \emph{arXiv preprint arXiv:2410.11252}, 2024.
+
+\bibitem[Jones and Wei(2025)]{JonesWei2025}
+Benjamin Jones and Guo-Wei Wei.
+\newblock Khovanov {L}aplacian and {K}hovanov {D}irac for knots and links.
+\newblock \emph{Journal of Physics: Complexity}, 6\penalty0 (2):\penalty0
+  025014, 2025.
+\newblock \doi{10.1088/2632-072X/adde9f}.
+\newblock \href{https://arxiv.org/abs/2411.18841}{arXiv:2411.18841}.
+
+\bibitem[Lickorish(1997)]{MR1472978}
+W.~B.~Raymond Lickorish.
+\newblock \emph{An introduction to knot theory}, volume 175 of \emph{Graduate
+  Texts in Mathematics}.
+\newblock Springer-Verlag, New York, 1997.
+\newblock ISBN 0-387-98254-X.
+\newblock \doi{10.1007/978-1-4612-0691-0}.
+\newblock URL \url{https://doi.org/10.1007/978-1-4612-0691-0}.
+
+\bibitem[Kauffman(1987{\natexlab{b}})]{MR907872}
+Louis~H. Kauffman.
+\newblock \emph{On knots}, volume 115 of \emph{Annals of Mathematics Studies}.
+\newblock Princeton University Press, Princeton, NJ, 1987{\natexlab{b}}.
+\newblock ISBN 0-691-08434-3; 0-691-08435-1.
+
+\bibitem[Murasugi(1987)]{Murasugi}
+Kunio Murasugi.
+\newblock Jones polynomials and classical conjectures in knot theory.
+\newblock \emph{Topology}, 26\penalty0 (2):\penalty0 187--194, 1987.
+\newblock ISSN 0040-9383.
+\newblock \doi{10.1016/0040-9383(87)90058-9}.
+\newblock URL \url{https://doi.org/10.1016/0040-9383(87)90058-9}.
+
+\bibitem[Thistlethwaite(1987)]{This}
+Morwen~B. Thistlethwaite.
+\newblock A spanning tree expansion of the {J}ones polynomial.
+\newblock \emph{Topology}, 26\penalty0 (3):\penalty0 297--309, 1987.
+\newblock ISSN 0040-9383.
+\newblock \doi{10.1016/0040-9383(87)90003-6}.
+\newblock URL \url{https://doi.org/10.1016/0040-9383(87)90003-6}.
+
+\bibitem[Crane and Frenkel(1994)]{Crane-Frenkel}
+Louis Crane and Igor~B. Frenkel.
+\newblock Four-dimensional topological quantum field theory, {H}opf categories,
+  and the canonical bases.
+\newblock \emph{J. Math. Phys.}, 35\penalty0 (10):\penalty0 5136--5154, 1994.
+\newblock ISSN 0022-2488,1089-7658.
+\newblock \doi{10.1063/1.530746}.
+\newblock URL \url{https://doi.org/10.1063/1.530746}.
+\newblock Topology and physics.
+
+\bibitem[Baez and Dolan(1998)]{Baez}
+John~C. Baez and James Dolan.
+\newblock Categorification.
+\newblock In \emph{Higher category theory ({E}vanston, {IL}, 1997)}, volume 230
+  of \emph{Contemp. Math.}, pages 1--36. Amer. Math. Soc., Providence, RI,
+  1998.
+\newblock ISBN 0-8218-1056-1.
+\newblock \doi{10.1090/conm/230/03336}.
+\newblock URL \url{https://doi.org/10.1090/conm/230/03336}.
+
+\bibitem[Khovanov et~al.(2009)Khovanov, Mazorchuk, and Stroppel]{KMS}
+Mikhail Khovanov, Volodymyr Mazorchuk, and Catharina Stroppel.
+\newblock A brief review of abelian categorifications.
+\newblock \emph{Theory Appl. Categ.}, 22:\penalty0 No. 19, 479--508, 2009.
+\newblock ISSN 1201-561X.
+
+\bibitem[Lauda and Sussan(2022)]{LaudaSussan2022}
+Aaron~D. Lauda and Joshua Sussan.
+\newblock An invitation to categorification.
+\newblock \emph{Notices of the American Mathematical Society}, 69\penalty0
+  (1):\penalty0 11--21, January 2022.
+\newblock URL
+  \url{https://www.ams.org/journals/notices/202201/noti2399/noti2399.html}.
+
+\bibitem[Beliakova et~al.(2014)Beliakova, Guliyev, Habiro, and
+  Lauda]{Beliakova}
+Anna Beliakova, Zaur Guliyev, Kazuo Habiro, and Aaron~D. Lauda.
+\newblock Trace as an alternative decategorification functor.
+\newblock \emph{Acta Math. Vietnam.}, 39\penalty0 (4):\penalty0 425--480, 2014.
+\newblock ISSN 0251-4184,2315-4144.
+\newblock \doi{10.1007/s40306-014-0092-x}.
+\newblock URL \url{https://doi.org/10.1007/s40306-014-0092-x}.
+
+\bibitem[Baldwin and Sivek(2022)]{MR4393789}
+John~A. Baldwin and Steven Sivek.
+\newblock Khovanov homology detects the trefoils.
+\newblock \emph{Duke Math. J.}, 171\penalty0 (4):\penalty0 885--956, 2022.
+\newblock ISSN 0012-7094,1547-7398.
+\newblock \doi{10.1215/00127094-2021-0034}.
+\newblock URL \url{https://doi.org/10.1215/00127094-2021-0034}.
+
+\bibitem[Baldwin et~al.(2019)Baldwin, Sivek, and Xie]{MR4049809}
+John~A. Baldwin, Steven Sivek, and Yi~Xie.
+\newblock Khovanov homology detects the {H}opf links.
+\newblock \emph{Math. Res. Lett.}, 26\penalty0 (5):\penalty0 1281--1290, 2019.
+\newblock ISSN 1073-2780,1945-001X.
+\newblock \doi{10.4310/MRL.2019.v26.n5.a2}.
+\newblock URL \url{https://doi.org/10.4310/MRL.2019.v26.n5.a2}.
+
+\bibitem[Baldwin et~al.(2021)Baldwin, Dowlin, Levine, Lidman, and
+  Sazdanovic]{MR4275096}
+John~A. Baldwin, Nathan Dowlin, Adam~Simon Levine, Tye Lidman, and Radmila
+  Sazdanovic.
+\newblock Khovanov homology detects the figure-eight knot.
+\newblock \emph{Bull. Lond. Math. Soc.}, 53\penalty0 (3):\penalty0 871--876,
+  2021.
+\newblock ISSN 0024-6093,1469-2120.
+\newblock \doi{10.1112/blms.12467}.
+\newblock URL \url{https://doi.org/10.1112/blms.12467}.
+
+\bibitem[Hedden and Ni(2013)]{Hedden}
+Matthew Hedden and Yi~Ni.
+\newblock Khovanov module and the detection of unlinks.
+\newblock \emph{Geom. Topol.}, 17\penalty0 (5):\penalty0 3027--3076, 2013.
+\newblock ISSN 1465-3060,1364-0380.
+\newblock \doi{10.2140/gt.2013.17.3027}.
+\newblock URL \url{https://doi.org/10.2140/gt.2013.17.3027}.
+
+\bibitem[Rasmussen(2010)]{Rasmussen}
+Jacob Rasmussen.
+\newblock Khovanov homology and the slice genus.
+\newblock \emph{Invent. Math.}, 182\penalty0 (2):\penalty0 419--447, 2010.
+\newblock ISSN 0020-9910,1432-1297.
+\newblock \doi{10.1007/s00222-010-0275-6}.
+\newblock URL \url{https://doi.org/10.1007/s00222-010-0275-6}.
+
+\bibitem[Ren and Willis(2024)]{Ren-WIllis}
+Qiuyu Ren and Michael Willis.
+\newblock Khovanov homology and exotic $4$-manifolds.
+\newblock arXiv preprint arXiv:2402.10452, 2024.
+\newblock URL \url{https://arxiv.org/abs/2402.10452}.
+
+\bibitem[Khovanov(2003)]{KhovanovPatterns}
+Mikhail Khovanov.
+\newblock Patterns in knot cohomology. {I}.
+\newblock \emph{Experimental Mathematics}, 12\penalty0 (3):\penalty0 365--374,
+  2003.
+\newblock \href{https://arxiv.org/abs/math/0201306}{arXiv:math/0201306}.
+
+\bibitem[Champanerkar and Kofman(2008)]{ChampanerkarKofmanMutation2008}
+Abhijit Champanerkar and Ilya Kofman.
+\newblock On mutation and {Khovanov} homology.
+\newblock \emph{Communications in Contemporary Mathematics}, 10\penalty0
+  (suppl. 1):\penalty0 973--992, 2008.
+\newblock URL \url{https://arxiv.org/abs/0801.4937}.
+
+\bibitem[Haken(1961)]{haken1961theorie}
+Wolfgang Haken.
+\newblock Theorie der normalfl{\"a}chen.
+\newblock \emph{Acta Mathematica}, 105\penalty0 (3):\penalty0 245--375, 1961.
+
+\bibitem[Hass et~al.(1999)Hass, Lagarias, and Pippenger]{HLP}
+Joel Hass, Jeffrey~C. Lagarias, and Nicholas Pippenger.
+\newblock The computational complexity of knot and link problems.
+\newblock \emph{J. ACM}, 46\penalty0 (2):\penalty0 185--211, 1999.
+\newblock ISSN 0004-5411.
+\newblock \doi{10.1145/301970.301971}.
+\newblock URL \url{https://doi.org/10.1145/301970.301971}.
+
+\bibitem[Kuperberg(2014)]{kuperberg2014knottedness}
+Greg Kuperberg.
+\newblock Knottedness is in {NP}, modulo {GRH}.
+\newblock \emph{Advances in Mathematics}, 256:\penalty0 493--506, 2014.
+
+\bibitem[Lackenby(2021)]{lackenby2021efficient}
+Marc Lackenby.
+\newblock The efficient certification of knottedness and {T}hurston norm.
+\newblock \emph{Advances in Mathematics}, 387:\penalty0 107796, 2021.
+\newblock \doi{10.1016/j.aim.2021.107796}.
+
+\bibitem[Gyurik et~al.(2020)Gyurik, Cade, and Dunjko]{quantumAdvantage}
+Casper Gyurik, Chris Cade, and Vedran Dunjko.
+\newblock Towards quantum advantage via topological data analysis.
+\newblock \emph{arXiv preprint arXiv:2005.02607}, 2020.
+
+\bibitem[Hayakawa(2021)]{persistent}
+Ryu Hayakawa.
+\newblock Quantum algorithm for persistent betti numbers and topological data
+  analysis.
+\newblock \emph{arXiv preprint arXiv:2111.00433}, 2021.
+
+\bibitem[Akhalwaya et~al.(2024)Akhalwaya, Ubaru, Clarkson, Squillante, Jejjala,
+  He, Naidoo, Kalantzis, and Horesh]{IBMresult}
+Ismail~Yunus Akhalwaya, Shashanka Ubaru, Kenneth~L. Clarkson, Mark~S.
+  Squillante, Vishnu Jejjala, Yang-Hui He, Kugendran Naidoo, Vasileios
+  Kalantzis, and Lior Horesh.
+\newblock Topological data analysis on noisy quantum computers.
+\newblock arXiv preprint arXiv:2209.09371, 2024.
+\newblock URL \url{https://arxiv.org/abs/2209.09371}.
+
+\bibitem[McArdle et~al.(2022)McArdle, Gily{\'e}n, and
+  Berta]{AmazonBettiMcArdle}
+Sam McArdle, Andr{\'a}s Gily{\'e}n, and Mario Berta.
+\newblock A streamlined quantum algorithm for topological data analysis with
+  exponentially fewer qubits.
+\newblock \emph{arXiv preprint arXiv:2209.12887}, 2022.
+
+\bibitem[Schmidhuber and Lloyd(2023)]{schmidhuber2023complexity}
+Alexander Schmidhuber and Seth Lloyd.
+\newblock Complexity-theoretic limitations on quantum algorithms for
+  topological data analysis.
+\newblock \emph{PRX Quantum}, 4\penalty0 (4):\penalty0 040349, 2023.
+
+\bibitem[Crichigno and Kohler(2022)]{crichigno2022clique}
+Marcos Crichigno and Tamara Kohler.
+\newblock Clique homology is qma1-hard.
+\newblock \emph{arXiv preprint arXiv:2209.11793}, 2022.
+
+\bibitem[King and Kohler(2023)]{king2023gapped}
+Robbie King and Tamara Kohler.
+\newblock Gapped clique homology on weighted graphs is ${QMA}_1$-hard and
+  contained in ${QMA}$.
+\newblock \emph{arXiv preprint arXiv:2311.17234}, 2023.
+
+\bibitem[Hayakawa et~al.(2024)Hayakawa, Chen, and Hsieh]{hayakawa2024quantum}
+Ryu Hayakawa, Kuo-Chin Chen, and Min-Hsiu Hsieh.
+\newblock Quantum walks on simplicial complexes and harmonic homology:
+  Application to topological data analysis with superpolynomial speedups.
+\newblock \emph{arXiv preprint arXiv:2404.15407}, 2024.
+
+\bibitem[Gyurik et~al.(2024)Gyurik, Schmidhuber, King, Dunjko, and
+  Hayakawa]{gyurik_schmidhuber_2024quantum}
+Casper Gyurik, Alexander Schmidhuber, Robbie King, Vedran Dunjko, and Ryu
+  Hayakawa.
+\newblock Quantum computing and persistence in topological data analysis.
+\newblock \emph{arXiv preprint arXiv:2410.21258}, 2024.
+
+\bibitem[Kitaev et~al.(2002)Kitaev, Shen, and Vyalyi]{kitaev2002classical}
+Alexei~Yu Kitaev, Alexander Shen, and Mikhail~N Vyalyi.
+\newblock \emph{Classical and quantum computation}.
+\newblock Number~47 in Graduate Studies in Mathematics. American Mathematical
+  Soc., 2002.
+
+\bibitem[Bookatz(2012)]{bookatz2012qma}
+Adam~D Bookatz.
+\newblock Qma-complete problems.
+\newblock \emph{arXiv preprint arXiv:1212.6312}, 2012.
+
+\bibitem[Low and Chuang(2017)]{LowChuang}
+Guang~Hao Low and Isaac~L. Chuang.
+\newblock Optimal hamiltonian simulation by quantum signal processing.
+\newblock \emph{Physical Review Letters}, 118:\penalty0 010501, 2017.
+
+\bibitem[Gily{\'e}n et~al.(2019)Gily{\'e}n, Su, Low, and
+  Wiebe]{GilyenSuLowWiebe2019}
+Andr{\'a}s Gily{\'e}n, Yuan Su, Guang~Hao Low, and Nathan Wiebe.
+\newblock Quantum singular value transformation and beyond: exponential
+  improvements for quantum matrix arithmetics.
+\newblock In \emph{Proceedings of the 51st Annual ACM SIGACT Symposium on
+  Theory of Computing (STOC 2019)}, pages 193--204, 2019.
+\newblock \doi{10.1145/3313276.3316366}.
+
+\bibitem[Scali et~al.(2024)Scali, Umeano, and Kyriienko]{scali2024topology}
+Stefano Scali, Chukwudubem Umeano, and Oleksandr Kyriienko.
+\newblock The topology of data hides in quantum thermal states.
+\newblock \emph{arXiv preprint arXiv:2402.15633}, 2024.
+
+\bibitem[Poulin and Wocjan(2009)]{PoulinWocjan09}
+David Poulin and Pawel Wocjan.
+\newblock Sampling from the thermal quantum {Gibbs} state and evaluating
+  partition functions with a quantum computer.
+\newblock \emph{Physical Review Letters}, 103\penalty0 (22):\penalty0 220502,
+  2009.
+\newblock \doi{10.1103/PhysRevLett.103.220502}.
+
+\bibitem[Temme et~al.(2011)Temme, Osborne, Vollbrecht, Poulin, and
+  Verstraete]{TemmeEtAl11}
+K.~Temme, T.~J. Osborne, K.~G. Vollbrecht, D.~Poulin, and F.~Verstraete.
+\newblock Quantum {Metropolis} sampling.
+\newblock \emph{Nature}, 471\penalty0 (7336):\penalty0 87--90, 2011.
+\newblock \doi{10.1038/nature09770}.
+
+\bibitem[Chen et~al.(2023)Chen, Kastoryano, and Gily{\'e}n]{GilyenThermal23}
+Chi-Fang Chen, Michael~J. Kastoryano, and Andr{\'a}s Gily{\'e}n.
+\newblock An efficient and exact noncommutative quantum {Gibbs} sampler.
+\newblock \emph{arXiv preprint arXiv:2311.09207}, 2023.
+\newblock \doi{10.48550/arXiv.2311.09207}.
+\newblock URL \url{https://arxiv.org/abs/2311.09207}.
+
+\bibitem[Ding et~al.(2025)Ding, Li, and Lin]{LinLinThermal24}
+Zhiyan Ding, Bowen Li, and Lin Lin.
+\newblock Efficient quantum {Gibbs} samplers with {Kubo--Martin--Schwinger}
+  detailed balance condition.
+\newblock \emph{Communications in Mathematical Physics}, 406:\penalty0 67,
+  2025.
+\newblock \doi{10.1007/s00220-025-05235-3}.
+\newblock URL \url{https://arxiv.org/abs/2404.05998}.
+
+\bibitem[Lauda et~al.(2026)Lauda, Schmidhuber, Reilly, Zanardi, and
+  Lloyd]{hodge_khovanov_spectra}
+Aaron Lauda, Alexander Schmidhuber, Michele Reilly, Paolo Zanardi, and Seth
+  Lloyd.
+\newblock Hodge khovanov spectra.
+\newblock \url{https://github.com/adlauda/Hodge_Khovanov_spectra}, 2026.
+\newblock Code and data repository for \emph{Quantum computing and Khovanov
+  homology}.
+
+\bibitem[Livingston and Moore(2025)]{Knotinfo2025}
+Charles Livingston and Allison~H. Moore.
+\newblock Knotinfo: Table of knot invariants.
+\newblock \url{https://knotinfo.org/}, 2025.
+\newblock Accessed January 20, 2025.
+
+\bibitem[Livingston and Moore(2026)]{Linkinfo2025}
+Charles Livingston and Allison~H. Moore.
+\newblock Linkinfo: Table of link invariants.
+\newblock \url{https://knotinfo.org/}, 2026.
+\newblock Accessed March 1, 2026.
+
+\bibitem[Kirchhoff(1847)]{Kirchhoff1847}
+Gustav Kirchhoff.
+\newblock {\"U}ber die aufl{\"o}sung der gleichungen, auf welche man bei der
+  untersuchung der linearen verteilung galvanischer str{\"o}me gef{\"u}hrt
+  wird.
+\newblock \emph{Annalen der Physik und Chemie}, 72:\penalty0 497--508, 1847.
+
+\bibitem[Klee and Stamps(2019)]{KleeStamps2019}
+Steven Klee and Matthew~T. Stamps.
+\newblock Linear algebraic techniques for spanning tree enumeration.
+\newblock \emph{American Mathematical Monthly}, 2019.
+\newblock To appear.
+
+\bibitem[Apers et~al.(2023)Apers, Gribling, Sen, and Szab{\'o}]{ApersBetti2023}
+Simon Apers, Sander Gribling, Sayantan Sen, and D{\'a}niel Szab{\'o}.
+\newblock A (simple) classical algorithm for estimating betti numbers.
+\newblock \emph{Quantum}, 7:\penalty0 1202, 2023.
+\newblock \doi{10.22331/q-2023-12-06-1202}.
+
+\bibitem[Sorci(2025)]{SorciBetti2025}
+Julien Sorci.
+\newblock Analyzing and improving a classical betti number estimation
+  algorithm.
+\newblock arXiv preprint arXiv:2509.16171, 2025.
+\newblock URL \url{https://arxiv.org/abs/2509.16171}.
+
+\bibitem[Bernstein and Vazirani(1993)]{bernstein1993quantum}
+Ethan Bernstein and Umesh Vazirani.
+\newblock Quantum complexity theory.
+\newblock In \emph{Proceedings of the twenty-fifth annual ACM symposium on
+  Theory of computing}, pages 11--20, 1993.
+
+\bibitem[Watrous(2009)]{watrous2009quantum}
+John Watrous.
+\newblock Quantum computational complexity.
+\newblock \emph{Encyclopedia of Complexity and Systems Science}, pages
+  7174--7201, 2009.
+
+\bibitem[Jaeger et~al.(1990)Jaeger, Vertigan, and
+  Welsh]{JaegerVertiganWelsh1990}
+Fran{\c{c}}ois Jaeger, Dirk~L. Vertigan, and Dominic J.~A. Welsh.
+\newblock On the computational complexity of the {J}ones and {T}utte
+  polynomials.
+\newblock \emph{Mathematical Proceedings of the Cambridge Philosophical
+  Society}, 108\penalty0 (1):\penalty0 35--53, 1990.
+\newblock \doi{10.1017/S0305004100068936}.
+
+\bibitem[Lee(2005)]{Lee}
+Eun~Soo Lee.
+\newblock An endomorphism of the khovanov invariant.
+\newblock \emph{Advances in Mathematics}, 197\penalty0 (2):\penalty0 554--586,
+  2005.
+\newblock ISSN 0001-8708.
+\newblock \doi{https://doi.org/10.1016/j.aim.2004.10.015}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0001870804003561}.
+
+\bibitem[Khovanov(2006{\natexlab{b}})]{khovanov2006hopfological}
+Mikhail Khovanov.
+\newblock Hopfological algebra and categorification at a root of unity: the
+  first steps.
+\newblock arXiv preprint arXiv:math/0509083, 2006{\natexlab{b}}.
+\newblock URL \url{https://arxiv.org/abs/math/0509083}.
+
+\bibitem[Qi and Sussan(2022)]{Qi_2022}
+You Qi and Joshua Sussan.
+\newblock On some p-differential graded link homologies.
+\newblock \emph{Forum of Mathematics, Pi}, 10, 2022.
+\newblock ISSN 2050-5086.
+\newblock \doi{10.1017/fmp.2022.19}.
+\newblock URL \url{http://dx.doi.org/10.1017/fmp.2022.19}.
+
+\end{thebibliography}

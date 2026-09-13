@@ -1,0 +1,352 @@
+{
+  "description": "Reformatted existing floating-point recomputation record; no new eigensolver run. Residuals are diagnostics, not rigorous gap enclosures.",
+  "source": "Paper/Working/Khovanov homology/repo_additions/certification/results.json",
+  "limitations": [
+    "The archived script did not record an explicit exact check of d_out d_in = 0.",
+    "A modular rank sum equal to dimension proves characteristic-zero acyclicity for an integer chain complex. Positive modular nullity only bounds characteristic-zero nullity from above.",
+    "Floating-point residuals do not certify that an approximate eigenvalue is the smallest eigenvalue and are not outward-rounded bounds."
+  ],
+  "blocks": [
+    {
+      "diagram": "8_20",
+      "h": 0,
+      "q": -3,
+      "dimension": 165,
+      "modular_rank_out": [
+        53,
+        53
+      ],
+      "modular_rank_in": [
+        112,
+        112
+      ],
+      "modular_nullity_upper_bounds_over_Q": [
+        0,
+        0
+      ],
+      "method": "dense eigh (LAPACK, float64)",
+      "lowest_computed_eigenvalues": [
+        0.052959714627660255,
+        0.5579269078031056,
+        1.101145719000901,
+        1.4216173279738586
+      ],
+      "reported_smallest_positive": 0.052959714627660255,
+      "reported_residual_norm": 1.004395584894468e-14,
+      "stored_gap": 0.05295971462768455,
+      "kernel_vector_residual_max": 0
+    },
+    {
+      "diagram": "9_46",
+      "h": -1,
+      "q": -1,
+      "dimension": 180,
+      "modular_rank_out": [
+        135,
+        135
+      ],
+      "modular_rank_in": [
+        45,
+        45
+      ],
+      "modular_nullity_upper_bounds_over_Q": [
+        0,
+        0
+      ],
+      "method": "dense eigh (LAPACK, float64)",
+      "lowest_computed_eigenvalues": [
+        0.028998408910523875,
+        0.3988319756238525,
+        0.5907981823392005,
+        0.7730319680411232
+      ],
+      "reported_smallest_positive": 0.028998408910523875,
+      "reported_residual_norm": 9.008236792368603e-15,
+      "stored_gap": 0.028998408910529405,
+      "kernel_vector_residual_max": 0
+    },
+    {
+      "diagram": "11n_81",
+      "h": 6,
+      "q": 17,
+      "dimension": 502,
+      "modular_rank_out": [
+        296,
+        296
+      ],
+      "modular_rank_in": [
+        206,
+        206
+      ],
+      "modular_nullity_upper_bounds_over_Q": [
+        0,
+        0
+      ],
+      "method": "dense eigh (LAPACK, float64)",
+      "lowest_computed_eigenvalues": [
+        0.004446261831162034,
+        0.2170034898303147,
+        0.4323042896300827,
+        0.4599287282479589
+      ],
+      "reported_smallest_positive": 0.004446261831162034,
+      "reported_residual_norm": 1.2074869120203108e-14,
+      "stored_gap": 0.004446261831142814,
+      "kernel_vector_residual_max": 0
+    },
+    {
+      "diagram": "13a_4874",
+      "h": 10,
+      "q": 31,
+      "dimension": 621,
+      "modular_rank_out": [
+        420,
+        420
+      ],
+      "modular_rank_in": [
+        200,
+        200
+      ],
+      "modular_nullity_upper_bounds_over_Q": [
+        1,
+        1
+      ],
+      "method": "dense eigh (LAPACK, float64)",
+      "lowest_computed_eigenvalues": [
+        -1.6204381332581936e-15,
+        0.06797347509123634,
+        0.37332105102724183,
+        0.3999380209688546,
+        0.40498660959474936
+      ],
+      "reported_smallest_positive": 0.06797347509123634,
+      "reported_residual_norm": 8.7672285241526e-15,
+      "stored_gap": 0.06797347509123662,
+      "kernel_vector_residual_max": 1.0826205831502016e-14
+    },
+    {
+      "diagram": "10_153",
+      "h": -1,
+      "q": -3,
+      "dimension": 709,
+      "modular_rank_out": [
+        307,
+        307
+      ],
+      "modular_rank_in": [
+        402,
+        402
+      ],
+      "modular_nullity_upper_bounds_over_Q": [
+        0,
+        0
+      ],
+      "method": "dense eigh (LAPACK, float64)",
+      "lowest_computed_eigenvalues": [
+        0.01132829793172077,
+        0.3199762408116029,
+        0.35288919280793973,
+        0.6867935907422236
+      ],
+      "reported_smallest_positive": 0.01132829793172077,
+      "reported_residual_norm": 1.790969894294861e-14,
+      "stored_gap": 0.011328297931719078,
+      "kernel_vector_residual_max": 0
+    },
+    {
+      "diagram": "12n_723",
+      "h": 0,
+      "q": -1,
+      "dimension": 6221,
+      "modular_rank_out": [
+        3577,
+        3577
+      ],
+      "modular_rank_in": [
+        2644,
+        2644
+      ],
+      "modular_nullity_upper_bounds_over_Q": [
+        0,
+        0
+      ],
+      "method": "dense eigh (LAPACK, float64)",
+      "lowest_computed_eigenvalues": [
+        0.00263439363727749,
+        0.1521769215112912,
+        0.2894528745137334,
+        0.7019342348753803
+      ],
+      "reported_smallest_positive": 0.00263439363727749,
+      "reported_residual_norm": 1.727286760511792e-14,
+      "stored_gap": 0.002634393637272259,
+      "kernel_vector_residual_max": 0
+    },
+    {
+      "diagram": "13n_2769",
+      "h": 1,
+      "q": 7,
+      "dimension": 9518,
+      "modular_rank_out": [
+        6452,
+        6452
+      ],
+      "modular_rank_in": [
+        3066,
+        3066
+      ],
+      "modular_nullity_upper_bounds_over_Q": [
+        0,
+        0
+      ],
+      "method": "dense eigh (LAPACK, float64)",
+      "lowest_computed_eigenvalues": [
+        0.0013042124461433143,
+        0.3163658470225675,
+        0.5027227197686907,
+        0.8443212474469272
+      ],
+      "reported_smallest_positive": 0.0013042124461433143,
+      "reported_residual_norm": 2.2731015148693018e-14,
+      "stored_gap": 0.001304212446156029,
+      "kernel_vector_residual_max": 0
+    },
+    {
+      "diagram": "14nh_03671",
+      "h": 0,
+      "q": 3,
+      "dimension": 19336,
+      "modular_rank_out": [
+        10508,
+        10508
+      ],
+      "modular_rank_in": [
+        8828,
+        8828
+      ],
+      "modular_nullity_upper_bounds_over_Q": [
+        0,
+        0
+      ],
+      "method": "shift-invert Lanczos eigsh(k=4, sigma=-1e-5)",
+      "lowest_computed_eigenvalues": [
+        0.0006119790255380953,
+        0.08436301295371952,
+        0.11871083816366092,
+        0.1844225626549814
+      ],
+      "reported_smallest_positive": 0.0006119790255380953,
+      "reported_residual_norm": 2.1525081892147315e-14,
+      "stored_gap": 0.0006119790255380953,
+      "kernel_vector_residual_max": 0
+    },
+    {
+      "diagram": "L10n32",
+      "h": -1,
+      "q": 0,
+      "dimension": 376,
+      "modular_rank_out": [
+        294,
+        294
+      ],
+      "modular_rank_in": [
+        82,
+        82
+      ],
+      "modular_nullity_upper_bounds_over_Q": [
+        0,
+        0
+      ],
+      "method": "dense eigh (LAPACK, float64)",
+      "lowest_computed_eigenvalues": [
+        0.023125093067931226,
+        0.6186192187639628,
+        0.9213381128951313,
+        0.9279313390951462
+      ],
+      "reported_smallest_positive": 0.023125093067931226,
+      "reported_residual_norm": 8.67192540929658e-15,
+      "stored_gap": 0.023125093067910996,
+      "kernel_vector_residual_max": 0
+    },
+    {
+      "diagram": "L9n9",
+      "h": -5,
+      "q": -14,
+      "dimension": 426,
+      "modular_rank_out": [
+        251,
+        251
+      ],
+      "modular_rank_in": [
+        175,
+        175
+      ],
+      "modular_nullity_upper_bounds_over_Q": [
+        0,
+        0
+      ],
+      "method": "dense eigh (LAPACK, float64)",
+      "lowest_computed_eigenvalues": [
+        0.03925876752830881,
+        0.31837851215897345,
+        0.37728471571965455,
+        0.7169466697426868
+      ],
+      "reported_smallest_positive": 0.03925876752830881,
+      "reported_residual_norm": 1.0072513198857974e-14,
+      "stored_gap": 0.03925876752832025,
+      "kernel_vector_residual_max": 0
+    },
+    {
+      "diagram": "L11n71",
+      "h": -5,
+      "q": -14,
+      "dimension": 1545,
+      "modular_rank_out": [
+        1031,
+        1031
+      ],
+      "modular_rank_in": [
+        514,
+        514
+      ],
+      "modular_nullity_upper_bounds_over_Q": [
+        0,
+        0
+      ],
+      "method": "dense eigh (LAPACK, float64)",
+      "lowest_computed_eigenvalues": [
+        0.007495710454064284,
+        0.1405423017672138,
+        0.19497294063120263,
+        0.5084901016189409
+      ],
+      "reported_smallest_positive": 0.007495710454064284,
+      "reported_residual_norm": 1.5206324618065718e-14,
+      "stored_gap": 0.00749571045403897,
+      "kernel_vector_residual_max": 0
+    }
+  ],
+  "independent_solver_comparison_14nh_03671": {
+    "shift_invert_sigma_-0.5": [
+      0.0006119790255398883,
+      0.08436301295371984,
+      0.11871083816366157,
+      0.18442256265498114,
+      0.3139857458076971,
+      0.3566266314604637
+    ],
+    "t1": 220.44245052337646,
+    "lobpcg_smallest": [
+      0.000611979025533234,
+      0.08436301295371497,
+      0.11871083816365478,
+      0.18442256265497617,
+      0.3139857458076938,
+      0.3566266314604599
+    ],
+    "t2": 1.6942920684814453,
+    "max_row_abs_sum": 68
+  }
+}

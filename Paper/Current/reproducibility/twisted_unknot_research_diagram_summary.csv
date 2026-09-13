@@ -1,0 +1,14 @@
+id,name,marked_complete,stored_blocks,positive_blocks,observed_min,crossings,database
+1,TU_1,1,5,4,1.0,1,twisted_unknot_research.db
+2,TU_2,1,9,8,0.585786437626905,2,twisted_unknot_research.db
+3,TU_3,1,14,13,0.38196601125010454,3,twisted_unknot_research.db
+4,TU_4,1,20,19,0.2679491924311199,4,twisted_unknot_research.db
+5,TU_5,1,27,26,0.19806226419516085,5,twisted_unknot_research.db
+6,TU_6,1,35,34,0.15224093497742622,6,twisted_unknot_research.db
+7,TU_7,1,44,43,0.12061475842818395,7,twisted_unknot_research.db
+8,TU_8,1,54,53,0.09788696740969181,8,twisted_unknot_research.db
+9,TU_9,1,65,64,0.08101405277100251,9,twisted_unknot_research.db
+10,TU_10,1,77,76,0.068148347421861,10,twisted_unknot_research.db
+11,TU_11,1,90,89,0.05811636514789226,11,twisted_unknot_research.db
+12,TU_12,1,104,103,0.05014417563635443,12,twisted_unknot_research.db
+13,TU_13,1,119,118,0.04370479853237686,13,twisted_unknot_research.db

@@ -1,0 +1,541 @@
+{
+  "repository": "https://github.com/adlauda/Hodge_Khovanov_spectra",
+  "commit": "ccfce9a3eaa33f6663ff1e21b158d73aa34b3bea",
+  "generated_utc": "2026-09-13T02:18:05.546329+00:00",
+  "selection_policy": "Only diagrams marked complete with a positive stored gap enter distribution statistics. Partial diagrams are counted but excluded. No eigensolver was run.",
+  "sources": [
+    {
+      "file": "knot_research.db",
+      "source_commit": "ccfce9a3eaa33f6663ff1e21b158d73aa34b3bea",
+      "source_url": "https://raw.githubusercontent.com/adlauda/Hodge_Khovanov_spectra/ccfce9a3eaa33f6663ff1e21b158d73aa34b3bea/databases/knot_research.db",
+      "source_sha256": "918832fc674a8b92aeef88f464bad18c4a21478ef90fefa2e57f52aed1d1e21a",
+      "working_file": "../../../databases/knot_research.db",
+      "working_sha256": "f06d7982b8aba372d2f33935db7da0b78d036dccb53c345c7d93da681d7cb3a7",
+      "sha256": "f06d7982b8aba372d2f33935db7da0b78d036dccb53c345c7d93da681d7cb3a7",
+      "bytes": 92139520,
+      "registered_diagrams": 12965,
+      "marked_complete": 12965,
+      "with_any_blocks": 12965,
+      "partial_with_blocks": 0,
+      "with_no_blocks": [],
+      "betti_storage_types": {
+        "blob": 1183182,
+        "integer": 218010
+      },
+      "block_counts": {
+        "total": 1401192,
+        "null_gap": 20021,
+        "nonpositive_gap": 0,
+        "positive_below_1e7": 0
+      },
+      "duplicate_bidegree_groups": 0,
+      "lowest_stored_blocks": [
+        {
+          "name": "13n_2769",
+          "h": 1,
+          "q": 7,
+          "dimension": 9518,
+          "smallest_nonzero": 0.001304212446156029,
+          "marked_complete": 1
+        },
+        {
+          "name": "13n_2769",
+          "h": 2,
+          "q": 7,
+          "dimension": 14514,
+          "smallest_nonzero": 0.0013042124461615677,
+          "marked_complete": 1
+        },
+        {
+          "name": "13n_4738",
+          "h": 3,
+          "q": 11,
+          "dimension": 6155,
+          "smallest_nonzero": 0.0013066037912865776,
+          "marked_complete": 1
+        },
+        {
+          "name": "13n_4738",
+          "h": 4,
+          "q": 11,
+          "dimension": 8059,
+          "smallest_nonzero": 0.0013066037912869216,
+          "marked_complete": 1
+        },
+        {
+          "name": "13n_3315",
+          "h": -2,
+          "q": -3,
+          "dimension": 2363,
+          "smallest_nonzero": 0.0013315245880476895,
+          "marked_complete": 1
+        },
+        {
+          "name": "13n_3315",
+          "h": -1,
+          "q": -3,
+          "dimension": 5419,
+          "smallest_nonzero": 0.0013315245880486939,
+          "marked_complete": 1
+        },
+        {
+          "name": "13n_2769",
+          "h": 1,
+          "q": 3,
+          "dimension": 4672,
+          "smallest_nonzero": 0.0013551264740799364,
+          "marked_complete": 1
+        },
+        {
+          "name": "13n_2769",
+          "h": 0,
+          "q": 3,
+          "dimension": 3924,
+          "smallest_nonzero": 0.0013551264740802437,
+          "marked_complete": 1
+        },
+        {
+          "name": "13n_3265",
+          "h": 1,
+          "q": 5,
+          "dimension": 4858,
+          "smallest_nonzero": 0.001562956909573891,
+          "marked_complete": 1
+        },
+        {
+          "name": "13n_3265",
+          "h": 2,
+          "q": 5,
+          "dimension": 6676,
+          "smallest_nonzero": 0.0015629569095769347,
+          "marked_complete": 1
+        },
+        {
+          "name": "13n_3315",
+          "h": -3,
+          "q": -7,
+          "dimension": 8175,
+          "smallest_nonzero": 0.0015793358666055543,
+          "marked_complete": 1
+        },
+        {
+          "name": "13n_3315",
+          "h": -2,
+          "q": -7,
+          "dimension": 11664,
+          "smallest_nonzero": 0.0015793358666065624,
+          "marked_complete": 1
+        }
+      ],
+      "local_derivative": {
+        "local_file": "../../../databases/knot_research.db",
+        "record": "DATABASE-CLEANUP.json",
+        "source_snapshot_sha256": "918832fc674a8b92aeef88f464bad18c4a21478ef90fefa2e57f52aed1d1e21a",
+        "selection_rule": "Keep the highest-ID row per knot and bidegree; verify all retained Betti numbers against the stored completed polynomial."
+      }
+    },
+    {
+      "file": "knot_research_14.db",
+      "source_commit": "ccfce9a3eaa33f6663ff1e21b158d73aa34b3bea",
+      "source_url": "https://raw.githubusercontent.com/adlauda/Hodge_Khovanov_spectra/ccfce9a3eaa33f6663ff1e21b158d73aa34b3bea/databases/knot_research_14.db",
+      "source_sha256": "2c3e9d55e764e6bc10a01abacdc00b850ec281e68536ba83f6c5302656c5a3c2",
+      "working_file": "../../../databases/knot_research_14.db",
+      "working_sha256": "2c3e9d55e764e6bc10a01abacdc00b850ec281e68536ba83f6c5302656c5a3c2",
+      "sha256": "2c3e9d55e764e6bc10a01abacdc00b850ec281e68536ba83f6c5302656c5a3c2",
+      "bytes": 22589440,
+      "registered_diagrams": 2154,
+      "marked_complete": 2133,
+      "with_any_blocks": 2154,
+      "partial_with_blocks": 21,
+      "with_no_blocks": [],
+      "betti_storage_types": {
+        "blob": 275896
+      },
+      "block_counts": {
+        "total": 275896,
+        "null_gap": 3092,
+        "nonpositive_gap": 0,
+        "positive_below_1e7": 0
+      },
+      "duplicate_bidegree_groups": 0,
+      "lowest_stored_blocks": [
+        {
+          "name": "14nh_03671",
+          "h": 0,
+          "q": 3,
+          "dimension": 19336,
+          "smallest_nonzero": 0.0006119790255380953,
+          "marked_complete": 1
+        },
+        {
+          "name": "14nh_03671",
+          "h": 1,
+          "q": 3,
+          "dimension": 18305,
+          "smallest_nonzero": 0.0006119790255389519,
+          "marked_complete": 1
+        },
+        {
+          "name": "14nh_02011",
+          "h": 0,
+          "q": 3,
+          "dimension": 13374,
+          "smallest_nonzero": 0.0007478824932213073,
+          "marked_complete": 1
+        },
+        {
+          "name": "14nh_02011",
+          "h": 1,
+          "q": 3,
+          "dimension": 21586,
+          "smallest_nonzero": 0.0007478824932238115,
+          "marked_complete": 1
+        },
+        {
+          "name": "14nh_00153",
+          "h": 4,
+          "q": 7,
+          "dimension": 4563,
+          "smallest_nonzero": 0.0011383598111553684,
+          "marked_complete": 1
+        },
+        {
+          "name": "14nh_00153",
+          "h": 3,
+          "q": 7,
+          "dimension": 16203,
+          "smallest_nonzero": 0.0011383598111579742,
+          "marked_complete": 1
+        },
+        {
+          "name": "14nh_03004",
+          "h": 2,
+          "q": 3,
+          "dimension": 9287,
+          "smallest_nonzero": 0.00137580886763934,
+          "marked_complete": 1
+        },
+        {
+          "name": "14nh_03004",
+          "h": 1,
+          "q": 3,
+          "dimension": 15074,
+          "smallest_nonzero": 0.0013758088676442087,
+          "marked_complete": 1
+        },
+        {
+          "name": "14nh_03004",
+          "h": 2,
+          "q": 7,
+          "dimension": 20212,
+          "smallest_nonzero": 0.0015990617355934704,
+          "marked_complete": 1
+        },
+        {
+          "name": "14nh_03004",
+          "h": 3,
+          "q": 7,
+          "dimension": 17612,
+          "smallest_nonzero": 0.0015990617355982656,
+          "marked_complete": 1
+        },
+        {
+          "name": "14nh_03799",
+          "h": -3,
+          "q": -7,
+          "dimension": 10691,
+          "smallest_nonzero": 0.0016241916595746532,
+          "marked_complete": 1
+        },
+        {
+          "name": "14nh_03799",
+          "h": -2,
+          "q": -7,
+          "dimension": 8826,
+          "smallest_nonzero": 0.0016241916595750698,
+          "marked_complete": 1
+        }
+      ]
+    },
+    {
+      "file": "link_research.db",
+      "source_commit": "ccfce9a3eaa33f6663ff1e21b158d73aa34b3bea",
+      "source_url": "https://raw.githubusercontent.com/adlauda/Hodge_Khovanov_spectra/ccfce9a3eaa33f6663ff1e21b158d73aa34b3bea/databases/link_research.db",
+      "source_sha256": "6c0f6ee56d9fdc327c7076cc1fd637e6f5758c0961e4a17db776a16a0fb1919c",
+      "working_file": "../../../databases/link_research.db",
+      "working_sha256": "6c0f6ee56d9fdc327c7076cc1fd637e6f5758c0961e4a17db776a16a0fb1919c",
+      "sha256": "6c0f6ee56d9fdc327c7076cc1fd637e6f5758c0961e4a17db776a16a0fb1919c",
+      "bytes": 8728576,
+      "registered_diagrams": 1424,
+      "marked_complete": 1424,
+      "with_any_blocks": 1424,
+      "partial_with_blocks": 0,
+      "with_no_blocks": [],
+      "betti_storage_types": {
+        "blob": 88,
+        "integer": 110558
+      },
+      "block_counts": {
+        "total": 110646,
+        "null_gap": 2338,
+        "nonpositive_gap": 0,
+        "positive_below_1e7": 0
+      },
+      "duplicate_bidegree_groups": 0,
+      "lowest_stored_blocks": [
+        {
+          "name": "L11n71",
+          "h": -5,
+          "q": -14,
+          "dimension": 1545,
+          "smallest_nonzero": 0.00749571045403897,
+          "marked_complete": 1
+        },
+        {
+          "name": "L11n71",
+          "h": -4,
+          "q": -14,
+          "dimension": 2020,
+          "smallest_nonzero": 0.007495710454133953,
+          "marked_complete": 1
+        },
+        {
+          "name": "L11n197",
+          "h": -3,
+          "q": -8,
+          "dimension": 1266,
+          "smallest_nonzero": 0.009032735901985944,
+          "marked_complete": 1
+        },
+        {
+          "name": "L11n197",
+          "h": -2,
+          "q": -8,
+          "dimension": 968,
+          "smallest_nonzero": 0.009032735902067258,
+          "marked_complete": 1
+        },
+        {
+          "name": "L11n87",
+          "h": -1,
+          "q": -4,
+          "dimension": 2386,
+          "smallest_nonzero": 0.0104405882135467,
+          "marked_complete": 1
+        },
+        {
+          "name": "L11n87",
+          "h": -2,
+          "q": -4,
+          "dimension": 2252,
+          "smallest_nonzero": 0.010440588213651125,
+          "marked_complete": 1
+        },
+        {
+          "name": "L11n165",
+          "h": -7,
+          "q": -20,
+          "dimension": 1455,
+          "smallest_nonzero": 0.011037957232336026,
+          "marked_complete": 1
+        },
+        {
+          "name": "L11n165",
+          "h": -6,
+          "q": -20,
+          "dimension": 1166,
+          "smallest_nonzero": 0.01103795723239848,
+          "marked_complete": 1
+        },
+        {
+          "name": "L11n143",
+          "h": 0,
+          "q": 2,
+          "dimension": 2274,
+          "smallest_nonzero": 0.011121093736669252,
+          "marked_complete": 1
+        },
+        {
+          "name": "L11n143",
+          "h": 1,
+          "q": 2,
+          "dimension": 1732,
+          "smallest_nonzero": 0.011121093736726807,
+          "marked_complete": 1
+        },
+        {
+          "name": "L11n87",
+          "h": -2,
+          "q": -8,
+          "dimension": 974,
+          "smallest_nonzero": 0.011842885259778582,
+          "marked_complete": 1
+        },
+        {
+          "name": "L11n87",
+          "h": -3,
+          "q": -8,
+          "dimension": 1311,
+          "smallest_nonzero": 0.011842885259779834,
+          "marked_complete": 1
+        }
+      ]
+    },
+    {
+      "file": "twisted_unknot_research.db",
+      "source_commit": "ccfce9a3eaa33f6663ff1e21b158d73aa34b3bea",
+      "source_url": "https://raw.githubusercontent.com/adlauda/Hodge_Khovanov_spectra/ccfce9a3eaa33f6663ff1e21b158d73aa34b3bea/databases/twisted_unknot_research.db",
+      "source_sha256": "72656193c687f42556a48c6466432c0891fe5d6f353f294be548a23febef07e3",
+      "working_file": "../../../databases/twisted_unknot_research.db",
+      "working_sha256": "72656193c687f42556a48c6466432c0891fe5d6f353f294be548a23febef07e3",
+      "sha256": "72656193c687f42556a48c6466432c0891fe5d6f353f294be548a23febef07e3",
+      "bytes": 65536,
+      "registered_diagrams": 13,
+      "marked_complete": 13,
+      "with_any_blocks": 13,
+      "partial_with_blocks": 0,
+      "with_no_blocks": [],
+      "betti_storage_types": {
+        "blob": 141,
+        "integer": 522
+      },
+      "block_counts": {
+        "total": 663,
+        "null_gap": 13,
+        "nonpositive_gap": 0,
+        "positive_below_1e7": 0
+      },
+      "duplicate_bidegree_groups": 0,
+      "lowest_stored_blocks": [
+        {
+          "name": "TU_13",
+          "h": -5,
+          "q": -15,
+          "dimension": 169,
+          "smallest_nonzero": 0.04370479853237686,
+          "marked_complete": 1
+        },
+        {
+          "name": "TU_13",
+          "h": -6,
+          "q": -15,
+          "dimension": 91,
+          "smallest_nonzero": 0.04370479853238432,
+          "marked_complete": 1
+        },
+        {
+          "name": "TU_13",
+          "h": -5,
+          "q": -17,
+          "dimension": 13,
+          "smallest_nonzero": 0.05014417563635245,
+          "marked_complete": 1
+        },
+        {
+          "name": "TU_13",
+          "h": -6,
+          "q": -17,
+          "dimension": 14,
+          "smallest_nonzero": 0.050144175636352616,
+          "marked_complete": 1
+        },
+        {
+          "name": "TU_12",
+          "h": -5,
+          "q": -15,
+          "dimension": 144,
+          "smallest_nonzero": 0.05014417563635443,
+          "marked_complete": 1
+        },
+        {
+          "name": "TU_12",
+          "h": -6,
+          "q": -15,
+          "dimension": 78,
+          "smallest_nonzero": 0.05014417563635629,
+          "marked_complete": 1
+        },
+        {
+          "name": "TU_11",
+          "h": -5,
+          "q": -12,
+          "dimension": 66,
+          "smallest_nonzero": 0.05811636514789226,
+          "marked_complete": 1
+        },
+        {
+          "name": "TU_11",
+          "h": -4,
+          "q": -12,
+          "dimension": 121,
+          "smallest_nonzero": 0.05811636514789353,
+          "marked_complete": 1
+        },
+        {
+          "name": "TU_12",
+          "h": -6,
+          "q": -17,
+          "dimension": 13,
+          "smallest_nonzero": 0.05811636514789582,
+          "marked_complete": 1
+        },
+        {
+          "name": "TU_12",
+          "h": -5,
+          "q": -17,
+          "dimension": 12,
+          "smallest_nonzero": 0.05811636514789616,
+          "marked_complete": 1
+        },
+        {
+          "name": "TU_10",
+          "h": -5,
+          "q": -12,
+          "dimension": 55,
+          "smallest_nonzero": 0.068148347421861,
+          "marked_complete": 1
+        },
+        {
+          "name": "TU_10",
+          "h": -4,
+          "q": -12,
+          "dimension": 100,
+          "smallest_nonzero": 0.06814834742186189,
+          "marked_complete": 1
+        }
+      ]
+    }
+  ],
+  "figures": [
+    {
+      "file": "alternating_distinguished_bidegrees.png",
+      "sha256": "b9550f64021b512758eb1c9bc919b06ed2a5be2ec681ad39cea97eadca374c93"
+    },
+    {
+      "file": "observed_knots_gap_distribution.png",
+      "sha256": "c437acf6eb98387ba50fa62b9e6b4597f72d93ee4ae41d92c1c7c89e6d88d0ec"
+    },
+    {
+      "file": "observed_links_gap_distribution.png",
+      "sha256": "35dfbcf3ce455d0ae9fec55e3c09029e34c024273a29a14f3e05715480ec0b17"
+    },
+    {
+      "file": "twisted_unknot_bidegree_gap.png",
+      "sha256": "16693f9ed9d20884f6cc29db7adafe13ba0d3da8df192bce2340d45828826e5f"
+    }
+  ],
+  "auxiliary_sources": [
+    {
+      "file": "../../../data/knotinfo.csv",
+      "sha256": "26a0b1b0b2f0502db68e9227795e5683873d07315d49d75f12bd526839573d63",
+      "description": "Diagram input used only for the separate orientation check; same pinned repository commit.",
+      "source_sha256": "f5d0a015177423c67e5fa2c428e2b6524ad04a4f9302c2c3f8ad2737d221340b",
+      "line_endings_normalized_for_source_check": true
+    },
+    {
+      "file": "frontier_diagnostics.json",
+      "sha256": "e660ab4a36e0871a35a72165465d99771d182339c22d952e0d133540d8b22dfc",
+      "description": "Conservatively relabeled derivative of the previous local recomputation record; source SHA256 73736d545eb63e15be35f9ed82cd246040260990f88570b19155f4c6be901747; not regenerated by this plotting script."
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+# Preserve compiled documents, images, and databases byte for byte.
+*.pdf binary
+*.png binary
+*.db binary
