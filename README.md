@@ -71,3 +71,10 @@ The original database remains available at commit
 `ccfce9a3eaa33f6663ff1e21b158d73aa34b3bea`. To repeat the cleanup, provide that
 original file to `Paper/Current/reproducibility/clean_knot_database.py` with
 `--source`, `--output`, and `--report`, using new output paths.
+
+`databases/knot_research_14_20261007.db` is a later snapshot of the
+14-crossing computation, taken on 2026-10-07: 2,155 knots, of which 2,153 are
+complete, and 277,468 bidegree rows, with one row per knot and bidegree and
+Betti numbers stored as integers. `14ah_00002` and `14ah_00010` are still
+partial. The paper's figures and tables do not use this file; they use
+`databases/knot_research_14.db`, which is unchanged.
