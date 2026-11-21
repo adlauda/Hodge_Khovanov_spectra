@@ -1,0 +1,647 @@
+[
+  {
+    "name": "unknot",
+    "braid": [],
+    "reverse": [],
+    "components": 1,
+    "linking": {},
+    "orientation_histogram": {
+      "0": 1
+    },
+    "reduced": [
+      [
+        0,
+        -1,
+        1
+      ]
+    ],
+    "ordinary": [
+      [
+        0,
+        -1,
+        1
+      ],
+      [
+        0,
+        1,
+        1
+      ]
+    ],
+    "tree_count": 1,
+    "ordinary_total": 2
+  },
+  {
+    "name": "positive curl",
+    "braid": [
+      1
+    ],
+    "reverse": [],
+    "components": 1,
+    "linking": {},
+    "orientation_histogram": {
+      "0": 1
+    },
+    "reduced": [
+      [
+        0,
+        -1,
+        1
+      ]
+    ],
+    "ordinary": [
+      [
+        0,
+        -1,
+        1
+      ],
+      [
+        0,
+        1,
+        1
+      ]
+    ],
+    "tree_count": 1,
+    "ordinary_total": 2
+  },
+  {
+    "name": "negative curl",
+    "braid": [
+      -1
+    ],
+    "reverse": [],
+    "components": 1,
+    "linking": {},
+    "orientation_histogram": {
+      "0": 1
+    },
+    "reduced": [
+      [
+        0,
+        -1,
+        1
+      ]
+    ],
+    "ordinary": [
+      [
+        0,
+        -1,
+        1
+      ],
+      [
+        0,
+        1,
+        1
+      ]
+    ],
+    "tree_count": 1,
+    "ordinary_total": 2
+  },
+  {
+    "name": "positive Hopf",
+    "braid": [
+      1,
+      1
+    ],
+    "reverse": [],
+    "components": 2,
+    "linking": {
+      "(0, 1)": 1
+    },
+    "orientation_histogram": {
+      "0": 1,
+      "2": 1
+    },
+    "reduced": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        2,
+        4,
+        1
+      ]
+    ],
+    "ordinary": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        2,
+        1
+      ],
+      [
+        2,
+        4,
+        1
+      ],
+      [
+        2,
+        6,
+        1
+      ]
+    ],
+    "tree_count": 2,
+    "ordinary_total": 4
+  },
+  {
+    "name": "positive Hopf, one component reversed",
+    "braid": [
+      1,
+      1
+    ],
+    "reverse": [
+      1
+    ],
+    "components": 2,
+    "linking": {
+      "(0, 1)": -1
+    },
+    "orientation_histogram": {
+      "-2": 1,
+      "0": 1
+    },
+    "reduced": [
+      [
+        -2,
+        -6,
+        1
+      ],
+      [
+        0,
+        -2,
+        1
+      ]
+    ],
+    "ordinary": [
+      [
+        -2,
+        -6,
+        1
+      ],
+      [
+        -2,
+        -4,
+        1
+      ],
+      [
+        0,
+        -2,
+        1
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "tree_count": 2,
+    "ordinary_total": 4
+  },
+  {
+    "name": "right trefoil",
+    "braid": [
+      1,
+      1,
+      1
+    ],
+    "reverse": [],
+    "components": 1,
+    "linking": {},
+    "orientation_histogram": {
+      "0": 1
+    },
+    "reduced": [
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        2,
+        5,
+        1
+      ],
+      [
+        3,
+        7,
+        1
+      ]
+    ],
+    "ordinary": [
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        3,
+        1
+      ],
+      [
+        2,
+        5,
+        1
+      ],
+      [
+        3,
+        9,
+        1
+      ]
+    ],
+    "tree_count": 3,
+    "ordinary_total": 4
+  },
+  {
+    "name": "left trefoil",
+    "braid": [
+      -1,
+      -1,
+      -1
+    ],
+    "reverse": [],
+    "components": 1,
+    "linking": {},
+    "orientation_histogram": {
+      "0": 1
+    },
+    "reduced": [
+      [
+        -3,
+        -9,
+        1
+      ],
+      [
+        -2,
+        -7,
+        1
+      ],
+      [
+        0,
+        -3,
+        1
+      ]
+    ],
+    "ordinary": [
+      [
+        -3,
+        -9,
+        1
+      ],
+      [
+        -2,
+        -5,
+        1
+      ],
+      [
+        0,
+        -3,
+        1
+      ],
+      [
+        0,
+        -1,
+        1
+      ]
+    ],
+    "tree_count": 3,
+    "ordinary_total": 4
+  },
+  {
+    "name": "figure eight",
+    "braid": [
+      1,
+      -2,
+      1,
+      -2
+    ],
+    "reverse": [],
+    "components": 1,
+    "linking": {},
+    "orientation_histogram": {
+      "0": 1
+    },
+    "reduced": [
+      [
+        -2,
+        -5,
+        1
+      ],
+      [
+        -1,
+        -3,
+        1
+      ],
+      [
+        0,
+        -1,
+        1
+      ],
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        2,
+        3,
+        1
+      ]
+    ],
+    "ordinary": [
+      [
+        -2,
+        -5,
+        1
+      ],
+      [
+        -1,
+        -1,
+        1
+      ],
+      [
+        0,
+        -1,
+        1
+      ],
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        2,
+        5,
+        1
+      ]
+    ],
+    "tree_count": 5,
+    "ordinary_total": 6
+  },
+  {
+    "name": "Borromean rings",
+    "braid": [
+      1,
+      -2,
+      1,
+      -2,
+      1,
+      -2
+    ],
+    "reverse": [],
+    "components": 3,
+    "linking": {
+      "(0, 1)": 0,
+      "(0, 2)": 0,
+      "(1, 2)": 0
+    },
+    "orientation_histogram": {
+      "0": 4
+    },
+    "reduced": [
+      [
+        -3,
+        -7,
+        1
+      ],
+      [
+        -2,
+        -5,
+        3
+      ],
+      [
+        -1,
+        -3,
+        2
+      ],
+      [
+        0,
+        -1,
+        4
+      ],
+      [
+        1,
+        1,
+        2
+      ],
+      [
+        2,
+        3,
+        3
+      ],
+      [
+        3,
+        5,
+        1
+      ]
+    ],
+    "ordinary": [
+      [
+        -3,
+        -7,
+        1
+      ],
+      [
+        -2,
+        -5,
+        2
+      ],
+      [
+        -2,
+        -3,
+        1
+      ],
+      [
+        -1,
+        -1,
+        2
+      ],
+      [
+        0,
+        -1,
+        4
+      ],
+      [
+        0,
+        1,
+        4
+      ],
+      [
+        1,
+        1,
+        2
+      ],
+      [
+        2,
+        3,
+        1
+      ],
+      [
+        2,
+        5,
+        2
+      ],
+      [
+        3,
+        7,
+        1
+      ]
+    ],
+    "tree_count": 16,
+    "ordinary_total": 20
+  },
+  {
+    "name": "three-component Hopf chain",
+    "braid": [
+      1,
+      1,
+      -2,
+      -2
+    ],
+    "reverse": [],
+    "components": 3,
+    "linking": {
+      "(0, 1)": 1,
+      "(1, 2)": -1
+    },
+    "orientation_histogram": {
+      "-2": 1,
+      "0": 2,
+      "2": 1
+    },
+    "reduced": [
+      [
+        -2,
+        -5,
+        1
+      ],
+      [
+        0,
+        -1,
+        2
+      ],
+      [
+        2,
+        3,
+        1
+      ]
+    ],
+    "ordinary": [
+      [
+        -2,
+        -5,
+        1
+      ],
+      [
+        -2,
+        -3,
+        1
+      ],
+      [
+        0,
+        -1,
+        2
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        2,
+        3,
+        1
+      ],
+      [
+        2,
+        5,
+        1
+      ]
+    ],
+    "tree_count": 4,
+    "ordinary_total": 8
+  },
+  {
+    "name": "Hopf chain, one end reversed",
+    "braid": [
+      1,
+      1,
+      -2,
+      -2
+    ],
+    "reverse": [
+      0
+    ],
+    "components": 3,
+    "linking": {
+      "(0, 1)": -1,
+      "(1, 2)": -1
+    },
+    "orientation_histogram": {
+      "-4": 1,
+      "-2": 2,
+      "0": 1
+    },
+    "reduced": [
+      [
+        -4,
+        -11,
+        1
+      ],
+      [
+        -2,
+        -7,
+        2
+      ],
+      [
+        0,
+        -3,
+        1
+      ]
+    ],
+    "ordinary": [
+      [
+        -4,
+        -11,
+        1
+      ],
+      [
+        -4,
+        -9,
+        1
+      ],
+      [
+        -2,
+        -7,
+        2
+      ],
+      [
+        -2,
+        -5,
+        2
+      ],
+      [
+        0,
+        -3,
+        1
+      ],
+      [
+        0,
+        -1,
+        1
+      ]
+    ],
+    "tree_count": 4,
+    "ordinary_total": 8
+  }
+]

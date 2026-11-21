@@ -1,0 +1,23 @@
+[
+  {
+    "name": "unlink",
+    "ordinary": 4,
+    "reduced": 2,
+    "ordinary_bins": 3,
+    "reduced_bins": 2
+  },
+  {
+    "name": "Hopf plus unknot",
+    "ordinary": 8,
+    "reduced": 4,
+    "ordinary_bins": 6,
+    "reduced_bins": 4
+  },
+  {
+    "name": "trefoil plus Hopf",
+    "ordinary": 16,
+    "reduced": 12,
+    "ordinary_bins": 12,
+    "reduced_bins": 10
+  }
+]

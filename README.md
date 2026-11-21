@@ -3,15 +3,14 @@
 Manuscript, code, and data for
 "Quantum computing and Khovanov homology."
 
-The current paper is [Paper/Current/main.pdf](Paper/Current/main.pdf).
-Edit [Paper/Current/main.tex](Paper/Current/main.tex), which contains the full
-manuscript in one file. The same folder contains the bibliography, figures,
-and instructions for compiling the paper and reproducing its numerical plots.
+The [September 2026 manuscript snapshot](Paper/Current/main.pdf) is archived
+in `Paper/Current/`. The numerical data and verification programs are listed below.
 
 ## Contents
 
-- `Paper/Current/` - current manuscript, PDF, and supporting files.
-- `Paper/Current/reproducibility/` - current plotting script, numerical tables,
+- `Paper/Current/` - September 2026 manuscript snapshot and supporting files.
+- [`checks/`](checks/) - exact checks of the alternating and split-union formulas and two spectral gaps for the knot diagram `9_46`.
+- [`Paper/Current/reproducibility/`](Paper/Current/reproducibility/) - plotting script, numerical tables,
   database cleanup script and recovery record, and computational diagnostics.
 - `src/spectral_kh/` - Khovanov complex and Hodge Laplacian implementation.
 - `scripts/` - database generation scripts for knots, links, 14-crossing knots,
@@ -54,6 +53,26 @@ python Paper/Current/reproducibility/plot_submission_numerics.py
 This requires Python 3.11 or later and uses the included databases without
 rerunning the eigensolvers. It writes the four figures and their summary
 tables, checking the input database hashes recorded with the paper.
+
+## Run the exact checks
+
+Run these commands from the repository root with Python 3.10 or later and
+assertions enabled. They use only the Python standard library.
+
+```bash
+python checks/check_alternating.py
+python checks/check_split.py
+python checks/check_gap_9_46.py
+```
+
+The first script compares the spanning-tree and orientation formulas with a
+direct rational Khovanov cube computation on eleven connected alternating
+diagrams. The second checks the split-union formulas on three examples.
+Their expected outputs are [output.json](checks/output.json) and
+[split_output.json](checks/split_output.json). The third script uses exact
+integer arithmetic to bound the first positive eigenvalue in bidegrees
+`(-1,-1)` and `(0,-1)` of the knot diagram `9_46` between 0.0289984 and
+0.0289985.
 
 ## Data Notes
 
