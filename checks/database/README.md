@@ -124,7 +124,7 @@ reproduces the published file:
 
 ```bash
 python checks/database/slim_database.py --source $OUT/knot_research.db \
-    --output $OUT/knot_research.slim.db --report $OUT/knot_research.SLIM.json \\
+    --output $OUT/knot_research.slim.db --report $OUT/knot_research.SLIM.json \
     --drop-index unique_knot_bidegree
 sha256sum $OUT/knot_research.slim.db databases/knot_research.db
 ```
