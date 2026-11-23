@@ -1,6 +1,6 @@
 {
  "database": "databases/link_research.db",
- "database_sha256": "acf404fd676a7c4e1db453fe6748113d85933111c661e5d9006bf75cb8346f83",
+ "database_sha256": "c8255715cd340c41a7af18d581072a569f8fcbb712741a27b0535a433702051b",
  "linkinfo_sha256": "308564aa56f6bf521516344f4bb67a29097ff6f8a65d933b542fae0344ba5b92",
  "links_in_database": 1424,
  "summary": {

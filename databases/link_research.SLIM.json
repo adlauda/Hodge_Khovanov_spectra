@@ -1,0 +1,29 @@
+{
+ "created_utc": "2026-11-23T16:26:48.034901+00:00",
+ "source_sha256": "acf404fd676a7c4e1db453fe6748113d85933111c661e5d9006bf75cb8346f83",
+ "source_bytes": 8462336,
+ "columns_dropped_from_bidegrees": [
+  "log_torsion",
+  "compute_time"
+ ],
+ "non_null_values_dropped": {
+  "log_torsion": 110558,
+  "compute_time": 110646
+ },
+ "rows_per_table": {
+  "links": 1424,
+  "bidegrees": 110646,
+  "row_repairs": 88,
+  "polynomial_repairs": 0
+ },
+ "indexes_kept": [
+  "idx_bidegrees_link_id",
+  "sqlite_autoindex_bidegrees_1",
+  "sqlite_autoindex_links_1",
+  "sqlite_autoindex_polynomial_repairs_1"
+ ],
+ "remaining_columns_identical_to_source": true,
+ "integrity_check": "ok",
+ "output_sha256": "c8255715cd340c41a7af18d581072a569f8fcbb712741a27b0535a433702051b",
+ "output_bytes": 6836224
+}

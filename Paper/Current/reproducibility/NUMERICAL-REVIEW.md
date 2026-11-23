@@ -1,10 +1,12 @@
 # Numerical review and reproducibility
 
-Updated 2026-11-22. The numerical inputs start from repository snapshot
+Updated 2026-11-23. The numerical inputs start from repository snapshot
 `ccfce9a3eaa33f6663ff1e21b158d73aa34b3bea`. All four archived database files
 match the Git blob hashes at that commit. The figures and summaries use the
 repaired knot, link and twisted-unknot databases now in `databases/`,
-described in the next section, and the unchanged fourteen-crossing database.
+described in the next section, and the fourteen-crossing database. On
+2026-11-23 the `log_torsion` and `compute_time` columns were removed from all
+five published files; see "Column removal" below. No other value changed.
 
 The sections after the next one were written on 2026-09-12 and describe the
 state at that date. Statements the November work supersedes are marked
@@ -112,9 +114,8 @@ of the gap. Every row passed.
 | `twisted_unknot_research.db` | `82d58cc6…c3c40` | 141 | 0 | 0 | 141 |
 
 - No row carries `is_truncated=1`, and every `betti` value has integer storage.
-  The flag now means that a row's Betti number and gap have not been verified.
-  The repaired rows still have no `log_torsion`, because only their low
-  spectrum was computed; `row_repairs.old_is_truncated` keeps the old flag.
+  The flag now means that a row's Betti number and gap have not been verified;
+  `row_repairs.old_is_truncated` keeps the old flag.
 - The 7,930 knots that stored no PD code now have the code from
   `data/knotinfo.csv`; the 5,035 codes already stored equal that table's.
 - Tables `row_repairs`, `polynomial_repairs` and `pd_code_fills` in each file
@@ -124,7 +125,43 @@ of the gap. Every row passed.
   all 1,424 links agree with LinkInfo, and no diagram fails the Euler check
   (`checks/database/after_repair/`, run on the files as they now stand).
 - Rebuilding the three files from `checks/database/recompute/` reproduces the
-  recorded checksums.
+  recorded checksums, and removing the two columns from the rebuilt files
+  reproduces the checksums of the published ones.
+
+### Column removal of 2026-11-23
+
+To reduce the size of the published files,
+`checks/database/slim_database.py` removed two columns of the `bidegrees`
+table from every database in `databases/`: `compute_time`, and `log_torsion`
+where present (the fourteen-crossing databases never had it). No figure,
+table or check in this repository reads either column. The script verified
+that every remaining column of every table, and the list of indexes, is
+identical before and after. Each file has a `.SLIM.json` record beside it
+with both checksums.
+
+| File | Before | After | SHA-256 after |
+|---|---|---|---|
+| `knot_research.db` | 84.2 MB | 72.1 MB | `3cfd6618…` |
+| `knot_research_14.db` | 21.5 MB | 18.0 MB | `191fc2be…` |
+| `knot_research_14_20261007.db` | 21.7 MB | 16.3 MB | `01b7d6ef…` |
+| `link_research.db` | 8.1 MB | 6.5 MB | `c8255715…` |
+| `twisted_unknot_research.db` | 0.10 MB | 0.09 MB | `5536e339…` |
+
+- The files with both columns are at commit
+  `5d61309a76522d5e8c59197de1d6e72fe861979c`.
+- The checksums in the "Repaired databases" table above are those of the
+  files before the columns were removed; each `.SLIM.json` record names that
+  checksum as its source. For `knot_research_14.db` the source is the
+  snapshot checksum `2c3e9d55…` used by the manuscript.
+- The September cleanup kept, for each duplicated bidegree, the newest row.
+  For 35,959 bidegrees on 443 knots that row had no `log_torsion` while a
+  removed row did. Those values were therefore already absent from the
+  cleaned knot database; they remain in the file at commit `ccfce9a3eaa3`.
+- The KnotInfo, LinkInfo and Euler checks in `checks/database/after_repair/`
+  were rerun on the files after the column removal, with the same results.
+- The database drivers in `scripts/` still create and write both columns.
+  `scripts/merge_missing_knot_results.py` writes `compute_time` and needs a
+  database that has it.
 
 ### Effect on the manuscript's numbers
 

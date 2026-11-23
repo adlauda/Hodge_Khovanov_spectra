@@ -4,9 +4,11 @@ Run from any directory. Input SQLite databases are opened read-only. The knot
 database is a checked local derivative made by clean_knot_database.py; the other
 databases start from unchanged snapshots from SOURCE_COMMIT. The knot, link
 and twisted-unknot files in the repository's databases/ folder are repaired
-copies of those (made by checks/database/apply_repairs.py); each is used after
-checking against its REPAIR.json record that it derives from the expected file
-and that the repair was complete. The manifest
+copies of those (made by checks/database/apply_repairs.py), and every file
+there omits the log_torsion and compute_time columns (removed by
+checks/database/slim_database.py). Each file is used after checking against
+its REPAIR.json and SLIM.json records that it derives from the expected file,
+that the repair was complete, and that no other column changed. The manifest
 records source and working-copy SHA-256 hashes. New PNGs and derived tables are written under
 this submission directory. 'Complete' means the source database contains a
 non-NULL khovanov_polynomial, not an independent proof of numerical correctness.
@@ -101,6 +103,20 @@ def load_database(filename, table, foreign_key):
                       "repaired_rows_with_gap_changed_beyond_1e-9_relative",
                       "polynomials_rebuilt", "blob_betti_values_rewritten_as_integers",
                       "pd_codes_filled_from_input_table")}}
+    slim = None
+    record_path = REPO_DATABASES / filename.replace(".db", ".SLIM.json")
+    if record_path.is_file():
+        record = json.loads(record_path.read_text(encoding="utf-8"))
+        if record["source_sha256"] != expected_digest:
+            raise ValueError(f"Column-removal record for {filename} derives from an unexpected file")
+        if (record["remaining_columns_identical_to_source"] is not True
+                or record["integrity_check"] != "ok"):
+            raise ValueError(f"Column removal for {filename} is not verified")
+        path = REPO_DATABASES / filename
+        expected_digest = record["output_sha256"]
+        slim = {"record": Path(os.path.relpath(record_path, ROOT)).as_posix(),
+                "derived_from_sha256": record["source_sha256"],
+                "columns_dropped_from_bidegrees": record["columns_dropped_from_bidegrees"]}
     if not path.is_file():
         raise FileNotFoundError(f"Required numerical input not found: {path}")
     with path.open("rb") as source_file:
@@ -155,6 +171,8 @@ def load_database(filename, table, foreign_key):
         info["local_derivative"] = derivation
     if repair:
         info["repair"] = repair
+    if slim:
+        info["column_removal"] = slim
     return frame, info
 
 

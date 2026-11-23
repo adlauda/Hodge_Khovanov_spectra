@@ -1,0 +1,25 @@
+{
+ "created_utc": "2026-11-23T16:26:08.807355+00:00",
+ "source_sha256": "2c3e9d55e764e6bc10a01abacdc00b850ec281e68536ba83f6c5302656c5a3c2",
+ "source_bytes": 22589440,
+ "columns_dropped_from_bidegrees": [
+  "compute_time"
+ ],
+ "non_null_values_dropped": {
+  "compute_time": 275896
+ },
+ "rows_per_table": {
+  "knots": 2154,
+  "bidegrees": 275896
+ },
+ "indexes_kept": [
+  "idx_bidegrees_knot_id",
+  "idx_knots_active",
+  "sqlite_autoindex_bidegrees_1",
+  "sqlite_autoindex_knots_1"
+ ],
+ "remaining_columns_identical_to_source": true,
+ "integrity_check": "ok",
+ "output_sha256": "191fc2be417b0eb25da208e2f10afccdbee2102324994a64f243610a5fa36f9a",
+ "output_bytes": 18923520
+}

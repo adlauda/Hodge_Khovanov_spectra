@@ -1,7 +1,7 @@
 {
   "repository": "https://github.com/adlauda/Hodge_Khovanov_spectra",
   "commit": "ccfce9a3eaa33f6663ff1e21b158d73aa34b3bea",
-  "generated_utc": "2026-11-23T05:32:33.175350+00:00",
+  "generated_utc": "2026-11-23T16:29:29.367620+00:00",
   "selection_policy": "Only diagrams marked complete with a positive stored gap enter distribution statistics. Partial diagrams are counted but excluded. No eigensolver was run.",
   "sources": [
     {
@@ -10,9 +10,9 @@
       "source_url": "https://raw.githubusercontent.com/adlauda/Hodge_Khovanov_spectra/ccfce9a3eaa33f6663ff1e21b158d73aa34b3bea/databases/knot_research.db",
       "source_sha256": "918832fc674a8b92aeef88f464bad18c4a21478ef90fefa2e57f52aed1d1e21a",
       "working_file": "../../../databases/knot_research.db",
-      "working_sha256": "37c52286e3db942f90cc05d1d150fa088c30615a02284ed1c8f9cb508367a431",
-      "sha256": "37c52286e3db942f90cc05d1d150fa088c30615a02284ed1c8f9cb508367a431",
-      "bytes": 88297472,
+      "working_sha256": "3cfd66185e87e70edf24bf20d612507a4224032a3af8fa99112ed0e7786338cf",
+      "sha256": "3cfd66185e87e70edf24bf20d612507a4224032a3af8fa99112ed0e7786338cf",
+      "bytes": 75640832,
       "registered_diagrams": 12965,
       "marked_complete": 12965,
       "with_any_blocks": 12965,
@@ -141,6 +141,14 @@
         "polynomials_rebuilt": 810,
         "blob_betti_values_rewritten_as_integers": 1183182,
         "pd_codes_filled_from_input_table": 7930
+      },
+      "column_removal": {
+        "record": "../../../databases/knot_research.SLIM.json",
+        "derived_from_sha256": "37c52286e3db942f90cc05d1d150fa088c30615a02284ed1c8f9cb508367a431",
+        "columns_dropped_from_bidegrees": [
+          "log_torsion",
+          "compute_time"
+        ]
       }
     },
     {
@@ -149,9 +157,9 @@
       "source_url": "https://raw.githubusercontent.com/adlauda/Hodge_Khovanov_spectra/ccfce9a3eaa33f6663ff1e21b158d73aa34b3bea/databases/knot_research_14.db",
       "source_sha256": "2c3e9d55e764e6bc10a01abacdc00b850ec281e68536ba83f6c5302656c5a3c2",
       "working_file": "../../../databases/knot_research_14.db",
-      "working_sha256": "2c3e9d55e764e6bc10a01abacdc00b850ec281e68536ba83f6c5302656c5a3c2",
-      "sha256": "2c3e9d55e764e6bc10a01abacdc00b850ec281e68536ba83f6c5302656c5a3c2",
-      "bytes": 22589440,
+      "working_sha256": "191fc2be417b0eb25da208e2f10afccdbee2102324994a64f243610a5fa36f9a",
+      "sha256": "191fc2be417b0eb25da208e2f10afccdbee2102324994a64f243610a5fa36f9a",
+      "bytes": 18923520,
       "registered_diagrams": 2154,
       "marked_complete": 2133,
       "with_any_blocks": 2154,
@@ -264,7 +272,14 @@
           "smallest_nonzero": 0.0016241916595750698,
           "marked_complete": 1
         }
-      ]
+      ],
+      "column_removal": {
+        "record": "../../../databases/knot_research_14.SLIM.json",
+        "derived_from_sha256": "2c3e9d55e764e6bc10a01abacdc00b850ec281e68536ba83f6c5302656c5a3c2",
+        "columns_dropped_from_bidegrees": [
+          "compute_time"
+        ]
+      }
     },
     {
       "file": "link_research.db",
@@ -272,9 +287,9 @@
       "source_url": "https://raw.githubusercontent.com/adlauda/Hodge_Khovanov_spectra/ccfce9a3eaa33f6663ff1e21b158d73aa34b3bea/databases/link_research.db",
       "source_sha256": "6c0f6ee56d9fdc327c7076cc1fd637e6f5758c0961e4a17db776a16a0fb1919c",
       "working_file": "../../../databases/link_research.db",
-      "working_sha256": "acf404fd676a7c4e1db453fe6748113d85933111c661e5d9006bf75cb8346f83",
-      "sha256": "acf404fd676a7c4e1db453fe6748113d85933111c661e5d9006bf75cb8346f83",
-      "bytes": 8462336,
+      "working_sha256": "c8255715cd340c41a7af18d581072a569f8fcbb712741a27b0535a433702051b",
+      "sha256": "c8255715cd340c41a7af18d581072a569f8fcbb712741a27b0535a433702051b",
+      "bytes": 6836224,
       "registered_diagrams": 1424,
       "marked_complete": 1424,
       "with_any_blocks": 1424,
@@ -397,6 +412,14 @@
         "polynomials_rebuilt": 0,
         "blob_betti_values_rewritten_as_integers": 88,
         "pd_codes_filled_from_input_table": 0
+      },
+      "column_removal": {
+        "record": "../../../databases/link_research.SLIM.json",
+        "derived_from_sha256": "acf404fd676a7c4e1db453fe6748113d85933111c661e5d9006bf75cb8346f83",
+        "columns_dropped_from_bidegrees": [
+          "log_torsion",
+          "compute_time"
+        ]
       }
     },
     {
@@ -405,9 +428,9 @@
       "source_url": "https://raw.githubusercontent.com/adlauda/Hodge_Khovanov_spectra/ccfce9a3eaa33f6663ff1e21b158d73aa34b3bea/databases/twisted_unknot_research.db",
       "source_sha256": "72656193c687f42556a48c6466432c0891fe5d6f353f294be548a23febef07e3",
       "working_file": "../../../databases/twisted_unknot_research.db",
-      "working_sha256": "82d58cc63059f46ad61e1c149208f60c8f00a1b203f428b26109a18e73ac3c40",
-      "sha256": "82d58cc63059f46ad61e1c149208f60c8f00a1b203f428b26109a18e73ac3c40",
-      "bytes": 106496,
+      "working_sha256": "5536e3390a3d88186b8d4edfdb403df39e7f4bdaa8a6e9a9577da81727accc68",
+      "sha256": "5536e3390a3d88186b8d4edfdb403df39e7f4bdaa8a6e9a9577da81727accc68",
+      "bytes": 98304,
       "registered_diagrams": 13,
       "marked_complete": 13,
       "with_any_blocks": 13,
@@ -530,6 +553,14 @@
         "polynomials_rebuilt": 0,
         "blob_betti_values_rewritten_as_integers": 141,
         "pd_codes_filled_from_input_table": 0
+      },
+      "column_removal": {
+        "record": "../../../databases/twisted_unknot_research.SLIM.json",
+        "derived_from_sha256": "82d58cc63059f46ad61e1c149208f60c8f00a1b203f428b26109a18e73ac3c40",
+        "columns_dropped_from_bidegrees": [
+          "log_torsion",
+          "compute_time"
+        ]
       }
     }
   ],

@@ -23,3 +23,7 @@ Paper/Current/*.blg
 Paper/Current/*.log
 Paper/Current/*.synctex*
 Paper/Backup/
+
+# Local full copies of the databases, with the log_torsion and compute_time
+# columns that the published files omit.
+databases_full/

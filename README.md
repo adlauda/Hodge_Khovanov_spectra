@@ -108,6 +108,12 @@ account is in
 The files before the repair are at commit
 `9a06f279dc323ec97d996e21b98ee915020f32a6`.
 
+To keep the files small, the `log_torsion` and `compute_time` columns have
+been removed from every database in `databases/`. Bidegree labels, chain
+dimensions, Betti numbers, spectral gaps and all other tables are unchanged,
+and each file has a `.SLIM.json` record with its checksums. The files with
+those columns are at commit `5d61309a76522d5e8c59197de1d6e72fe861979c`.
+
 The original database remains available at commit
 `ccfce9a3eaa33f6663ff1e21b158d73aa34b3bea`. To repeat the cleanup, provide that
 original file to `Paper/Current/reproducibility/clean_knot_database.py` with
@@ -118,4 +124,4 @@ original file to `Paper/Current/reproducibility/clean_knot_database.py` with
 complete, and 277,468 bidegree rows, with one row per knot and bidegree and
 Betti numbers stored as integers. `14ah_00002` and `14ah_00010` are still
 partial. The paper's figures and tables do not use this file; they use
-`databases/knot_research_14.db`, which is unchanged.
+`databases/knot_research_14.db`, whose values are unchanged.

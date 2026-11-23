@@ -1,0 +1,32 @@
+{
+ "created_utc": "2026-11-23T16:25:36.319583+00:00",
+ "source_sha256": "37c52286e3db942f90cc05d1d150fa088c30615a02284ed1c8f9cb508367a431",
+ "source_bytes": 88297472,
+ "columns_dropped_from_bidegrees": [
+  "log_torsion",
+  "compute_time"
+ ],
+ "non_null_values_dropped": {
+  "log_torsion": 214321,
+  "compute_time": 1401192
+ },
+ "rows_per_table": {
+  "knots": 12965,
+  "bidegrees": 1401192,
+  "merged_knot_results": 37,
+  "row_repairs": 7439,
+  "polynomial_repairs": 810,
+  "pd_code_fills": 7930
+ },
+ "indexes_kept": [
+  "sqlite_autoindex_knots_1",
+  "sqlite_autoindex_merged_knot_results_1",
+  "sqlite_autoindex_pd_code_fills_1",
+  "sqlite_autoindex_polynomial_repairs_1",
+  "unique_knot_bidegree"
+ ],
+ "remaining_columns_identical_to_source": true,
+ "integrity_check": "ok",
+ "output_sha256": "3cfd66185e87e70edf24bf20d612507a4224032a3af8fa99112ed0e7786338cf",
+ "output_bytes": 75640832
+}
