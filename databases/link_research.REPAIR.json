@@ -1,0 +1,29 @@
+{
+ "created_utc": "2026-11-23T02:46:04.832218+00:00",
+ "source": "databases/link_research.db at commit 9a06f279dc323ec97d996e21b98ee915020f32a6",
+ "source_commit": "9a06f279dc323ec97d996e21b98ee915020f32a6",
+ "source_sha256": "6c0f6ee56d9fdc327c7076cc1fd637e6f5758c0961e4a17db776a16a0fb1919c",
+ "entity_table": "links",
+ "bidegree_rows": 110646,
+ "blob_betti_values_rewritten_as_integers": 88,
+ "betti_storage_types_after": {
+  "integer": 110646
+ },
+ "rows_flagged_truncated_in_source": 88,
+ "rows_repaired": 88,
+ "rows_left_untouched": [],
+ "rows_still_flagged_truncated": 0,
+ "repaired_rows_with_betti_changed": 0,
+ "repaired_rows_with_gap_changed_beyond_1e-9_relative": 0,
+ "repaired_rows_with_gap_changed_beyond_1e-6_relative": 0,
+ "repaired_rows_with_gap_null_status_changed": 0,
+ "polynomials_rebuilt": 0,
+ "pd_codes_filled_from_input_table": 0,
+ "diagrams_without_pd_code_after": 0,
+ "polynomials_inconsistent_with_stored_betti": [],
+ "rows_changed_outside_repair_log": 0,
+ "integrity_check": "ok",
+ "foreign_key_violations": 0,
+ "output": "databases/link_research.db",
+ "output_sha256": "acf404fd676a7c4e1db453fe6748113d85933111c661e5d9006bf75cb8346f83"
+}

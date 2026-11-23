@@ -1,0 +1,994 @@
+{
+ "database": "databases/knot_research_14.db",
+ "table": "knots",
+ "diagrams": 2154,
+ "rows": 275896,
+ "diagram_q_pairs": 32616,
+ "diagrams_with_null_betti": 0,
+ "diagrams_failing": 21,
+ "diagram_q_pairs_failing": 188,
+ "failures": {
+  "14ah_00002": [
+   {
+    "q": 11,
+    "homology": 0,
+    "chains": 13432
+   },
+   {
+    "q": 9,
+    "homology": 1,
+    "chains": 3103
+   },
+   {
+    "q": 7,
+    "homology": 0,
+    "chains": -252
+   },
+   {
+    "q": 13,
+    "homology": 1,
+    "chains": 27610
+   },
+   {
+    "q": 15,
+    "homology": 0,
+    "chains": 30646
+   },
+   {
+    "q": 17,
+    "homology": 0,
+    "chains": -46585
+   },
+   {
+    "q": 19,
+    "homology": 0,
+    "chains": -22539
+   },
+   {
+    "q": 21,
+    "homology": -2,
+    "chains": -5742
+   }
+  ],
+  "14ah_00010": [
+   {
+    "q": 11,
+    "homology": 0,
+    "chains": -11444
+   },
+   {
+    "q": 9,
+    "homology": 2,
+    "chains": -1777
+   },
+   {
+    "q": 7,
+    "homology": 0,
+    "chains": 70
+   },
+   {
+    "q": 13,
+    "homology": 1,
+    "chains": -31296
+   },
+   {
+    "q": 15,
+    "homology": -1,
+    "chains": -46284
+   },
+   {
+    "q": 17,
+    "homology": 0,
+    "chains": -39103
+   },
+   {
+    "q": 19,
+    "homology": 0,
+    "chains": -17877
+   },
+   {
+    "q": 21,
+    "homology": 0,
+    "chains": 17598
+   },
+   {
+    "q": 23,
+    "homology": 2,
+    "chains": 3075
+   }
+  ],
+  "14ah_00137": [
+   {
+    "q": -1,
+    "homology": 0,
+    "chains": -1200
+   },
+   {
+    "q": -3,
+    "homology": 0,
+    "chains": -7446
+   },
+   {
+    "q": -5,
+    "homology": 0,
+    "chains": -23014
+   },
+   {
+    "q": -7,
+    "homology": 0,
+    "chains": -41897
+   },
+   {
+    "q": -9,
+    "homology": 0,
+    "chains": 34329
+   },
+   {
+    "q": -11,
+    "homology": 0,
+    "chains": 31968
+   },
+   {
+    "q": -13,
+    "homology": 0,
+    "chains": 19380
+   },
+   {
+    "q": -15,
+    "homology": 0,
+    "chains": 7185
+   },
+   {
+    "q": -17,
+    "homology": 3,
+    "chains": 1373
+   },
+   {
+    "q": -19,
+    "homology": 2,
+    "chains": 68
+   },
+   {
+    "q": -21,
+    "homology": -2,
+    "chains": -14
+   },
+   {
+    "q": -23,
+    "homology": 1,
+    "chains": 2
+   }
+  ],
+  "14ah_00308": [
+   {
+    "q": 11,
+    "homology": 0,
+    "chains": -7124
+   },
+   {
+    "q": 9,
+    "homology": 0,
+    "chains": -16001
+   },
+   {
+    "q": 7,
+    "homology": 0,
+    "chains": 12266
+   },
+   {
+    "q": 5,
+    "homology": 0,
+    "chains": 11064
+   },
+   {
+    "q": 3,
+    "homology": 7,
+    "chains": 5374
+   },
+   {
+    "q": 1,
+    "homology": 6,
+    "chains": 1236
+   },
+   {
+    "q": -1,
+    "homology": -4,
+    "chains": -256
+   },
+   {
+    "q": -3,
+    "homology": 4,
+    "chains": 39
+   },
+   {
+    "q": -5,
+    "homology": -2,
+    "chains": -5
+   }
+  ],
+  "14ah_00451": [
+   {
+    "q": 9,
+    "homology": 0,
+    "chains": 3708
+   },
+   {
+    "q": 7,
+    "homology": 0,
+    "chains": -6177
+   },
+   {
+    "q": 5,
+    "homology": 0,
+    "chains": -13249
+   },
+   {
+    "q": 3,
+    "homology": 0,
+    "chains": -15750
+   },
+   {
+    "q": 1,
+    "homology": 0,
+    "chains": -10522
+   },
+   {
+    "q": -1,
+    "homology": -9,
+    "chains": -3626
+   },
+   {
+    "q": -3,
+    "homology": -6,
+    "chains": -477
+   },
+   {
+    "q": -5,
+    "homology": 6,
+    "chains": -9
+   },
+   {
+    "q": -7,
+    "homology": -4,
+    "chains": -3
+   },
+   {
+    "q": -9,
+    "homology": 3,
+    "chains": 4
+   },
+   {
+    "q": 11,
+    "homology": 0,
+    "chains": 466
+   }
+  ],
+  "14ah_00839": [
+   {
+    "q": -3,
+    "homology": -4,
+    "chains": -8518
+   },
+   {
+    "q": -5,
+    "homology": 5,
+    "chains": -1282
+   },
+   {
+    "q": -7,
+    "homology": -3,
+    "chains": -2
+   },
+   {
+    "q": -9,
+    "homology": 1,
+    "chains": 2
+   },
+   {
+    "q": -1,
+    "homology": 6,
+    "chains": -23721
+   },
+   {
+    "q": 1,
+    "homology": -3,
+    "chains": -35763
+   },
+   {
+    "q": 3,
+    "homology": 1,
+    "chains": -30877
+   },
+   {
+    "q": 5,
+    "homology": 1,
+    "chains": 27449
+   },
+   {
+    "q": 7,
+    "homology": -3,
+    "chains": 11015
+   },
+   {
+    "q": 9,
+    "homology": 11,
+    "chains": 2002
+   }
+  ],
+  "14ah_01069": [
+   {
+    "q": 9,
+    "homology": 16,
+    "chains": 15550
+   },
+   {
+    "q": 7,
+    "homology": -13,
+    "chains": -11276
+   },
+   {
+    "q": 5,
+    "homology": -7,
+    "chains": -6873
+   },
+   {
+    "q": 3,
+    "homology": 9,
+    "chains": -1933
+   },
+   {
+    "q": 1,
+    "homology": -6,
+    "chains": 430
+   },
+   {
+    "q": -1,
+    "homology": 4,
+    "chains": -55
+   },
+   {
+    "q": -3,
+    "homology": -2,
+    "chains": 2
+   },
+   {
+    "q": 11,
+    "homology": 0,
+    "chains": 8948
+   }
+  ],
+  "14ah_01121": [
+   {
+    "q": 19,
+    "homology": 0,
+    "chains": 4044
+   },
+   {
+    "q": 17,
+    "homology": 0,
+    "chains": 13552
+   },
+   {
+    "q": 15,
+    "homology": 0,
+    "chains": 21781
+   },
+   {
+    "q": 13,
+    "homology": 0,
+    "chains": 18138
+   },
+   {
+    "q": 11,
+    "homology": 11,
+    "chains": 7366
+   },
+   {
+    "q": 9,
+    "homology": 4,
+    "chains": 1082
+   },
+   {
+    "q": 7,
+    "homology": -4,
+    "chains": -587
+   },
+   {
+    "q": 5,
+    "homology": 6,
+    "chains": 244
+   },
+   {
+    "q": 21,
+    "homology": 0,
+    "chains": 57
+   }
+  ],
+  "14ah_08995": [
+   {
+    "q": 9,
+    "homology": 0,
+    "chains": 2534
+   },
+   {
+    "q": 7,
+    "homology": 0,
+    "chains": 9081
+   },
+   {
+    "q": 5,
+    "homology": 0,
+    "chains": -11890
+   },
+   {
+    "q": 3,
+    "homology": 0,
+    "chains": -14141
+   },
+   {
+    "q": 1,
+    "homology": 0,
+    "chains": -9247
+   },
+   {
+    "q": -1,
+    "homology": -14,
+    "chains": -2975
+   },
+   {
+    "q": -3,
+    "homology": -13,
+    "chains": -289
+   },
+   {
+    "q": -5,
+    "homology": 11,
+    "chains": 87
+   },
+   {
+    "q": -7,
+    "homology": -6,
+    "chains": -19
+   },
+   {
+    "q": -9,
+    "homology": 3,
+    "chains": 4
+   }
+  ],
+  "14ah_11018": [
+   {
+    "q": 3,
+    "homology": 0,
+    "chains": 1696
+   },
+   {
+    "q": 1,
+    "homology": 0,
+    "chains": 6995
+   },
+   {
+    "q": -1,
+    "homology": 0,
+    "chains": -9930
+   },
+   {
+    "q": -3,
+    "homology": 0,
+    "chains": -11879
+   },
+   {
+    "q": -5,
+    "homology": 0,
+    "chains": -7533
+   },
+   {
+    "q": -7,
+    "homology": -19,
+    "chains": -2169
+   },
+   {
+    "q": -9,
+    "homology": -17,
+    "chains": -97
+   },
+   {
+    "q": -11,
+    "homology": 15,
+    "chains": 28
+   },
+   {
+    "q": -13,
+    "homology": -9,
+    "chains": -10
+   }
+  ],
+  "14ah_13527": [
+   {
+    "q": 15,
+    "homology": -7,
+    "chains": 7985
+   },
+   {
+    "q": 13,
+    "homology": 16,
+    "chains": 2941
+   },
+   {
+    "q": 11,
+    "homology": -18,
+    "chains": 352
+   },
+   {
+    "q": 9,
+    "homology": 19,
+    "chains": -44
+   },
+   {
+    "q": 7,
+    "homology": -13,
+    "chains": -46
+   },
+   {
+    "q": 5,
+    "homology": 8,
+    "chains": 10
+   },
+   {
+    "q": 3,
+    "homology": -3,
+    "chains": -2
+   },
+   {
+    "q": 17,
+    "homology": -4,
+    "chains": 9845
+   },
+   {
+    "q": 19,
+    "homology": 42,
+    "chains": 5619
+   },
+   {
+    "q": 21,
+    "homology": -39,
+    "chains": -2982
+   }
+  ],
+  "14ah_18109": [
+   {
+    "q": 1,
+    "homology": 0,
+    "chains": 3738
+   },
+   {
+    "q": -1,
+    "homology": 0,
+    "chains": -4287
+   },
+   {
+    "q": -3,
+    "homology": 0,
+    "chains": -5453
+   },
+   {
+    "q": -5,
+    "homology": -21,
+    "chains": -3201
+   },
+   {
+    "q": -7,
+    "homology": -23,
+    "chains": -699
+   },
+   {
+    "q": -9,
+    "homology": 17,
+    "chains": 180
+   },
+   {
+    "q": -11,
+    "homology": -9,
+    "chains": -35
+   },
+   {
+    "q": -13,
+    "homology": 4,
+    "chains": 6
+   }
+  ],
+  "14nh_00001": [
+   {
+    "q": 17,
+    "homology": 1,
+    "chains": 11944
+   },
+   {
+    "q": 15,
+    "homology": 1,
+    "chains": 2759
+   },
+   {
+    "q": 13,
+    "homology": 1,
+    "chains": 211
+   },
+   {
+    "q": 19,
+    "homology": 0,
+    "chains": 24834
+   },
+   {
+    "q": 21,
+    "homology": 0,
+    "chains": 27726
+   },
+   {
+    "q": 23,
+    "homology": -1,
+    "chains": -38725
+   },
+   {
+    "q": 25,
+    "homology": -1,
+    "chains": -18648
+   },
+   {
+    "q": 27,
+    "homology": 0,
+    "chains": -4404
+   },
+   {
+    "q": 29,
+    "homology": 0,
+    "chains": -330
+   }
+  ],
+  "14nh_00095": [
+   {
+    "q": 1,
+    "homology": 0,
+    "chains": -44346
+   },
+   {
+    "q": -1,
+    "homology": 0,
+    "chains": 45367
+   },
+   {
+    "q": -3,
+    "homology": 0,
+    "chains": 40922
+   },
+   {
+    "q": -5,
+    "homology": 2,
+    "chains": 22336
+   },
+   {
+    "q": -7,
+    "homology": 1,
+    "chains": 7030
+   },
+   {
+    "q": -9,
+    "homology": -1,
+    "chains": 1157
+   },
+   {
+    "q": -11,
+    "homology": 1,
+    "chains": -297
+   },
+   {
+    "q": -13,
+    "homology": -1,
+    "chains": 44
+   },
+   {
+    "q": -15,
+    "homology": 0,
+    "chains": -3
+   },
+   {
+    "q": 3,
+    "homology": 0,
+    "chains": -23338
+   },
+   {
+    "q": 5,
+    "homology": 0,
+    "chains": -7054
+   }
+  ],
+  "14nh_00502": [
+   {
+    "q": 17,
+    "homology": 2,
+    "chains": -1565
+   },
+   {
+    "q": 15,
+    "homology": 1,
+    "chains": 324
+   },
+   {
+    "q": 19,
+    "homology": -1,
+    "chains": -7789
+   },
+   {
+    "q": 21,
+    "homology": 2,
+    "chains": -19831
+   },
+   {
+    "q": 23,
+    "homology": -3,
+    "chains": -29500
+   },
+   {
+    "q": 25,
+    "homology": 1,
+    "chains": -26635
+   },
+   {
+    "q": 27,
+    "homology": -1,
+    "chains": -14267
+   },
+   {
+    "q": 29,
+    "homology": -5,
+    "chains": -4065
+   },
+   {
+    "q": 31,
+    "homology": 0,
+    "chains": -432
+   }
+  ],
+  "14nh_02009": [
+   {
+    "q": -11,
+    "homology": -1,
+    "chains": -190
+   },
+   {
+    "q": -13,
+    "homology": 2,
+    "chains": -12
+   },
+   {
+    "q": -15,
+    "homology": -3,
+    "chains": -5
+   },
+   {
+    "q": -9,
+    "homology": 1,
+    "chains": -931
+   },
+   {
+    "q": -7,
+    "homology": 2,
+    "chains": -2406
+   },
+   {
+    "q": -5,
+    "homology": -2,
+    "chains": -3698
+   },
+   {
+    "q": -3,
+    "homology": 2,
+    "chains": 1038
+   },
+   {
+    "q": -1,
+    "homology": -2,
+    "chains": 810
+   },
+   {
+    "q": 1,
+    "homology": 2,
+    "chains": 402
+   },
+   {
+    "q": 3,
+    "homology": -1,
+    "chains": 110
+   }
+  ],
+  "14nh_09680": [
+   {
+    "q": 1,
+    "homology": -4,
+    "chains": 2595
+   },
+   {
+    "q": -1,
+    "homology": 6,
+    "chains": 352
+   },
+   {
+    "q": -3,
+    "homology": -5,
+    "chains": -123
+   },
+   {
+    "q": -5,
+    "homology": 5,
+    "chains": 28
+   },
+   {
+    "q": -7,
+    "homology": -2,
+    "chains": 24
+   },
+   {
+    "q": -9,
+    "homology": 0,
+    "chains": -2
+   },
+   {
+    "q": 3,
+    "homology": 2,
+    "chains": 7344
+   },
+   {
+    "q": 5,
+    "homology": 12,
+    "chains": 9307
+   },
+   {
+    "q": 7,
+    "homology": -12,
+    "chains": -4731
+   },
+   {
+    "q": 9,
+    "homology": 0,
+    "chains": -1866
+   }
+  ],
+  "14nh_10667": [
+   {
+    "q": 19,
+    "homology": 4,
+    "chains": 2565
+   },
+   {
+    "q": 17,
+    "homology": 6,
+    "chains": 2224
+   },
+   {
+    "q": 15,
+    "homology": -3,
+    "chains": 636
+   },
+   {
+    "q": 13,
+    "homology": 5,
+    "chains": -71
+   },
+   {
+    "q": 21,
+    "homology": 0,
+    "chains": 1043
+   },
+   {
+    "q": 23,
+    "homology": 0,
+    "chains": 106
+   }
+  ],
+  "14nh_12583": [
+   {
+    "q": -1,
+    "homology": 6,
+    "chains": 7
+   },
+   {
+    "q": 1,
+    "homology": -3,
+    "chains": 5
+   }
+  ],
+  "14nh_19170": [
+   {
+    "q": 5,
+    "homology": 11,
+    "chains": 5673
+   },
+   {
+    "q": 3,
+    "homology": 3,
+    "chains": 4787
+   },
+   {
+    "q": 1,
+    "homology": -4,
+    "chains": 1482
+   },
+   {
+    "q": -1,
+    "homology": 7,
+    "chains": 131
+   },
+   {
+    "q": -3,
+    "homology": -5,
+    "chains": 25
+   },
+   {
+    "q": -5,
+    "homology": 3,
+    "chains": 8
+   },
+   {
+    "q": 7,
+    "homology": -12,
+    "chains": -6620
+   },
+   {
+    "q": 9,
+    "homology": 0,
+    "chains": -1861
+   },
+   {
+    "q": 11,
+    "homology": 0,
+    "chains": -153
+   }
+  ],
+  "14nh_26709": [
+   {
+    "q": 13,
+    "homology": 13,
+    "chains": -5574
+   },
+   {
+    "q": 11,
+    "homology": -14,
+    "chains": 2160
+   },
+   {
+    "q": 9,
+    "homology": 14,
+    "chains": -484
+   },
+   {
+    "q": 7,
+    "homology": -7,
+    "chains": 58
+   },
+   {
+    "q": 5,
+    "homology": 3,
+    "chains": -1
+   },
+   {
+    "q": 3,
+    "homology": 0,
+    "chains": -1
+   },
+   {
+    "q": 15,
+    "homology": -8,
+    "chains": -10362
+   },
+   {
+    "q": 17,
+    "homology": -29,
+    "chains": -8398
+   },
+   {
+    "q": 19,
+    "homology": 0,
+    "chains": -77
+   }
+  ]
+ }
+}

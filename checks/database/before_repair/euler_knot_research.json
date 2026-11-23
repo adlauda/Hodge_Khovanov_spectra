@@ -1,0 +1,8600 @@
+{
+ "database": "databases/knot_research.db",
+ "table": "knots",
+ "diagrams": 12965,
+ "rows": 1401192,
+ "diagram_q_pairs": 182147,
+ "diagrams_with_null_betti": 0,
+ "diagrams_failing": 804,
+ "diagram_q_pairs_failing": 1396,
+ "failures": {
+  "12a_1000": [
+   {
+    "q": -3,
+    "homology": 1,
+    "chains": 0
+   }
+  ],
+  "12a_1002": [
+   {
+    "q": -5,
+    "homology": -9,
+    "chains": -1
+   },
+   {
+    "q": -3,
+    "homology": 7,
+    "chains": -1
+   }
+  ],
+  "12a_1006": [
+   {
+    "q": -3,
+    "homology": 7,
+    "chains": -2
+   },
+   {
+    "q": -1,
+    "homology": -11,
+    "chains": -1
+   }
+  ],
+  "12a_1007": [
+   {
+    "q": -3,
+    "homology": 6,
+    "chains": 1
+   },
+   {
+    "q": -1,
+    "homology": -4,
+    "chains": 3
+   }
+  ],
+  "12a_1009": [
+   {
+    "q": 7,
+    "homology": -2,
+    "chains": 4
+   },
+   {
+    "q": 9,
+    "homology": 0,
+    "chains": -1
+   },
+   {
+    "q": 11,
+    "homology": 4,
+    "chains": -2
+   }
+  ],
+  "12a_1010": [
+   {
+    "q": 9,
+    "homology": 4,
+    "chains": -4
+   }
+  ],
+  "12a_1011": [
+   {
+    "q": -3,
+    "homology": 1,
+    "chains": -3
+   },
+   {
+    "q": -1,
+    "homology": -3,
+    "chains": 2
+   },
+   {
+    "q": 1,
+    "homology": -2,
+    "chains": 2
+   },
+   {
+    "q": 3,
+    "homology": 0,
+    "chains": -3
+   }
+  ],
+  "12a_1013": [
+   {
+    "q": 1,
+    "homology": -1,
+    "chains": 4
+   },
+   {
+    "q": 3,
+    "homology": -5,
+    "chains": -1
+   },
+   {
+    "q": 5,
+    "homology": 3,
+    "chains": -1
+   },
+   {
+    "q": 7,
+    "homology": 4,
+    "chains": 3
+   }
+  ],
+  "12a_1014": [
+   {
+    "q": 1,
+    "homology": -8,
+    "chains": -1
+   },
+   {
+    "q": 3,
+    "homology": 4,
+    "chains": -2
+   }
+  ],
+  "12a_1015": [
+   {
+    "q": -3,
+    "homology": 6,
+    "chains": 1
+   },
+   {
+    "q": -1,
+    "homology": -1,
+    "chains": 2
+   }
+  ],
+  "12a_1016": [
+   {
+    "q": -1,
+    "homology": 0,
+    "chains": 2
+   },
+   {
+    "q": 1,
+    "homology": -1,
+    "chains": 2
+   }
+  ],
+  "12a_1018": [
+   {
+    "q": 3,
+    "homology": 2,
+    "chains": -2
+   },
+   {
+    "q": 5,
+    "homology": -6,
+    "chains": -2
+   }
+  ],
+  "12a_1023": [
+   {
+    "q": 3,
+    "homology": 1,
+    "chains": -3
+   },
+   {
+    "q": 5,
+    "homology": 0,
+    "chains": 2
+   },
+   {
+    "q": 7,
+    "homology": 0,
+    "chains": 2
+   }
+  ],
+  "12a_1024": [
+   {
+    "q": 5,
+    "homology": 0,
+    "chains": 3
+   }
+  ],
+  "12a_1026": [
+   {
+    "q": -5,
+    "homology": -6,
+    "chains": 2
+   },
+   {
+    "q": -3,
+    "homology": 6,
+    "chains": 2
+   }
+  ],
+  "12a_1027": [
+   {
+    "q": -7,
+    "homology": 0,
+    "chains": 2
+   },
+   {
+    "q": -5,
+    "homology": -2,
+    "chains": 0
+   },
+   {
+    "q": -3,
+    "homology": -1,
+    "chains": 0
+   },
+   {
+    "q": -1,
+    "homology": 1,
+    "chains": 3
+   }
+  ],
+  "12a_1028": [
+   {
+    "q": -5,
+    "homology": 0,
+    "chains": 4
+   },
+   {
+    "q": 1,
+    "homology": 4,
+    "chains": 3
+   }
+  ],
+  "12a_1029": [
+   {
+    "q": 1,
+    "homology": 0,
+    "chains": 3
+   }
+  ],
+  "12a_1030": [
+   {
+    "q": -1,
+    "homology": 0,
+    "chains": -1
+   }
+  ],
+  "12a_1032": [
+   {
+    "q": -5,
+    "homology": -4,
+    "chains": 0
+   },
+   {
+    "q": -3,
+    "homology": 3,
+    "chains": -1
+   }
+  ],
+  "12a_1033": [
+   {
+    "q": -5,
+    "homology": 1,
+    "chains": 0
+   },
+   {
+    "q": -1,
+    "homology": 2,
+    "chains": 4
+   }
+  ],
+  "12a_1034": [
+   {
+    "q": -5,
+    "homology": -1,
+    "chains": 3
+   },
+   {
+    "q": -1,
+    "homology": -3,
+    "chains": 0
+   },
+   {
+    "q": 1,
+    "homology": 5,
+    "chains": 4
+   }
+  ],
+  "12a_1035": [
+   {
+    "q": 17,
+    "homology": 8,
+    "chains": 2
+   }
+  ],
+  "12a_1038": [
+   {
+    "q": 11,
+    "homology": 1,
+    "chains": 2
+   },
+   {
+    "q": 13,
+    "homology": 0,
+    "chains": 2
+   }
+  ],
+  "12a_1040": [
+   {
+    "q": -3,
+    "homology": 4,
+    "chains": 0
+   },
+   {
+    "q": -1,
+    "homology": -3,
+    "chains": 1
+   }
+  ],
+  "12a_1043": [
+   {
+    "q": 3,
+    "homology": 0,
+    "chains": -1
+   },
+   {
+    "q": 5,
+    "homology": -11,
+    "chains": -2
+   }
+  ],
+  "12a_1044": [
+   {
+    "q": 7,
+    "homology": -10,
+    "chains": -1
+   },
+   {
+    "q": 9,
+    "homology": 8,
+    "chains": -2
+   }
+  ],
+  "12a_1046": [
+   {
+    "q": 7,
+    "homology": 10,
+    "chains": 2
+   }
+  ],
+  "12a_1047": [
+   {
+    "q": -5,
+    "homology": -6,
+    "chains": -1
+   },
+   {
+    "q": -3,
+    "homology": 5,
+    "chains": -1
+   }
+  ],
+  "12a_105": [
+   {
+    "q": 13,
+    "homology": 0,
+    "chains": 2
+   },
+   {
+    "q": 15,
+    "homology": 4,
+    "chains": 1
+   }
+  ],
+  "12a_1051": [
+   {
+    "q": 5,
+    "homology": 1,
+    "chains": -2
+   },
+   {
+    "q": 7,
+    "homology": -1,
+    "chains": 2
+   },
+   {
+    "q": 9,
+    "homology": 3,
+    "chains": 1
+   }
+  ],
+  "12a_1052": [
+   {
+    "q": 7,
+    "homology": 8,
+    "chains": 3
+   }
+  ],
+  "12a_1055": [
+   {
+    "q": -3,
+    "homology": 9,
+    "chains": -2
+   }
+  ],
+  "12a_106": [
+   {
+    "q": 11,
+    "homology": 0,
+    "chains": 2
+   },
+   {
+    "q": 13,
+    "homology": -3,
+    "chains": 2
+   }
+  ],
+  "12a_1060": [
+   {
+    "q": 5,
+    "homology": -4,
+    "chains": 3
+   },
+   {
+    "q": 7,
+    "homology": -4,
+    "chains": 1
+   }
+  ],
+  "12a_1062": [
+   {
+    "q": 11,
+    "homology": 1,
+    "chains": 2
+   },
+   {
+    "q": 13,
+    "homology": 4,
+    "chains": 1
+   },
+   {
+    "q": 15,
+    "homology": 1,
+    "chains": -5
+   }
+  ],
+  "12a_1063": [
+   {
+    "q": 3,
+    "homology": 3,
+    "chains": 1
+   },
+   {
+    "q": 5,
+    "homology": -2,
+    "chains": 1
+   }
+  ],
+  "12a_1064": [
+   {
+    "q": 5,
+    "homology": -1,
+    "chains": 1
+   },
+   {
+    "q": 7,
+    "homology": -2,
+    "chains": 2
+   }
+  ],
+  "12a_1066": [
+   {
+    "q": 5,
+    "homology": 1,
+    "chains": 2
+   },
+   {
+    "q": 7,
+    "homology": -3,
+    "chains": 2
+   }
+  ],
+  "12a_1068": [
+   {
+    "q": 3,
+    "homology": 7,
+    "chains": 1
+   },
+   {
+    "q": 5,
+    "homology": -5,
+    "chains": 1
+   }
+  ],
+  "12a_1077": [
+   {
+    "q": -9,
+    "homology": 7,
+    "chains": -1
+   },
+   {
+    "q": -7,
+    "homology": -8,
+    "chains": -1
+   }
+  ],
+  "12a_1083": [
+   {
+    "q": 1,
+    "homology": -7,
+    "chains": -1
+   },
+   {
+    "q": 3,
+    "homology": 5,
+    "chains": -1
+   }
+  ],
+  "12a_1084": [
+   {
+    "q": 7,
+    "homology": -5,
+    "chains": 1
+   },
+   {
+    "q": 9,
+    "homology": 5,
+    "chains": 1
+   }
+  ],
+  "12a_1085": [
+   {
+    "q": 7,
+    "homology": 9,
+    "chains": 2
+   }
+  ],
+  "12a_1086": [
+   {
+    "q": -5,
+    "homology": -10,
+    "chains": -1
+   },
+   {
+    "q": -3,
+    "homology": 9,
+    "chains": -2
+   }
+  ],
+  "12a_1089": [
+   {
+    "q": 7,
+    "homology": -4,
+    "chains": 1
+   },
+   {
+    "q": 9,
+    "homology": 3,
+    "chains": 1
+   }
+  ],
+  "12a_109": [
+   {
+    "q": -3,
+    "homology": 4,
+    "chains": -1
+   },
+   {
+    "q": -1,
+    "homology": -4,
+    "chains": -1
+   }
+  ],
+  "12a_1090": [
+   {
+    "q": 5,
+    "homology": 0,
+    "chains": 2
+   },
+   {
+    "q": 7,
+    "homology": 0,
+    "chains": 2
+   }
+  ],
+  "12a_1093": [
+   {
+    "q": 5,
+    "homology": -8,
+    "chains": -3
+   }
+  ],
+  "12a_1094": [
+   {
+    "q": 5,
+    "homology": 4,
+    "chains": 2
+   }
+  ],
+  "12a_11": [
+   {
+    "q": -11,
+    "homology": -5,
+    "chains": -2
+   },
+   {
+    "q": -9,
+    "homology": 5,
+    "chains": -2
+   }
+  ],
+  "12a_110": [
+   {
+    "q": 11,
+    "homology": -7,
+    "chains": 3
+   },
+   {
+    "q": 13,
+    "homology": -7,
+    "chains": 2
+   }
+  ],
+  "12a_1103": [
+   {
+    "q": -9,
+    "homology": 9,
+    "chains": -1
+   },
+   {
+    "q": -7,
+    "homology": -9,
+    "chains": -1
+   }
+  ],
+  "12a_1104": [
+   {
+    "q": -5,
+    "homology": -7,
+    "chains": -2
+   },
+   {
+    "q": -3,
+    "homology": 9,
+    "chains": -2
+   }
+  ],
+  "12a_1107": [
+   {
+    "q": -5,
+    "homology": 4,
+    "chains": 0
+   }
+  ],
+  "12a_1108": [
+   {
+    "q": -5,
+    "homology": -7,
+    "chains": -1
+   },
+   {
+    "q": -3,
+    "homology": 2,
+    "chains": -1
+   }
+  ],
+  "12a_1114": [
+   {
+    "q": -11,
+    "homology": 1,
+    "chains": 0
+   }
+  ],
+  "12a_1115": [
+   {
+    "q": -9,
+    "homology": 5,
+    "chains": 0
+   }
+  ],
+  "12a_1116": [
+   {
+    "q": -11,
+    "homology": -7,
+    "chains": -1
+   },
+   {
+    "q": -9,
+    "homology": 5,
+    "chains": -2
+   }
+  ],
+  "12a_1118": [
+   {
+    "q": -11,
+    "homology": -1,
+    "chains": 3
+   },
+   {
+    "q": -7,
+    "homology": 3,
+    "chains": 0
+   }
+  ],
+  "12a_1119": [
+   {
+    "q": 3,
+    "homology": 5,
+    "chains": -2
+   }
+  ],
+  "12a_1120": [
+   {
+    "q": -5,
+    "homology": 3,
+    "chains": 0
+   },
+   {
+    "q": -3,
+    "homology": -1,
+    "chains": 0
+   },
+   {
+    "q": -1,
+    "homology": 0,
+    "chains": 4
+   }
+  ],
+  "12a_1121": [
+   {
+    "q": -3,
+    "homology": 6,
+    "chains": -2
+   },
+   {
+    "q": -1,
+    "homology": -5,
+    "chains": 0
+   }
+  ],
+  "12a_1125": [
+   {
+    "q": 5,
+    "homology": -1,
+    "chains": -2
+   },
+   {
+    "q": 7,
+    "homology": 1,
+    "chains": 2
+   },
+   {
+    "q": 9,
+    "homology": 3,
+    "chains": 0
+   }
+  ],
+  "12a_1126": [
+   {
+    "q": 3,
+    "homology": 0,
+    "chains": -3
+   },
+   {
+    "q": 5,
+    "homology": 4,
+    "chains": 1
+   },
+   {
+    "q": 7,
+    "homology": -3,
+    "chains": 1
+   },
+   {
+    "q": 9,
+    "homology": 0,
+    "chains": -3
+   }
+  ],
+  "12a_1127": [
+   {
+    "q": -1,
+    "homology": 3,
+    "chains": 1
+   },
+   {
+    "q": 1,
+    "homology": -3,
+    "chains": 1
+   },
+   {
+    "q": 3,
+    "homology": -2,
+    "chains": -3
+   }
+  ],
+  "12a_1129": [
+   {
+    "q": -5,
+    "homology": -1,
+    "chains": 3
+   },
+   {
+    "q": -1,
+    "homology": -2,
+    "chains": 0
+   }
+  ],
+  "12a_1130": [
+   {
+    "q": -5,
+    "homology": -1,
+    "chains": 4
+   },
+   {
+    "q": -3,
+    "homology": -5,
+    "chains": -1
+   },
+   {
+    "q": -1,
+    "homology": 4,
+    "chains": -1
+   }
+  ],
+  "12a_1132": [
+   {
+    "q": -5,
+    "homology": -4,
+    "chains": -1
+   },
+   {
+    "q": -3,
+    "homology": 2,
+    "chains": -1
+   }
+  ],
+  "12a_1133": [
+   {
+    "q": -5,
+    "homology": -5,
+    "chains": -1
+   }
+  ],
+  "12a_1135": [
+   {
+    "q": 3,
+    "homology": -1,
+    "chains": -2
+   }
+  ],
+  "12a_1136": [
+   {
+    "q": 5,
+    "homology": 7,
+    "chains": 2
+   },
+   {
+    "q": 7,
+    "homology": -4,
+    "chains": 1
+   }
+  ],
+  "12a_1137": [
+   {
+    "q": 5,
+    "homology": -2,
+    "chains": 3
+   }
+  ],
+  "12a_1139": [
+   {
+    "q": -1,
+    "homology": -3,
+    "chains": -1
+   },
+   {
+    "q": 1,
+    "homology": 3,
+    "chains": 2
+   }
+  ],
+  "12a_1140": [
+   {
+    "q": 7,
+    "homology": -1,
+    "chains": -3
+   }
+  ],
+  "12a_1141": [
+   {
+    "q": 3,
+    "homology": 6,
+    "chains": -2
+   },
+   {
+    "q": 5,
+    "homology": -8,
+    "chains": -1
+   }
+  ],
+  "12a_1144": [
+   {
+    "q": -3,
+    "homology": -1,
+    "chains": -2
+   },
+   {
+    "q": -1,
+    "homology": -5,
+    "chains": -1
+   }
+  ],
+  "12a_1145": [
+   {
+    "q": 5,
+    "homology": 0,
+    "chains": 1
+   },
+   {
+    "q": 7,
+    "homology": -1,
+    "chains": 1
+   }
+  ],
+  "12a_1146": [
+   {
+    "q": 3,
+    "homology": 4,
+    "chains": 1
+   },
+   {
+    "q": 5,
+    "homology": -1,
+    "chains": 2
+   }
+  ],
+  "12a_1147": [
+   {
+    "q": 3,
+    "homology": 1,
+    "chains": -3
+   },
+   {
+    "q": 5,
+    "homology": 0,
+    "chains": 2
+   },
+   {
+    "q": 7,
+    "homology": 1,
+    "chains": 0
+   }
+  ],
+  "12a_1148": [
+   {
+    "q": 5,
+    "homology": 1,
+    "chains": 0
+   }
+  ],
+  "12a_1150": [
+   {
+    "q": -1,
+    "homology": 7,
+    "chains": 2
+   }
+  ],
+  "12a_1151": [
+   {
+    "q": -3,
+    "homology": 1,
+    "chains": 0
+   },
+   {
+    "q": -1,
+    "homology": -4,
+    "chains": 1
+   }
+  ],
+  "12a_1153": [
+   {
+    "q": 7,
+    "homology": -1,
+    "chains": 2
+   },
+   {
+    "q": 9,
+    "homology": 2,
+    "chains": 1
+   }
+  ],
+  "12a_1154": [
+   {
+    "q": 7,
+    "homology": 8,
+    "chains": 2
+   }
+  ],
+  "12a_1158": [
+   {
+    "q": 9,
+    "homology": -1,
+    "chains": 0
+   }
+  ],
+  "12a_1159": [
+   {
+    "q": 7,
+    "homology": -1,
+    "chains": 2
+   },
+   {
+    "q": 9,
+    "homology": 3,
+    "chains": 0
+   }
+  ],
+  "12a_1160": [
+   {
+    "q": 3,
+    "homology": -3,
+    "chains": -2
+   },
+   {
+    "q": 5,
+    "homology": -2,
+    "chains": 1
+   },
+   {
+    "q": 7,
+    "homology": 0,
+    "chains": 1
+   }
+  ],
+  "12a_1161": [
+   {
+    "q": 5,
+    "homology": 0,
+    "chains": 1
+   },
+   {
+    "q": 9,
+    "homology": -2,
+    "chains": -3
+   }
+  ],
+  "12a_1163": [
+   {
+    "q": 5,
+    "homology": 0,
+    "chains": 1
+   },
+   {
+    "q": 7,
+    "homology": 0,
+    "chains": 1
+   }
+  ],
+  "12a_1164": [
+   {
+    "q": 9,
+    "homology": 3,
+    "chains": 0
+   }
+  ],
+  "12a_1165": [
+   {
+    "q": 7,
+    "homology": 1,
+    "chains": 0
+   },
+   {
+    "q": 9,
+    "homology": -1,
+    "chains": -2
+   }
+  ],
+  "12a_1168": [
+   {
+    "q": -3,
+    "homology": 4,
+    "chains": -1
+   }
+  ],
+  "12a_1169": [
+   {
+    "q": -5,
+    "homology": -2,
+    "chains": 4
+   },
+   {
+    "q": -3,
+    "homology": -2,
+    "chains": -1
+   },
+   {
+    "q": -1,
+    "homology": 1,
+    "chains": -1
+   }
+  ],
+  "12a_1170": [
+   {
+    "q": -3,
+    "homology": 5,
+    "chains": -2
+   },
+   {
+    "q": -1,
+    "homology": -7,
+    "chains": -1
+   }
+  ],
+  "12a_1174": [
+   {
+    "q": 1,
+    "homology": -4,
+    "chains": 0
+   },
+   {
+    "q": 5,
+    "homology": -2,
+    "chains": 4
+   }
+  ],
+  "12a_1176": [
+   {
+    "q": -5,
+    "homology": 1,
+    "chains": -1
+   },
+   {
+    "q": -3,
+    "homology": 0,
+    "chains": -1
+   },
+   {
+    "q": -1,
+    "homology": 2,
+    "chains": 4
+   }
+  ],
+  "12a_1177": [
+   {
+    "q": -3,
+    "homology": 5,
+    "chains": -3
+   }
+  ],
+  "12a_1178": [
+   {
+    "q": -1,
+    "homology": -7,
+    "chains": -2
+   }
+  ],
+  "12a_1180": [
+   {
+    "q": 1,
+    "homology": -7,
+    "chains": -1
+   },
+   {
+    "q": 3,
+    "homology": 2,
+    "chains": -2
+   }
+  ],
+  "12a_1181": [
+   {
+    "q": 1,
+    "homology": 1,
+    "chains": 5
+   },
+   {
+    "q": 3,
+    "homology": -5,
+    "chains": -1
+   },
+   {
+    "q": 5,
+    "homology": 0,
+    "chains": -2
+   }
+  ],
+  "12a_1182": [
+   {
+    "q": 5,
+    "homology": -7,
+    "chains": 2
+   },
+   {
+    "q": 7,
+    "homology": 1,
+    "chains": 3
+   }
+  ],
+  "12a_1183": [
+   {
+    "q": 7,
+    "homology": 0,
+    "chains": 1
+   }
+  ],
+  "12a_1184": [
+   {
+    "q": 9,
+    "homology": 6,
+    "chains": -1
+   },
+   {
+    "q": 11,
+    "homology": -8,
+    "chains": -1
+   }
+  ],
+  "12a_119": [
+   {
+    "q": 9,
+    "homology": 5,
+    "chains": -2
+   }
+  ],
+  "12a_1191": [
+   {
+    "q": -9,
+    "homology": 5,
+    "chains": 1
+   },
+   {
+    "q": -7,
+    "homology": -5,
+    "chains": 2
+   }
+  ],
+  "12a_1194": [
+   {
+    "q": -3,
+    "homology": 8,
+    "chains": 2
+   },
+   {
+    "q": -1,
+    "homology": -7,
+    "chains": 2
+   }
+  ],
+  "12a_1198": [
+   {
+    "q": 3,
+    "homology": 11,
+    "chains": -2
+   },
+   {
+    "q": 5,
+    "homology": -11,
+    "chains": -2
+   }
+  ],
+  "12a_1199": [
+   {
+    "q": -1,
+    "homology": -1,
+    "chains": 2
+   },
+   {
+    "q": 1,
+    "homology": 10,
+    "chains": 2
+   }
+  ],
+  "12a_12": [
+   {
+    "q": -9,
+    "homology": 5,
+    "chains": -2
+   },
+   {
+    "q": -7,
+    "homology": -5,
+    "chains": -1
+   }
+  ],
+  "12a_1201": [
+   {
+    "q": 3,
+    "homology": 10,
+    "chains": -1
+   }
+  ],
+  "12a_1202": [
+   {
+    "q": -1,
+    "homology": 0,
+    "chains": 2
+   },
+   {
+    "q": 1,
+    "homology": -4,
+    "chains": 2
+   }
+  ],
+  "12a_1203": [
+   {
+    "q": -5,
+    "homology": 0,
+    "chains": -1
+   },
+   {
+    "q": -3,
+    "homology": -2,
+    "chains": -1
+   },
+   {
+    "q": -1,
+    "homology": -1,
+    "chains": 5
+   }
+  ],
+  "12a_1204": [
+   {
+    "q": -3,
+    "homology": 5,
+    "chains": -1
+   },
+   {
+    "q": -1,
+    "homology": -5,
+    "chains": -1
+   }
+  ],
+  "12a_1207": [
+   {
+    "q": 9,
+    "homology": 10,
+    "chains": -1
+   },
+   {
+    "q": 11,
+    "homology": -12,
+    "chains": -2
+   }
+  ],
+  "12a_1209": [
+   {
+    "q": -1,
+    "homology": 1,
+    "chains": 3
+   },
+   {
+    "q": 1,
+    "homology": 1,
+    "chains": 3
+   }
+  ],
+  "12a_121": [
+   {
+    "q": -3,
+    "homology": 4,
+    "chains": -2
+   },
+   {
+    "q": -1,
+    "homology": -7,
+    "chains": -1
+   }
+  ],
+  "12a_1210": [
+   {
+    "q": -7,
+    "homology": -5,
+    "chains": 2
+   }
+  ],
+  "12a_1215": [
+   {
+    "q": 5,
+    "homology": -1,
+    "chains": -2
+   },
+   {
+    "q": 7,
+    "homology": -4,
+    "chains": 1
+   },
+   {
+    "q": 9,
+    "homology": 3,
+    "chains": 0
+   }
+  ],
+  "12a_1216": [
+   {
+    "q": -1,
+    "homology": -8,
+    "chains": 2
+   }
+  ],
+  "12a_1218": [
+   {
+    "q": -3,
+    "homology": 0,
+    "chains": -2
+   },
+   {
+    "q": -1,
+    "homology": 0,
+    "chains": 2
+   },
+   {
+    "q": 1,
+    "homology": -3,
+    "chains": 2
+   },
+   {
+    "q": 3,
+    "homology": 0,
+    "chains": -2
+   }
+  ],
+  "12a_1219": [
+   {
+    "q": -7,
+    "homology": 4,
+    "chains": 3
+   },
+   {
+    "q": -5,
+    "homology": -3,
+    "chains": 0
+   },
+   {
+    "q": -3,
+    "homology": -1,
+    "chains": 0
+   },
+   {
+    "q": -1,
+    "homology": 0,
+    "chains": 4
+   }
+  ],
+  "12a_122": [
+   {
+    "q": -5,
+    "homology": -7,
+    "chains": -1
+   },
+   {
+    "q": -3,
+    "homology": 6,
+    "chains": -2
+   }
+  ],
+  "12a_1221": [
+   {
+    "q": 3,
+    "homology": 9,
+    "chains": -1
+   },
+   {
+    "q": 5,
+    "homology": -10,
+    "chains": -1
+   }
+  ],
+  "12a_1223": [
+   {
+    "q": 7,
+    "homology": -4,
+    "chains": 2
+   },
+   {
+    "q": 9,
+    "homology": 2,
+    "chains": 1
+   }
+  ],
+  "12a_1224": [
+   {
+    "q": 5,
+    "homology": 0,
+    "chains": 2
+   },
+   {
+    "q": 7,
+    "homology": 0,
+    "chains": 1
+   }
+  ],
+  "12a_1226": [
+   {
+    "q": -5,
+    "homology": -6,
+    "chains": 0
+   },
+   {
+    "q": -3,
+    "homology": 5,
+    "chains": 0
+   }
+  ],
+  "12a_1227": [
+   {
+    "q": -5,
+    "homology": -10,
+    "chains": -2
+   },
+   {
+    "q": -3,
+    "homology": 8,
+    "chains": -2
+   }
+  ],
+  "12a_1228": [
+   {
+    "q": -3,
+    "homology": 7,
+    "chains": -2
+   },
+   {
+    "q": -1,
+    "homology": -11,
+    "chains": -2
+   }
+  ],
+  "12a_1231": [
+   {
+    "q": -1,
+    "homology": 1,
+    "chains": 3
+   },
+   {
+    "q": 1,
+    "homology": -1,
+    "chains": 3
+   }
+  ],
+  "12a_1233": [
+   {
+    "q": 5,
+    "homology": 0,
+    "chains": -1
+   },
+   {
+    "q": 7,
+    "homology": 0,
+    "chains": 1
+   }
+  ],
+  "12a_1234": [
+   {
+    "q": 5,
+    "homology": 2,
+    "chains": 1
+   },
+   {
+    "q": 7,
+    "homology": 1,
+    "chains": 2
+   }
+  ],
+  "12a_1235": [
+   {
+    "q": -3,
+    "homology": 2,
+    "chains": -3
+   },
+   {
+    "q": -1,
+    "homology": 0,
+    "chains": 2
+   },
+   {
+    "q": 1,
+    "homology": 0,
+    "chains": 2
+   }
+  ],
+  "12a_1237": [
+   {
+    "q": -3,
+    "homology": 7,
+    "chains": -1
+   },
+   {
+    "q": -1,
+    "homology": -9,
+    "chains": -2
+   }
+  ],
+  "12a_1238": [
+   {
+    "q": 1,
+    "homology": -2,
+    "chains": 4
+   },
+   {
+    "q": 3,
+    "homology": -3,
+    "chains": -1
+   }
+  ],
+  "12a_1239": [
+   {
+    "q": 1,
+    "homology": -8,
+    "chains": -1
+   }
+  ],
+  "12a_1240": [
+   {
+    "q": 5,
+    "homology": 1,
+    "chains": -1
+   }
+  ],
+  "12a_1241": [
+   {
+    "q": 3,
+    "homology": 4,
+    "chains": -1
+   },
+   {
+    "q": 5,
+    "homology": -7,
+    "chains": -2
+   }
+  ],
+  "12a_1243": [
+   {
+    "q": 5,
+    "homology": -1,
+    "chains": -2
+   },
+   {
+    "q": 7,
+    "homology": -1,
+    "chains": 0
+   }
+  ],
+  "12a_1244": [
+   {
+    "q": -1,
+    "homology": 1,
+    "chains": -2
+   },
+   {
+    "q": 1,
+    "homology": -3,
+    "chains": 2
+   }
+  ],
+  "12a_1245": [
+   {
+    "q": -1,
+    "homology": 0,
+    "chains": 1
+   },
+   {
+    "q": 1,
+    "homology": 0,
+    "chains": 2
+   }
+  ],
+  "12a_1246": [
+   {
+    "q": 3,
+    "homology": 5,
+    "chains": -1
+   }
+  ],
+  "12a_1253": [
+   {
+    "q": -5,
+    "homology": -7,
+    "chains": -1
+   },
+   {
+    "q": -3,
+    "homology": 8,
+    "chains": -1
+   }
+  ],
+  "12a_1254": [
+   {
+    "q": -1,
+    "homology": -1,
+    "chains": 2
+   },
+   {
+    "q": 1,
+    "homology": 0,
+    "chains": 2
+   }
+  ],
+  "12a_1256": [
+   {
+    "q": -3,
+    "homology": 6,
+    "chains": 1
+   },
+   {
+    "q": -1,
+    "homology": -5,
+    "chains": 1
+   }
+  ],
+  "12a_1257": [
+   {
+    "q": 5,
+    "homology": -7,
+    "chains": 2
+   },
+   {
+    "q": 7,
+    "homology": -1,
+    "chains": 2
+   }
+  ],
+  "12a_1258": [
+   {
+    "q": -1,
+    "homology": -1,
+    "chains": 2
+   },
+   {
+    "q": 1,
+    "homology": 4,
+    "chains": 2
+   }
+  ],
+  "12a_1259": [
+   {
+    "q": -3,
+    "homology": 6,
+    "chains": 1
+   },
+   {
+    "q": -1,
+    "homology": -5,
+    "chains": 2
+   }
+  ],
+  "12a_1260": [
+   {
+    "q": -1,
+    "homology": -2,
+    "chains": 3
+   },
+   {
+    "q": 1,
+    "homology": -2,
+    "chains": 3
+   }
+  ],
+  "12a_1262": [
+   {
+    "q": -3,
+    "homology": 6,
+    "chains": 2
+   },
+   {
+    "q": -1,
+    "homology": -4,
+    "chains": 2
+   }
+  ],
+  "12a_1263": [
+   {
+    "q": -5,
+    "homology": -11,
+    "chains": -1
+   },
+   {
+    "q": -3,
+    "homology": 8,
+    "chains": -2
+   }
+  ],
+  "12a_1264": [
+   {
+    "q": 1,
+    "homology": -1,
+    "chains": 1
+   },
+   {
+    "q": 3,
+    "homology": 2,
+    "chains": 1
+   }
+  ],
+  "12a_1265": [
+   {
+    "q": -1,
+    "homology": -1,
+    "chains": 1
+   },
+   {
+    "q": 1,
+    "homology": 0,
+    "chains": 2
+   }
+  ],
+  "12a_1266": [
+   {
+    "q": 9,
+    "homology": 4,
+    "chains": 0
+   }
+  ],
+  "12a_1267": [
+   {
+    "q": -1,
+    "homology": -2,
+    "chains": 2
+   },
+   {
+    "q": 1,
+    "homology": 0,
+    "chains": 2
+   }
+  ],
+  "12a_1269": [
+   {
+    "q": -1,
+    "homology": 0,
+    "chains": 2
+   },
+   {
+    "q": 1,
+    "homology": -1,
+    "chains": 2
+   }
+  ],
+  "12a_127": [
+   {
+    "q": 5,
+    "homology": -4,
+    "chains": 2
+   },
+   {
+    "q": 7,
+    "homology": 7,
+    "chains": 1
+   }
+  ],
+  "12a_1271": [
+   {
+    "q": -5,
+    "homology": -9,
+    "chains": -2
+   },
+   {
+    "q": -3,
+    "homology": 8,
+    "chains": -2
+   }
+  ],
+  "12a_1272": [
+   {
+    "q": 1,
+    "homology": -11,
+    "chains": -1
+   },
+   {
+    "q": 3,
+    "homology": 8,
+    "chains": -1
+   }
+  ],
+  "12a_1274": [
+   {
+    "q": -3,
+    "homology": 2,
+    "chains": 0
+   },
+   {
+    "q": -1,
+    "homology": -1,
+    "chains": 2
+   },
+   {
+    "q": 1,
+    "homology": -1,
+    "chains": -2
+   }
+  ],
+  "12a_1275": [
+   {
+    "q": -1,
+    "homology": -5,
+    "chains": 1
+   },
+   {
+    "q": 1,
+    "homology": 0,
+    "chains": 1
+   }
+  ],
+  "12a_1276": [
+   {
+    "q": -3,
+    "homology": 0,
+    "chains": 1
+   },
+   {
+    "q": -1,
+    "homology": 0,
+    "chains": 1
+   },
+   {
+    "q": 1,
+    "homology": -1,
+    "chains": -2
+   }
+  ],
+  "12a_1277": [
+   {
+    "q": -1,
+    "homology": 0,
+    "chains": 2
+   },
+   {
+    "q": 1,
+    "homology": 4,
+    "chains": 1
+   }
+  ],
+  "12a_1281": [
+   {
+    "q": -1,
+    "homology": -2,
+    "chains": 1
+   },
+   {
+    "q": 1,
+    "homology": -2,
+    "chains": 1
+   }
+  ],
+  "12a_1283": [
+   {
+    "q": -3,
+    "homology": -1,
+    "chains": -2
+   },
+   {
+    "q": 1,
+    "homology": -1,
+    "chains": 2
+   }
+  ],
+  "12a_1284": [
+   {
+    "q": -3,
+    "homology": 4,
+    "chains": 1
+   },
+   {
+    "q": -1,
+    "homology": -1,
+    "chains": 2
+   }
+  ],
+  "12a_1285": [
+   {
+    "q": -3,
+    "homology": -1,
+    "chains": 1
+   },
+   {
+    "q": -1,
+    "homology": -1,
+    "chains": 1
+   },
+   {
+    "q": 1,
+    "homology": -1,
+    "chains": -2
+   }
+  ],
+  "12a_1288": [
+   {
+    "q": -3,
+    "homology": -1,
+    "chains": -3
+   },
+   {
+    "q": 3,
+    "homology": 0,
+    "chains": -3
+   }
+  ],
+  "12a_130": [
+   {
+    "q": 1,
+    "homology": -4,
+    "chains": -1
+   },
+   {
+    "q": 3,
+    "homology": 4,
+    "chains": -2
+   }
+  ],
+  "12a_135": [
+   {
+    "q": -5,
+    "homology": -9,
+    "chains": -2
+   },
+   {
+    "q": -3,
+    "homology": 8,
+    "chains": -1
+   }
+  ],
+  "12a_140": [
+   {
+    "q": 1,
+    "homology": -10,
+    "chains": -1
+   },
+   {
+    "q": 3,
+    "homology": 3,
+    "chains": -2
+   }
+  ],
+  "12a_141": [
+   {
+    "q": 1,
+    "homology": -5,
+    "chains": -1
+   },
+   {
+    "q": 3,
+    "homology": 2,
+    "chains": -2
+   }
+  ],
+  "12a_144": [
+   {
+    "q": 17,
+    "homology": 0,
+    "chains": 2
+   },
+   {
+    "q": 19,
+    "homology": 1,
+    "chains": 2
+   }
+  ],
+  "12a_145": [
+   {
+    "q": 17,
+    "homology": 0,
+    "chains": 2
+   },
+   {
+    "q": 19,
+    "homology": -6,
+    "chains": 1
+   }
+  ],
+  "12a_147": [
+   {
+    "q": -11,
+    "homology": 1,
+    "chains": 0
+   },
+   {
+    "q": -7,
+    "homology": 1,
+    "chains": 3
+   }
+  ],
+  "12a_148": [
+   {
+    "q": -11,
+    "homology": -5,
+    "chains": -1
+   },
+   {
+    "q": -9,
+    "homology": 5,
+    "chains": -1
+   }
+  ],
+  "12a_150": [
+   {
+    "q": -9,
+    "homology": 3,
+    "chains": -1
+   },
+   {
+    "q": -7,
+    "homology": -5,
+    "chains": 1
+   }
+  ],
+  "12a_152": [
+   {
+    "q": 15,
+    "homology": 4,
+    "chains": 1
+   },
+   {
+    "q": 19,
+    "homology": 0,
+    "chains": -3
+   }
+  ],
+  "12a_153": [
+   {
+    "q": -11,
+    "homology": 1,
+    "chains": 4
+   },
+   {
+    "q": -9,
+    "homology": -3,
+    "chains": -1
+   }
+  ],
+  "12a_155": [
+   {
+    "q": 3,
+    "homology": 4,
+    "chains": -2
+   },
+   {
+    "q": 5,
+    "homology": -4,
+    "chains": -2
+   }
+  ],
+  "12a_158": [
+   {
+    "q": 13,
+    "homology": -3,
+    "chains": 2
+   }
+  ],
+  "12a_159": [
+   {
+    "q": 11,
+    "homology": 4,
+    "chains": 2
+   },
+   {
+    "q": 13,
+    "homology": -3,
+    "chains": 3
+   }
+  ],
+  "12a_160": [
+   {
+    "q": -11,
+    "homology": -3,
+    "chains": 0
+   }
+  ],
+  "12a_161": [
+   {
+    "q": -9,
+    "homology": 5,
+    "chains": -1
+   },
+   {
+    "q": -7,
+    "homology": -6,
+    "chains": 0
+   }
+  ],
+  "12a_164": [
+   {
+    "q": 5,
+    "homology": -3,
+    "chains": 3
+   },
+   {
+    "q": 7,
+    "homology": 0,
+    "chains": 4
+   }
+  ],
+  "12a_165": [
+   {
+    "q": 5,
+    "homology": 1,
+    "chains": -2
+   },
+   {
+    "q": 7,
+    "homology": -1,
+    "chains": 2
+   }
+  ],
+  "12a_166": [
+   {
+    "q": 5,
+    "homology": -5,
+    "chains": 3
+   },
+   {
+    "q": 7,
+    "homology": -1,
+    "chains": 4
+   }
+  ],
+  "12a_167": [
+   {
+    "q": -11,
+    "homology": -5,
+    "chains": -1
+   }
+  ],
+  "12a_168": [
+   {
+    "q": -9,
+    "homology": 1,
+    "chains": -1
+   },
+   {
+    "q": -7,
+    "homology": 0,
+    "chains": -1
+   }
+  ],
+  "12a_170": [
+   {
+    "q": 5,
+    "homology": -3,
+    "chains": 2
+   },
+   {
+    "q": 7,
+    "homology": 0,
+    "chains": 1
+   }
+  ],
+  "12a_172": [
+   {
+    "q": -9,
+    "homology": 5,
+    "chains": 2
+   },
+   {
+    "q": -7,
+    "homology": -2,
+    "chains": 2
+   }
+  ],
+  "12a_176": [
+   {
+    "q": -3,
+    "homology": 5,
+    "chains": 1
+   },
+   {
+    "q": -1,
+    "homology": -3,
+    "chains": 2
+   }
+  ],
+  "12a_178": [
+   {
+    "q": -3,
+    "homology": 5,
+    "chains": 1
+   },
+   {
+    "q": -1,
+    "homology": -4,
+    "chains": 1
+   }
+  ],
+  "12a_179": [
+   {
+    "q": 1,
+    "homology": -2,
+    "chains": 4
+   },
+   {
+    "q": 3,
+    "homology": -1,
+    "chains": -2
+   }
+  ],
+  "12a_18": [
+   {
+    "q": 1,
+    "homology": -1,
+    "chains": 2
+   },
+   {
+    "q": 3,
+    "homology": 7,
+    "chains": 1
+   }
+  ],
+  "12a_180": [
+   {
+    "q": 1,
+    "homology": -6,
+    "chains": -1
+   },
+   {
+    "q": 3,
+    "homology": 5,
+    "chains": -2
+   }
+  ],
+  "12a_181": [
+   {
+    "q": 1,
+    "homology": 8,
+    "chains": 2
+   }
+  ],
+  "12a_182": [
+   {
+    "q": -5,
+    "homology": -6,
+    "chains": -1
+   },
+   {
+    "q": -3,
+    "homology": 4,
+    "chains": -2
+   }
+  ],
+  "12a_183": [
+   {
+    "q": -3,
+    "homology": -1,
+    "chains": -4
+   },
+   {
+    "q": -1,
+    "homology": 0,
+    "chains": 2
+   },
+   {
+    "q": 1,
+    "homology": -1,
+    "chains": 1
+   }
+  ],
+  "12a_19": [
+   {
+    "q": -5,
+    "homology": 7,
+    "chains": 2
+   }
+  ],
+  "12a_192": [
+   {
+    "q": -7,
+    "homology": -9,
+    "chains": -1
+   }
+  ],
+  "12a_193": [
+   {
+    "q": -9,
+    "homology": 2,
+    "chains": 1
+   },
+   {
+    "q": -7,
+    "homology": -1,
+    "chains": 2
+   },
+   {
+    "q": -5,
+    "homology": -1,
+    "chains": -3
+   }
+  ],
+  "12a_195": [
+   {
+    "q": -9,
+    "homology": 3,
+    "chains": 1
+   }
+  ],
+  "12a_196": [
+   {
+    "q": -7,
+    "homology": -3,
+    "chains": 1
+   }
+  ],
+  "12a_20": [
+   {
+    "q": -3,
+    "homology": 8,
+    "chains": -2
+   },
+   {
+    "q": -1,
+    "homology": -9,
+    "chains": -1
+   }
+  ],
+  "12a_203": [
+   {
+    "q": -5,
+    "homology": -8,
+    "chains": -2
+   },
+   {
+    "q": -3,
+    "homology": 6,
+    "chains": -3
+   }
+  ],
+  "12a_204": [
+   {
+    "q": -3,
+    "homology": 6,
+    "chains": -2
+   },
+   {
+    "q": -1,
+    "homology": -7,
+    "chains": -2
+   }
+  ],
+  "12a_205": [
+   {
+    "q": 13,
+    "homology": -3,
+    "chains": 2
+   },
+   {
+    "q": 15,
+    "homology": 4,
+    "chains": 0
+   }
+  ],
+  "12a_206": [
+   {
+    "q": 11,
+    "homology": 0,
+    "chains": 1
+   },
+   {
+    "q": 13,
+    "homology": -1,
+    "chains": 1
+   },
+   {
+    "q": 15,
+    "homology": 0,
+    "chains": -2
+   }
+  ],
+  "12a_208": [
+   {
+    "q": -1,
+    "homology": -3,
+    "chains": 2
+   },
+   {
+    "q": 1,
+    "homology": 1,
+    "chains": 2
+   }
+  ],
+  "12a_212": [
+   {
+    "q": 3,
+    "homology": 4,
+    "chains": 0
+   },
+   {
+    "q": 5,
+    "homology": -5,
+    "chains": 0
+   }
+  ],
+  "12a_22": [
+   {
+    "q": -5,
+    "homology": 0,
+    "chains": 3
+   }
+  ],
+  "12a_220": [
+   {
+    "q": 3,
+    "homology": 5,
+    "chains": -2
+   },
+   {
+    "q": 5,
+    "homology": -8,
+    "chains": -1
+   }
+  ],
+  "12a_236": [
+   {
+    "q": 13,
+    "homology": -2,
+    "chains": 1
+   },
+   {
+    "q": 15,
+    "homology": 1,
+    "chains": -1
+   }
+  ],
+  "12a_237": [
+   {
+    "q": 11,
+    "homology": -2,
+    "chains": 1
+   },
+   {
+    "q": 13,
+    "homology": 0,
+    "chains": 1
+   }
+  ],
+  "12a_239": [
+   {
+    "q": 9,
+    "homology": 1,
+    "chains": 0
+   }
+  ],
+  "12a_240": [
+   {
+    "q": -11,
+    "homology": -8,
+    "chains": -1
+   },
+   {
+    "q": -9,
+    "homology": 6,
+    "chains": -2
+   }
+  ],
+  "12a_241": [
+   {
+    "q": -9,
+    "homology": 1,
+    "chains": -1
+   },
+   {
+    "q": -7,
+    "homology": -4,
+    "chains": 0
+   }
+  ],
+  "12a_246": [
+   {
+    "q": 7,
+    "homology": -3,
+    "chains": 3
+   },
+   {
+    "q": 9,
+    "homology": 7,
+    "chains": 2
+   }
+  ],
+  "12a_247": [
+   {
+    "q": 5,
+    "homology": -1,
+    "chains": 3
+   },
+   {
+    "q": 7,
+    "homology": 1,
+    "chains": 2
+   }
+  ],
+  "12a_248": [
+   {
+    "q": -5,
+    "homology": -3,
+    "chains": 2
+   },
+   {
+    "q": -3,
+    "homology": 6,
+    "chains": 1
+   }
+  ],
+  "12a_25": [
+   {
+    "q": -1,
+    "homology": 10,
+    "chains": 3
+   }
+  ],
+  "12a_250": [
+   {
+    "q": 7,
+    "homology": -4,
+    "chains": 2
+   }
+  ],
+  "12a_255": [
+   {
+    "q": 11,
+    "homology": -2,
+    "chains": 2
+   }
+  ],
+  "12a_259": [
+   {
+    "q": 1,
+    "homology": -1,
+    "chains": 1
+   },
+   {
+    "q": 3,
+    "homology": 4,
+    "chains": 1
+   }
+  ],
+  "12a_269": [
+   {
+    "q": 11,
+    "homology": -4,
+    "chains": 2
+   },
+   {
+    "q": 13,
+    "homology": 0,
+    "chains": 1
+   }
+  ],
+  "12a_27": [
+   {
+    "q": -9,
+    "homology": -2,
+    "chains": -3
+   }
+  ],
+  "12a_272": [
+   {
+    "q": -5,
+    "homology": -3,
+    "chains": -1
+   },
+   {
+    "q": -3,
+    "homology": 4,
+    "chains": -1
+   }
+  ],
+  "12a_275": [
+   {
+    "q": -9,
+    "homology": 3,
+    "chains": -2
+   },
+   {
+    "q": -7,
+    "homology": -9,
+    "chains": -1
+   }
+  ],
+  "12a_28": [
+   {
+    "q": 5,
+    "homology": 9,
+    "chains": 3
+   }
+  ],
+  "12a_289": [
+   {
+    "q": 11,
+    "homology": 7,
+    "chains": 3
+   }
+  ],
+  "12a_294": [
+   {
+    "q": -11,
+    "homology": -9,
+    "chains": -2
+   },
+   {
+    "q": -9,
+    "homology": 3,
+    "chains": -1
+   }
+  ],
+  "12a_300": [
+   {
+    "q": 5,
+    "homology": 0,
+    "chains": 2
+   },
+   {
+    "q": 7,
+    "homology": -1,
+    "chains": 1
+   }
+  ],
+  "12a_302": [
+   {
+    "q": -7,
+    "homology": -6,
+    "chains": -1
+   }
+  ],
+  "12a_303": [
+   {
+    "q": -3,
+    "homology": 5,
+    "chains": -1
+   },
+   {
+    "q": -1,
+    "homology": -6,
+    "chains": 0
+   }
+  ],
+  "12a_304": [
+   {
+    "q": -9,
+    "homology": 5,
+    "chains": 1
+   },
+   {
+    "q": -7,
+    "homology": -3,
+    "chains": 2
+   }
+  ],
+  "12a_305": [
+   {
+    "q": 3,
+    "homology": 5,
+    "chains": -2
+   },
+   {
+    "q": 5,
+    "homology": -6,
+    "chains": -1
+   }
+  ],
+  "12a_306": [
+   {
+    "q": -7,
+    "homology": 4,
+    "chains": 1
+   },
+   {
+    "q": -5,
+    "homology": 0,
+    "chains": 2
+   }
+  ],
+  "12a_307": [
+   {
+    "q": 1,
+    "homology": -7,
+    "chains": -1
+   },
+   {
+    "q": 3,
+    "homology": 6,
+    "chains": -1
+   }
+  ],
+  "12a_308": [
+   {
+    "q": -3,
+    "homology": 7,
+    "chains": -3
+   }
+  ],
+  "12a_31": [
+   {
+    "q": 5,
+    "homology": 0,
+    "chains": 2
+   },
+   {
+    "q": 7,
+    "homology": 0,
+    "chains": 2
+   },
+   {
+    "q": 9,
+    "homology": 2,
+    "chains": -4
+   }
+  ],
+  "12a_32": [
+   {
+    "q": -5,
+    "homology": -6,
+    "chains": -2
+   },
+   {
+    "q": -3,
+    "homology": 5,
+    "chains": -1
+   }
+  ],
+  "12a_320": [
+   {
+    "q": 15,
+    "homology": 8,
+    "chains": 2
+   }
+  ],
+  "12a_322": [
+   {
+    "q": 11,
+    "homology": 0,
+    "chains": 2
+   }
+  ],
+  "12a_327": [
+   {
+    "q": -9,
+    "homology": 7,
+    "chains": -1
+   },
+   {
+    "q": -7,
+    "homology": -5,
+    "chains": -1
+   }
+  ],
+  "12a_329": [
+   {
+    "q": 11,
+    "homology": 1,
+    "chains": 2
+   },
+   {
+    "q": 13,
+    "homology": -1,
+    "chains": 1
+   }
+  ],
+  "12a_330": [
+   {
+    "q": 13,
+    "homology": -1,
+    "chains": -2
+   }
+  ],
+  "12a_332": [
+   {
+    "q": -9,
+    "homology": 6,
+    "chains": -2
+   },
+   {
+    "q": -7,
+    "homology": -8,
+    "chains": -2
+   }
+  ],
+  "12a_34": [
+   {
+    "q": 13,
+    "homology": 1,
+    "chains": 2
+   },
+   {
+    "q": 15,
+    "homology": 3,
+    "chains": 0
+   }
+  ],
+  "12a_344": [
+   {
+    "q": 17,
+    "homology": -1,
+    "chains": 2
+   },
+   {
+    "q": 19,
+    "homology": 0,
+    "chains": 1
+   }
+  ],
+  "12a_345": [
+   {
+    "q": 15,
+    "homology": 4,
+    "chains": 2
+   },
+   {
+    "q": 19,
+    "homology": -1,
+    "chains": -3
+   }
+  ],
+  "12a_349": [
+   {
+    "q": -11,
+    "homology": -11,
+    "chains": -2
+   },
+   {
+    "q": -9,
+    "homology": 9,
+    "chains": -1
+   }
+  ],
+  "12a_355": [
+   {
+    "q": 17,
+    "homology": 0,
+    "chains": 2
+   },
+   {
+    "q": 19,
+    "homology": 0,
+    "chains": 1
+   }
+  ],
+  "12a_365": [
+   {
+    "q": -3,
+    "homology": 5,
+    "chains": 2
+   },
+   {
+    "q": -1,
+    "homology": -1,
+    "chains": 2
+   }
+  ],
+  "12a_367": [
+   {
+    "q": 19,
+    "homology": -4,
+    "chains": 2
+   },
+   {
+    "q": 21,
+    "homology": 4,
+    "chains": 0
+   }
+  ],
+  "12a_368": [
+   {
+    "q": 17,
+    "homology": -2,
+    "chains": 2
+   },
+   {
+    "q": 19,
+    "homology": -2,
+    "chains": 1
+   }
+  ],
+  "12a_369": [
+   {
+    "q": -9,
+    "homology": 1,
+    "chains": 2
+   }
+  ],
+  "12a_370": [
+   {
+    "q": -11,
+    "homology": 2,
+    "chains": -1
+   },
+   {
+    "q": -7,
+    "homology": -1,
+    "chains": 4
+   }
+  ],
+  "12a_371": [
+   {
+    "q": -7,
+    "homology": 1,
+    "chains": 3
+   }
+  ],
+  "12a_372": [
+   {
+    "q": -9,
+    "homology": 4,
+    "chains": -2
+   },
+   {
+    "q": -7,
+    "homology": -5,
+    "chains": 0
+   }
+  ],
+  "12a_373": [
+   {
+    "q": 15,
+    "homology": 5,
+    "chains": 0
+   }
+  ],
+  "12a_375": [
+   {
+    "q": -7,
+    "homology": 0,
+    "chains": 4
+   }
+  ],
+  "12a_381": [
+   {
+    "q": 5,
+    "homology": 0,
+    "chains": 2
+   },
+   {
+    "q": 7,
+    "homology": -4,
+    "chains": 0
+   }
+  ],
+  "12a_382": [
+   {
+    "q": -9,
+    "homology": 5,
+    "chains": 1
+   },
+   {
+    "q": -7,
+    "homology": -3,
+    "chains": 1
+   }
+  ],
+  "12a_384": [
+   {
+    "q": -7,
+    "homology": 4,
+    "chains": 2
+   },
+   {
+    "q": -5,
+    "homology": 0,
+    "chains": 2
+   }
+  ],
+  "12a_385": [
+   {
+    "q": -3,
+    "homology": 4,
+    "chains": -2
+   },
+   {
+    "q": -1,
+    "homology": -7,
+    "chains": -1
+   }
+  ],
+  "12a_386": [
+   {
+    "q": -11,
+    "homology": -9,
+    "chains": -1
+   },
+   {
+    "q": -9,
+    "homology": 9,
+    "chains": -1
+   }
+  ],
+  "12a_39": [
+   {
+    "q": -5,
+    "homology": -8,
+    "chains": -1
+   },
+   {
+    "q": -3,
+    "homology": 6,
+    "chains": -1
+   }
+  ],
+  "12a_395": [
+   {
+    "q": -9,
+    "homology": 6,
+    "chains": -1
+   },
+   {
+    "q": -7,
+    "homology": -9,
+    "chains": 0
+   }
+  ],
+  "12a_396": [
+   {
+    "q": 3,
+    "homology": 5,
+    "chains": -2
+   }
+  ],
+  "12a_400": [
+   {
+    "q": 7,
+    "homology": -10,
+    "chains": -2
+   },
+   {
+    "q": 9,
+    "homology": 8,
+    "chains": -2
+   }
+  ],
+  "12a_401": [
+   {
+    "q": 3,
+    "homology": 6,
+    "chains": -2
+   },
+   {
+    "q": 5,
+    "homology": -6,
+    "chains": -2
+   }
+  ],
+  "12a_404": [
+   {
+    "q": -3,
+    "homology": 7,
+    "chains": 1
+   },
+   {
+    "q": -1,
+    "homology": -3,
+    "chains": 1
+   }
+  ],
+  "12a_405": [
+   {
+    "q": 5,
+    "homology": 3,
+    "chains": 2
+   }
+  ],
+  "12a_409": [
+   {
+    "q": 13,
+    "homology": -5,
+    "chains": 2
+   }
+  ],
+  "12a_416": [
+   {
+    "q": 3,
+    "homology": 7,
+    "chains": -3
+   },
+   {
+    "q": 5,
+    "homology": -9,
+    "chains": -2
+   }
+  ],
+  "12a_42": [
+   {
+    "q": -11,
+    "homology": 0,
+    "chains": 4
+   },
+   {
+    "q": -9,
+    "homology": 4,
+    "chains": -1
+   },
+   {
+    "q": -7,
+    "homology": -6,
+    "chains": -1
+   }
+  ],
+  "12a_420": [
+   {
+    "q": 17,
+    "homology": -3,
+    "chains": 2
+   },
+   {
+    "q": 21,
+    "homology": 1,
+    "chains": -4
+   }
+  ],
+  "12a_421": [
+   {
+    "q": 15,
+    "homology": 3,
+    "chains": 1
+   }
+  ],
+  "12a_424": [
+   {
+    "q": -5,
+    "homology": -4,
+    "chains": 0
+   },
+   {
+    "q": -3,
+    "homology": 1,
+    "chains": -1
+   }
+  ],
+  "12a_425": [
+   {
+    "q": -5,
+    "homology": 1,
+    "chains": 2
+   },
+   {
+    "q": -1,
+    "homology": -1,
+    "chains": 0
+   }
+  ],
+  "12a_434": [
+   {
+    "q": -5,
+    "homology": -10,
+    "chains": -1
+   },
+   {
+    "q": -3,
+    "homology": 9,
+    "chains": 0
+   }
+  ],
+  "12a_436": [
+   {
+    "q": -5,
+    "homology": 4,
+    "chains": -1
+   },
+   {
+    "q": -3,
+    "homology": -3,
+    "chains": -1
+   },
+   {
+    "q": -1,
+    "homology": -2,
+    "chains": 5
+   }
+  ],
+  "12a_437": [
+   {
+    "q": -3,
+    "homology": 1,
+    "chains": -1
+   },
+   {
+    "q": -1,
+    "homology": -6,
+    "chains": -1
+   }
+  ],
+  "12a_440": [
+   {
+    "q": 9,
+    "homology": 0,
+    "chains": -2
+   },
+   {
+    "q": 11,
+    "homology": -7,
+    "chains": -1
+   }
+  ],
+  "12a_442": [
+   {
+    "q": 15,
+    "homology": -3,
+    "chains": -2
+   },
+   {
+    "q": 17,
+    "homology": 0,
+    "chains": 2
+   },
+   {
+    "q": 19,
+    "homology": 3,
+    "chains": 1
+   },
+   {
+    "q": 21,
+    "homology": 1,
+    "chains": -3
+   }
+  ],
+  "12a_443": [
+   {
+    "q": 17,
+    "homology": -2,
+    "chains": 2
+   }
+  ],
+  "12a_444": [
+   {
+    "q": 11,
+    "homology": 2,
+    "chains": 1
+   },
+   {
+    "q": 13,
+    "homology": 0,
+    "chains": 2
+   },
+   {
+    "q": 15,
+    "homology": 2,
+    "chains": -3
+   }
+  ],
+  "12a_445": [
+   {
+    "q": -5,
+    "homology": -5,
+    "chains": 0
+   },
+   {
+    "q": -3,
+    "homology": 6,
+    "chains": -1
+   }
+  ],
+  "12a_447": [
+   {
+    "q": -5,
+    "homology": -1,
+    "chains": 3
+   },
+   {
+    "q": -3,
+    "homology": 1,
+    "chains": -1
+   }
+  ],
+  "12a_45": [
+   {
+    "q": -5,
+    "homology": -9,
+    "chains": -1
+   },
+   {
+    "q": -3,
+    "homology": 4,
+    "chains": -1
+   }
+  ],
+  "12a_453": [
+   {
+    "q": -1,
+    "homology": 0,
+    "chains": 1
+   },
+   {
+    "q": 1,
+    "homology": -5,
+    "chains": 1
+   }
+  ],
+  "12a_454": [
+   {
+    "q": -1,
+    "homology": -1,
+    "chains": -3
+   },
+   {
+    "q": 1,
+    "homology": -1,
+    "chains": 1
+   },
+   {
+    "q": 3,
+    "homology": 3,
+    "chains": 0
+   }
+  ],
+  "12a_46": [
+   {
+    "q": -3,
+    "homology": 2,
+    "chains": -1
+   },
+   {
+    "q": -1,
+    "homology": -8,
+    "chains": -1
+   }
+  ],
+  "12a_462": [
+   {
+    "q": -1,
+    "homology": -1,
+    "chains": 2
+   },
+   {
+    "q": 1,
+    "homology": -5,
+    "chains": 2
+   }
+  ],
+  "12a_471": [
+   {
+    "q": -1,
+    "homology": 0,
+    "chains": 1
+   },
+   {
+    "q": 1,
+    "homology": 0,
+    "chains": 1
+   },
+   {
+    "q": 3,
+    "homology": 0,
+    "chains": -2
+   }
+  ],
+  "12a_476": [
+   {
+    "q": -9,
+    "homology": 6,
+    "chains": 2
+   },
+   {
+    "q": -7,
+    "homology": -4,
+    "chains": 2
+   }
+  ],
+  "12a_482": [
+   {
+    "q": -3,
+    "homology": 0,
+    "chains": -3
+   },
+   {
+    "q": 1,
+    "homology": 0,
+    "chains": 1
+   },
+   {
+    "q": 3,
+    "homology": -1,
+    "chains": -2
+   }
+  ],
+  "12a_491": [
+   {
+    "q": -1,
+    "homology": 0,
+    "chains": 3
+   },
+   {
+    "q": 1,
+    "homology": -1,
+    "chains": 1
+   }
+  ],
+  "12a_50": [
+   {
+    "q": -5,
+    "homology": -6,
+    "chains": 0
+   },
+   {
+    "q": -3,
+    "homology": 5,
+    "chains": -1
+   }
+  ],
+  "12a_500": [
+   {
+    "q": 3,
+    "homology": 6,
+    "chains": -2
+   },
+   {
+    "q": 5,
+    "homology": -4,
+    "chains": -2
+   }
+  ],
+  "12a_502": [
+   {
+    "q": 11,
+    "homology": -1,
+    "chains": -2
+   },
+   {
+    "q": 13,
+    "homology": -1,
+    "chains": 1
+   }
+  ],
+  "12a_503": [
+   {
+    "q": 1,
+    "homology": -4,
+    "chains": 1
+   },
+   {
+    "q": 3,
+    "homology": 5,
+    "chains": 1
+   }
+  ],
+  "12a_504": [
+   {
+    "q": 11,
+    "homology": -1,
+    "chains": 1
+   },
+   {
+    "q": 13,
+    "homology": 0,
+    "chains": 2
+   }
+  ],
+  "12a_505": [
+   {
+    "q": -7,
+    "homology": -7,
+    "chains": 2
+   },
+   {
+    "q": -5,
+    "homology": -1,
+    "chains": 3
+   }
+  ],
+  "12a_507": [
+   {
+    "q": 11,
+    "homology": -1,
+    "chains": -3
+   },
+   {
+    "q": 15,
+    "homology": 2,
+    "chains": 0
+   }
+  ],
+  "12a_508": [
+   {
+    "q": 13,
+    "homology": -3,
+    "chains": 1
+   }
+  ],
+  "12a_511": [
+   {
+    "q": -11,
+    "homology": -4,
+    "chains": -1
+   },
+   {
+    "q": -9,
+    "homology": -3,
+    "chains": -1
+   }
+  ],
+  "12a_512": [
+   {
+    "q": -5,
+    "homology": -3,
+    "chains": -1
+   },
+   {
+    "q": -3,
+    "homology": 5,
+    "chains": -1
+   }
+  ],
+  "12a_513": [
+   {
+    "q": -9,
+    "homology": 6,
+    "chains": -2
+   },
+   {
+    "q": -7,
+    "homology": -8,
+    "chains": 0
+   }
+  ],
+  "12a_515": [
+   {
+    "q": 3,
+    "homology": 6,
+    "chains": -1
+   }
+  ],
+  "12a_519": [
+   {
+    "q": 13,
+    "homology": -1,
+    "chains": 2
+   },
+   {
+    "q": 15,
+    "homology": 3,
+    "chains": 1
+   }
+  ],
+  "12a_52": [
+   {
+    "q": 17,
+    "homology": -1,
+    "chains": -3
+   },
+   {
+    "q": 19,
+    "homology": -3,
+    "chains": 1
+   },
+   {
+    "q": 21,
+    "homology": 2,
+    "chains": 0
+   }
+  ],
+  "12a_520": [
+   {
+    "q": 11,
+    "homology": 1,
+    "chains": 2
+   },
+   {
+    "q": 13,
+    "homology": 0,
+    "chains": 2
+   }
+  ],
+  "12a_521": [
+   {
+    "q": 7,
+    "homology": -2,
+    "chains": 2
+   }
+  ],
+  "12a_522": [
+   {
+    "q": 13,
+    "homology": -1,
+    "chains": 1
+   }
+  ],
+  "12a_524": [
+   {
+    "q": 7,
+    "homology": -1,
+    "chains": 2
+   }
+  ],
+  "12a_525": [
+   {
+    "q": -5,
+    "homology": -2,
+    "chains": 3
+   },
+   {
+    "q": -3,
+    "homology": 5,
+    "chains": 2
+   }
+  ],
+  "12a_527": [
+   {
+    "q": 9,
+    "homology": 7,
+    "chains": -2
+   },
+   {
+    "q": 11,
+    "homology": -8,
+    "chains": -2
+   }
+  ],
+  "12a_528": [
+   {
+    "q": -5,
+    "homology": -8,
+    "chains": -1
+   },
+   {
+    "q": -3,
+    "homology": 5,
+    "chains": -1
+   }
+  ],
+  "12a_53": [
+   {
+    "q": 17,
+    "homology": -3,
+    "chains": 2
+   },
+   {
+    "q": 19,
+    "homology": -1,
+    "chains": 2
+   }
+  ],
+  "12a_531": [
+   {
+    "q": 5,
+    "homology": 5,
+    "chains": 2
+   }
+  ],
+  "12a_532": [
+   {
+    "q": 3,
+    "homology": 3,
+    "chains": 1
+   },
+   {
+    "q": 5,
+    "homology": -3,
+    "chains": 2
+   }
+  ],
+  "12a_533": [
+   {
+    "q": -11,
+    "homology": -7,
+    "chains": -1
+   },
+   {
+    "q": -9,
+    "homology": 3,
+    "chains": -1
+   }
+  ],
+  "12a_534": [
+   {
+    "q": -9,
+    "homology": 6,
+    "chains": -2
+   },
+   {
+    "q": -7,
+    "homology": -6,
+    "chains": 0
+   }
+  ],
+  "12a_535": [
+   {
+    "q": -5,
+    "homology": -7,
+    "chains": -1
+   },
+   {
+    "q": -3,
+    "homology": 5,
+    "chains": -2
+   }
+  ],
+  "12a_536": [
+   {
+    "q": 7,
+    "homology": -1,
+    "chains": 3
+   }
+  ],
+  "12a_537": [
+   {
+    "q": 5,
+    "homology": -7,
+    "chains": 2
+   },
+   {
+    "q": 7,
+    "homology": 0,
+    "chains": 2
+   }
+  ],
+  "12a_538": [
+   {
+    "q": 13,
+    "homology": 1,
+    "chains": 2
+   }
+  ],
+  "12a_539": [
+   {
+    "q": 11,
+    "homology": -4,
+    "chains": 2
+   }
+  ],
+  "12a_540": [
+   {
+    "q": 11,
+    "homology": -1,
+    "chains": 3
+   },
+   {
+    "q": 13,
+    "homology": 2,
+    "chains": 1
+   }
+  ],
+  "12a_542": [
+   {
+    "q": 11,
+    "homology": -2,
+    "chains": 2
+   },
+   {
+    "q": 13,
+    "homology": 0,
+    "chains": -3
+   }
+  ],
+  "12a_544": [
+   {
+    "q": 1,
+    "homology": -6,
+    "chains": 0
+   },
+   {
+    "q": 3,
+    "homology": 3,
+    "chains": -1
+   }
+  ],
+  "12a_545": [
+   {
+    "q": 3,
+    "homology": 4,
+    "chains": -1
+   },
+   {
+    "q": 5,
+    "homology": -6,
+    "chains": -1
+   }
+  ],
+  "12a_548": [
+   {
+    "q": 5,
+    "homology": 0,
+    "chains": -3
+   },
+   {
+    "q": 9,
+    "homology": 3,
+    "chains": 0
+   }
+  ],
+  "12a_549": [
+   {
+    "q": 3,
+    "homology": -1,
+    "chains": -4
+   },
+   {
+    "q": 7,
+    "homology": 0,
+    "chains": 1
+   }
+  ],
+  "12a_55": [
+   {
+    "q": 17,
+    "homology": -5,
+    "chains": 2
+   }
+  ],
+  "12a_551": [
+   {
+    "q": 9,
+    "homology": 3,
+    "chains": 1
+   },
+   {
+    "q": 11,
+    "homology": -1,
+    "chains": 1
+   },
+   {
+    "q": 13,
+    "homology": -1,
+    "chains": -3
+   }
+  ],
+  "12a_552": [
+   {
+    "q": 5,
+    "homology": 4,
+    "chains": 1
+   },
+   {
+    "q": 7,
+    "homology": 3,
+    "chains": 1
+   },
+   {
+    "q": 9,
+    "homology": 0,
+    "chains": -4
+   }
+  ],
+  "12a_553": [
+   {
+    "q": 9,
+    "homology": 9,
+    "chains": -2
+   },
+   {
+    "q": 11,
+    "homology": -9,
+    "chains": -1
+   }
+  ],
+  "12a_555": [
+   {
+    "q": 1,
+    "homology": -9,
+    "chains": -2
+   },
+   {
+    "q": 3,
+    "homology": 8,
+    "chains": -1
+   }
+  ],
+  "12a_556": [
+   {
+    "q": 11,
+    "homology": 0,
+    "chains": 2
+   },
+   {
+    "q": 13,
+    "homology": -2,
+    "chains": 1
+   }
+  ],
+  "12a_557": [
+   {
+    "q": 11,
+    "homology": -2,
+    "chains": 1
+   }
+  ],
+  "12a_559": [
+   {
+    "q": 9,
+    "homology": 10,
+    "chains": -2
+   }
+  ],
+  "12a_56": [
+   {
+    "q": 17,
+    "homology": 0,
+    "chains": 1
+   }
+  ],
+  "12a_560": [
+   {
+    "q": -3,
+    "homology": 5,
+    "chains": -2
+   },
+   {
+    "q": -1,
+    "homology": -9,
+    "chains": -1
+   }
+  ],
+  "12a_562": [
+   {
+    "q": 5,
+    "homology": 7,
+    "chains": 2
+   },
+   {
+    "q": 7,
+    "homology": 5,
+    "chains": 2
+   }
+  ],
+  "12a_563": [
+   {
+    "q": 9,
+    "homology": 0,
+    "chains": -3
+   },
+   {
+    "q": 11,
+    "homology": 0,
+    "chains": 3
+   },
+   {
+    "q": 13,
+    "homology": -2,
+    "chains": 2
+   },
+   {
+    "q": 15,
+    "homology": -1,
+    "chains": -3
+   }
+  ],
+  "12a_565": [
+   {
+    "q": -9,
+    "homology": 8,
+    "chains": -2
+   }
+  ],
+  "12a_566": [
+   {
+    "q": -9,
+    "homology": 5,
+    "chains": -2
+   },
+   {
+    "q": -7,
+    "homology": -7,
+    "chains": -1
+   }
+  ],
+  "12a_568": [
+   {
+    "q": 11,
+    "homology": -2,
+    "chains": 3
+   },
+   {
+    "q": 13,
+    "homology": 0,
+    "chains": 1
+   }
+  ],
+  "12a_572": [
+   {
+    "q": 5,
+    "homology": -2,
+    "chains": 3
+   }
+  ],
+  "12a_573": [
+   {
+    "q": -3,
+    "homology": 6,
+    "chains": 2
+   },
+   {
+    "q": -1,
+    "homology": -5,
+    "chains": 2
+   }
+  ],
+  "12a_574": [
+   {
+    "q": 19,
+    "homology": -3,
+    "chains": 1
+   },
+   {
+    "q": 21,
+    "homology": 2,
+    "chains": 0
+   }
+  ],
+  "12a_578": [
+   {
+    "q": -11,
+    "homology": -6,
+    "chains": -1
+   },
+   {
+    "q": -9,
+    "homology": 3,
+    "chains": -2
+   }
+  ],
+  "12a_579": [
+   {
+    "q": -1,
+    "homology": 1,
+    "chains": 2
+   },
+   {
+    "q": 1,
+    "homology": -1,
+    "chains": 3
+   }
+  ],
+  "12a_580": [
+   {
+    "q": -11,
+    "homology": 1,
+    "chains": 0
+   }
+  ],
+  "12a_581": [
+   {
+    "q": -7,
+    "homology": -4,
+    "chains": 0
+   }
+  ],
+  "12a_582": [
+   {
+    "q": -9,
+    "homology": 3,
+    "chains": -1
+   }
+  ],
+  "12a_583": [
+   {
+    "q": -1,
+    "homology": 0,
+    "chains": 2
+   },
+   {
+    "q": 1,
+    "homology": -3,
+    "chains": 1
+   }
+  ],
+  "12a_584": [
+   {
+    "q": 3,
+    "homology": 4,
+    "chains": -2
+   },
+   {
+    "q": 5,
+    "homology": -2,
+    "chains": -1
+   }
+  ],
+  "12a_585": [
+   {
+    "q": 1,
+    "homology": -7,
+    "chains": -1
+   },
+   {
+    "q": 3,
+    "homology": 6,
+    "chains": -2
+   }
+  ],
+  "12a_586": [
+   {
+    "q": 17,
+    "homology": 11,
+    "chains": 3
+   }
+  ],
+  "12a_591": [
+   {
+    "q": 11,
+    "homology": -2,
+    "chains": 2
+   },
+   {
+    "q": 13,
+    "homology": 0,
+    "chains": 1
+   }
+  ],
+  "12a_593": [
+   {
+    "q": -1,
+    "homology": 0,
+    "chains": 3
+   },
+   {
+    "q": 1,
+    "homology": 0,
+    "chains": 2
+   }
+  ],
+  "12a_594": [
+   {
+    "q": -11,
+    "homology": 0,
+    "chains": 4
+   },
+   {
+    "q": -9,
+    "homology": 0,
+    "chains": -1
+   },
+   {
+    "q": -7,
+    "homology": 2,
+    "chains": -1
+   }
+  ],
+  "12a_595": [
+   {
+    "q": 1,
+    "homology": -4,
+    "chains": 2
+   },
+   {
+    "q": 3,
+    "homology": 5,
+    "chains": 1
+   }
+  ],
+  "12a_596": [
+   {
+    "q": -5,
+    "homology": -2,
+    "chains": 0
+   }
+  ],
+  "12a_597": [
+   {
+    "q": -3,
+    "homology": 1,
+    "chains": 0
+   },
+   {
+    "q": -1,
+    "homology": -4,
+    "chains": 1
+   }
+  ],
+  "12a_600": [
+   {
+    "q": 9,
+    "homology": -1,
+    "chains": -3
+   },
+   {
+    "q": 11,
+    "homology": 0,
+    "chains": 2
+   },
+   {
+    "q": 13,
+    "homology": 0,
+    "chains": 1
+   }
+  ],
+  "12a_601": [
+   {
+    "q": 9,
+    "homology": 5,
+    "chains": 1
+   },
+   {
+    "q": 11,
+    "homology": 0,
+    "chains": 1
+   }
+  ],
+  "12a_605": [
+   {
+    "q": -3,
+    "homology": 7,
+    "chains": 2
+   },
+   {
+    "q": -1,
+    "homology": -6,
+    "chains": 2
+   }
+  ],
+  "12a_606": [
+   {
+    "q": -1,
+    "homology": 0,
+    "chains": 3
+   },
+   {
+    "q": 1,
+    "homology": 0,
+    "chains": 2
+   }
+  ],
+  "12a_607": [
+   {
+    "q": -11,
+    "homology": -6,
+    "chains": -2
+   }
+  ],
+  "12a_610": [
+   {
+    "q": 15,
+    "homology": 5,
+    "chains": 2
+   },
+   {
+    "q": 17,
+    "homology": -3,
+    "chains": 2
+   }
+  ],
+  "12a_612": [
+   {
+    "q": 9,
+    "homology": 5,
+    "chains": 1
+   }
+  ],
+  "12a_613": [
+   {
+    "q": -9,
+    "homology": 2,
+    "chains": -2
+   },
+   {
+    "q": -7,
+    "homology": -8,
+    "chains": -1
+   }
+  ],
+  "12a_617": [
+   {
+    "q": 3,
+    "homology": 6,
+    "chains": 0
+   }
+  ],
+  "12a_619": [
+   {
+    "q": 9,
+    "homology": 2,
+    "chains": 1
+   },
+   {
+    "q": 11,
+    "homology": -1,
+    "chains": 1
+   },
+   {
+    "q": 13,
+    "homology": 0,
+    "chains": -2
+   }
+  ],
+  "12a_62": [
+   {
+    "q": 1,
+    "homology": -5,
+    "chains": -1
+   },
+   {
+    "q": 3,
+    "homology": 1,
+    "chains": -2
+   },
+   {
+    "q": 5,
+    "homology": -1,
+    "chains": 3
+   }
+  ],
+  "12a_621": [
+   {
+    "q": -5,
+    "homology": -7,
+    "chains": -1
+   },
+   {
+    "q": -3,
+    "homology": 8,
+    "chains": -1
+   }
+  ],
+  "12a_622": [
+   {
+    "q": -3,
+    "homology": 7,
+    "chains": -2
+   }
+  ],
+  "12a_624": [
+   {
+    "q": -9,
+    "homology": 7,
+    "chains": -2
+   },
+   {
+    "q": -7,
+    "homology": -9,
+    "chains": -1
+   }
+  ],
+  "12a_625": [
+   {
+    "q": -1,
+    "homology": -7,
+    "chains": -2
+   }
+  ],
+  "12a_632": [
+   {
+    "q": 3,
+    "homology": 7,
+    "chains": 2
+   },
+   {
+    "q": 5,
+    "homology": -5,
+    "chains": 2
+   }
+  ],
+  "12a_635": [
+   {
+    "q": -3,
+    "homology": 7,
+    "chains": -1
+   },
+   {
+    "q": -1,
+    "homology": -10,
+    "chains": -1
+   }
+  ],
+  "12a_638": [
+   {
+    "q": 11,
+    "homology": 10,
+    "chains": 3
+   },
+   {
+    "q": 13,
+    "homology": 0,
+    "chains": 2
+   }
+  ],
+  "12a_639": [
+   {
+    "q": 5,
+    "homology": 11,
+    "chains": 4
+   }
+  ],
+  "12a_640": [
+   {
+    "q": 5,
+    "homology": -3,
+    "chains": 2
+   }
+  ],
+  "12a_642": [
+   {
+    "q": -5,
+    "homology": 1,
+    "chains": 0
+   },
+   {
+    "q": -3,
+    "homology": -1,
+    "chains": 0
+   },
+   {
+    "q": -1,
+    "homology": -1,
+    "chains": 3
+   }
+  ],
+  "12a_643": [
+   {
+    "q": -5,
+    "homology": -3,
+    "chains": 0
+   },
+   {
+    "q": -3,
+    "homology": 0,
+    "chains": -1
+   },
+   {
+    "q": -1,
+    "homology": 0,
+    "chains": 3
+   }
+  ],
+  "12a_644": [
+   {
+    "q": -5,
+    "homology": 3,
+    "chains": 4
+   },
+   {
+    "q": -1,
+    "homology": -4,
+    "chains": 0
+   },
+   {
+    "q": 1,
+    "homology": 4,
+    "chains": 3
+   }
+  ],
+  "12a_646": [
+   {
+    "q": 1,
+    "homology": -7,
+    "chains": -1
+   },
+   {
+    "q": 3,
+    "homology": 3,
+    "chains": -1
+   }
+  ],
+  "12a_647": [
+   {
+    "q": 19,
+    "homology": -2,
+    "chains": 1
+   }
+  ],
+  "12a_649": [
+   {
+    "q": -5,
+    "homology": -1,
+    "chains": 0
+   },
+   {
+    "q": -3,
+    "homology": 3,
+    "chains": -1
+   },
+   {
+    "q": -1,
+    "homology": -1,
+    "chains": 4
+   }
+  ],
+  "12a_65": [
+   {
+    "q": -5,
+    "homology": -8,
+    "chains": -1
+   },
+   {
+    "q": -3,
+    "homology": 5,
+    "chains": -1
+   }
+  ],
+  "12a_650": [
+   {
+    "q": -3,
+    "homology": 2,
+    "chains": -1
+   },
+   {
+    "q": -1,
+    "homology": -6,
+    "chains": 0
+   }
+  ],
+  "12a_651": [
+   {
+    "q": 5,
+    "homology": -1,
+    "chains": -3
+   },
+   {
+    "q": 7,
+    "homology": -1,
+    "chains": 1
+   }
+  ],
+  "12a_652": [
+   {
+    "q": 5,
+    "homology": 3,
+    "chains": 1
+   },
+   {
+    "q": 7,
+    "homology": 0,
+    "chains": 1
+   }
+  ],
+  "12a_653": [
+   {
+    "q": 15,
+    "homology": 5,
+    "chains": 2
+   },
+   {
+    "q": 17,
+    "homology": -4,
+    "chains": 1
+   }
+  ],
+  "12a_654": [
+   {
+    "q": 11,
+    "homology": 4,
+    "chains": 3
+   },
+   {
+    "q": 13,
+    "homology": -3,
+    "chains": 1
+   }
+  ],
+  "12a_655": [
+   {
+    "q": -5,
+    "homology": -7,
+    "chains": -1
+   },
+   {
+    "q": -3,
+    "homology": 3,
+    "chains": 0
+   }
+  ],
+  "12a_657": [
+   {
+    "q": 1,
+    "homology": -9,
+    "chains": -1
+   },
+   {
+    "q": 3,
+    "homology": 4,
+    "chains": -1
+   }
+  ],
+  "12a_660": [
+   {
+    "q": 13,
+    "homology": -6,
+    "chains": 2
+   },
+   {
+    "q": 15,
+    "homology": 7,
+    "chains": 1
+   }
+  ],
+  "12a_663": [
+   {
+    "q": 1,
+    "homology": -6,
+    "chains": 2
+   }
+  ],
+  "12a_665": [
+   {
+    "q": 7,
+    "homology": 11,
+    "chains": 2
+   }
+  ],
+  "12a_667": [
+   {
+    "q": 3,
+    "homology": -3,
+    "chains": 0
+   }
+  ],
+  "12a_668": [
+   {
+    "q": 1,
+    "homology": -9,
+    "chains": -1
+   },
+   {
+    "q": 3,
+    "homology": 4,
+    "chains": 0
+   }
+  ],
+  "12a_671": [
+   {
+    "q": 9,
+    "homology": 5,
+    "chains": -2
+   },
+   {
+    "q": 11,
+    "homology": -8,
+    "chains": -1
+   }
+  ],
+  "12a_673": [
+   {
+    "q": 3,
+    "homology": 5,
+    "chains": -2
+   },
+   {
+    "q": 5,
+    "homology": -10,
+    "chains": -2
+   }
+  ],
+  "12a_676": [
+   {
+    "q": 7,
+    "homology": -5,
+    "chains": -1
+   },
+   {
+    "q": 9,
+    "homology": 0,
+    "chains": -1
+   },
+   {
+    "q": 11,
+    "homology": 0,
+    "chains": 3
+   }
+  ],
+  "12a_677": [
+   {
+    "q": 7,
+    "homology": -8,
+    "chains": -1
+   },
+   {
+    "q": 9,
+    "homology": 6,
+    "chains": -1
+   }
+  ],
+  "12a_678": [
+   {
+    "q": 3,
+    "homology": 5,
+    "chains": -2
+   }
+  ],
+  "12a_679": [
+   {
+    "q": 17,
+    "homology": 1,
+    "chains": 2
+   },
+   {
+    "q": 19,
+    "homology": 0,
+    "chains": -1
+   }
+  ],
+  "12a_68": [
+   {
+    "q": -3,
+    "homology": 7,
+    "chains": -2
+   },
+   {
+    "q": -1,
+    "homology": -10,
+    "chains": -2
+   }
+  ],
+  "12a_680": [
+   {
+    "q": 5,
+    "homology": 10,
+    "chains": 4
+   }
+  ],
+  "12a_681": [
+   {
+    "q": 7,
+    "homology": -1,
+    "chains": 2
+   }
+  ],
+  "12a_682": [
+   {
+    "q": 5,
+    "homology": 0,
+    "chains": 1
+   }
+  ],
+  "12a_684": [
+   {
+    "q": 5,
+    "homology": -1,
+    "chains": 1
+   },
+   {
+    "q": 7,
+    "homology": -1,
+    "chains": 1
+   }
+  ],
+  "12a_689": [
+   {
+    "q": 5,
+    "homology": 0,
+    "chains": 1
+   },
+   {
+    "q": 7,
+    "homology": -1,
+    "chains": 1
+   },
+   {
+    "q": 9,
+    "homology": 0,
+    "chains": -3
+   }
+  ],
+  "12a_690": [
+   {
+    "q": 3,
+    "homology": 1,
+    "chains": 0
+   },
+   {
+    "q": 5,
+    "homology": -1,
+    "chains": 1
+   }
+  ],
+  "12a_691": [
+   {
+    "q": 3,
+    "homology": 1,
+    "chains": 0
+   }
+  ],
+  "12a_692": [
+   {
+    "q": -11,
+    "homology": -5,
+    "chains": -1
+   },
+   {
+    "q": -9,
+    "homology": 2,
+    "chains": -2
+   }
+  ],
+  "12a_693": [
+   {
+    "q": -9,
+    "homology": 3,
+    "chains": 1
+   }
+  ],
+  "12a_702": [
+   {
+    "q": -9,
+    "homology": 3,
+    "chains": 1
+   },
+   {
+    "q": -7,
+    "homology": -6,
+    "chains": 1
+   }
+  ],
+  "12a_704": [
+   {
+    "q": -5,
+    "homology": -9,
+    "chains": -2
+   },
+   {
+    "q": -3,
+    "homology": 9,
+    "chains": -1
+   }
+  ],
+  "12a_706": [
+   {
+    "q": 3,
+    "homology": 9,
+    "chains": -1
+   }
+  ],
+  "12a_713": [
+   {
+    "q": 5,
+    "homology": 0,
+    "chains": 2
+   },
+   {
+    "q": 7,
+    "homology": -3,
+    "chains": 2
+   }
+  ],
+  "12a_714": [
+   {
+    "q": -3,
+    "homology": 3,
+    "chains": 1
+   },
+   {
+    "q": -1,
+    "homology": -2,
+    "chains": 2
+   },
+   {
+    "q": 1,
+    "homology": 0,
+    "chains": -2
+   }
+  ],
+  "12a_715": [
+   {
+    "q": -1,
+    "homology": 0,
+    "chains": 3
+   },
+   {
+    "q": 1,
+    "homology": -6,
+    "chains": 2
+   }
+  ],
+  "12a_717": [
+   {
+    "q": -7,
+    "homology": 1,
+    "chains": 3
+   }
+  ],
+  "12a_718": [
+   {
+    "q": -11,
+    "homology": -5,
+    "chains": -1
+   },
+   {
+    "q": -9,
+    "homology": 2,
+    "chains": -2
+   }
+  ],
+  "12a_719": [
+   {
+    "q": -9,
+    "homology": 2,
+    "chains": -3
+   },
+   {
+    "q": -7,
+    "homology": -2,
+    "chains": 0
+   }
+  ],
+  "12a_72": [
+   {
+    "q": 3,
+    "homology": 4,
+    "chains": -2
+   }
+  ],
+  "12a_720": [
+   {
+    "q": -11,
+    "homology": 0,
+    "chains": -1
+   },
+   {
+    "q": -7,
+    "homology": 0,
+    "chains": 4
+   }
+  ],
+  "12a_721": [
+   {
+    "q": -9,
+    "homology": 3,
+    "chains": -3
+   },
+   {
+    "q": -7,
+    "homology": -7,
+    "chains": -1
+   }
+  ],
+  "12a_724": [
+   {
+    "q": 13,
+    "homology": -2,
+    "chains": 2
+   },
+   {
+    "q": 15,
+    "homology": 3,
+    "chains": 0
+   }
+  ],
+  "12a_725": [
+   {
+    "q": 15,
+    "homology": -1,
+    "chains": -4
+   }
+  ],
+  "12a_726": [
+   {
+    "q": 13,
+    "homology": -1,
+    "chains": 1
+   },
+   {
+    "q": 15,
+    "homology": 2,
+    "chains": 0
+   }
+  ],
+  "12a_727": [
+   {
+    "q": 11,
+    "homology": 7,
+    "chains": 2
+   },
+   {
+    "q": 13,
+    "homology": -4,
+    "chains": 2
+   }
+  ],
+  "12a_729": [
+   {
+    "q": 3,
+    "homology": 5,
+    "chains": -2
+   },
+   {
+    "q": 5,
+    "homology": -7,
+    "chains": -1
+   }
+  ],
+  "12a_730": [
+   {
+    "q": 11,
+    "homology": 0,
+    "chains": 2
+   },
+   {
+    "q": 13,
+    "homology": 0,
+    "chains": 1
+   }
+  ],
+  "12a_731": [
+   {
+    "q": 7,
+    "homology": -1,
+    "chains": 2
+   },
+   {
+    "q": 9,
+    "homology": 3,
+    "chains": 1
+   }
+  ],
+  "12a_732": [
+   {
+    "q": -7,
+    "homology": -2,
+    "chains": 0
+   }
+  ],
+  "12a_733": [
+   {
+    "q": 11,
+    "homology": 0,
+    "chains": 1
+   },
+   {
+    "q": 15,
+    "homology": -1,
+    "chains": -2
+   }
+  ],
+  "12a_735": [
+   {
+    "q": 11,
+    "homology": 1,
+    "chains": 2
+   },
+   {
+    "q": 13,
+    "homology": -1,
+    "chains": -3
+   }
+  ],
+  "12a_736": [
+   {
+    "q": 1,
+    "homology": 1,
+    "chains": 2
+   }
+  ],
+  "12a_737": [
+   {
+    "q": -11,
+    "homology": -6,
+    "chains": -1
+   },
+   {
+    "q": -9,
+    "homology": 3,
+    "chains": -3
+   }
+  ],
+  "12a_738": [
+   {
+    "q": -11,
+    "homology": -1,
+    "chains": 3
+   },
+   {
+    "q": -9,
+    "homology": -4,
+    "chains": -1
+   },
+   {
+    "q": -7,
+    "homology": 2,
+    "chains": -1
+   }
+  ],
+  "12a_739": [
+   {
+    "q": 13,
+    "homology": -1,
+    "chains": 2
+   }
+  ],
+  "12a_740": [
+   {
+    "q": 13,
+    "homology": -1,
+    "chains": 0
+   }
+  ],
+  "12a_742": [
+   {
+    "q": -3,
+    "homology": 3,
+    "chains": 1
+   },
+   {
+    "q": -1,
+    "homology": -4,
+    "chains": 3
+   }
+  ],
+  "12a_749": [
+   {
+    "q": -9,
+    "homology": 3,
+    "chains": -1
+   },
+   {
+    "q": -7,
+    "homology": -5,
+    "chains": -1
+   }
+  ],
+  "12a_75": [
+   {
+    "q": 11,
+    "homology": 11,
+    "chains": 4
+   }
+  ],
+  "12a_750": [
+   {
+    "q": 9,
+    "homology": 6,
+    "chains": 3
+   },
+   {
+    "q": 11,
+    "homology": 1,
+    "chains": 3
+   }
+  ],
+  "12a_751": [
+   {
+    "q": -3,
+    "homology": 5,
+    "chains": -2
+   },
+   {
+    "q": -1,
+    "homology": -8,
+    "chains": -1
+   }
+  ],
+  "12a_752": [
+   {
+    "q": 3,
+    "homology": -1,
+    "chains": -3
+   },
+   {
+    "q": 5,
+    "homology": 0,
+    "chains": 2
+   },
+   {
+    "q": 7,
+    "homology": 0,
+    "chains": 1
+   },
+   {
+    "q": 9,
+    "homology": 0,
+    "chains": -3
+   }
+  ],
+  "12a_753": [
+   {
+    "q": -7,
+    "homology": 0,
+    "chains": -1
+   },
+   {
+    "q": -5,
+    "homology": -2,
+    "chains": 0
+   }
+  ],
+  "12a_756": [
+   {
+    "q": -5,
+    "homology": -8,
+    "chains": -1
+   },
+   {
+    "q": -3,
+    "homology": 8,
+    "chains": -1
+   }
+  ],
+  "12a_757": [
+   {
+    "q": 5,
+    "homology": 2,
+    "chains": 3
+   },
+   {
+    "q": 7,
+    "homology": 0,
+    "chains": 2
+   }
+  ],
+  "12a_758": [
+   {
+    "q": 3,
+    "homology": 3,
+    "chains": 1
+   },
+   {
+    "q": 5,
+    "homology": -2,
+    "chains": 2
+   }
+  ],
+  "12a_76": [
+   {
+    "q": 11,
+    "homology": 0,
+    "chains": 2
+   }
+  ],
+  "12a_760": [
+   {
+    "q": -5,
+    "homology": 2,
+    "chains": -1
+   },
+   {
+    "q": -3,
+    "homology": -4,
+    "chains": -1
+   },
+   {
+    "q": -1,
+    "homology": -1,
+    "chains": 3
+   }
+  ],
+  "12a_761": [
+   {
+    "q": -5,
+    "homology": -5,
+    "chains": 0
+   },
+   {
+    "q": -3,
+    "homology": 4,
+    "chains": -1
+   }
+  ],
+  "12a_763": [
+   {
+    "q": 9,
+    "homology": 1,
+    "chains": -2
+   },
+   {
+    "q": 11,
+    "homology": -1,
+    "chains": 1
+   },
+   {
+    "q": 13,
+    "homology": 0,
+    "chains": 1
+   },
+   {
+    "q": 15,
+    "homology": -1,
+    "chains": -3
+   }
+  ],
+  "12a_764": [
+   {
+    "q": 11,
+    "homology": 0,
+    "chains": 2
+   },
+   {
+    "q": 13,
+    "homology": -1,
+    "chains": 1
+   }
+  ],
+  "12a_772": [
+   {
+    "q": 7,
+    "homology": -1,
+    "chains": 3
+   },
+   {
+    "q": 9,
+    "homology": 5,
+    "chains": 1
+   }
+  ],
+  "12a_773": [
+   {
+    "q": 3,
+    "homology": -1,
+    "chains": -2
+   },
+   {
+    "q": 5,
+    "homology": 0,
+    "chains": 2
+   },
+   {
+    "q": 7,
+    "homology": 3,
+    "chains": 1
+   },
+   {
+    "q": 9,
+    "homology": 0,
+    "chains": -2
+   }
+  ],
+  "12a_774": [
+   {
+    "q": -5,
+    "homology": 1,
+    "chains": 3
+   },
+   {
+    "q": -3,
+    "homology": 0,
+    "chains": -1
+   },
+   {
+    "q": -1,
+    "homology": 2,
+    "chains": 0
+   }
+  ],
+  "12a_775": [
+   {
+    "q": 13,
+    "homology": -1,
+    "chains": -3
+   }
+  ],
+  "12a_779": [
+   {
+    "q": -3,
+    "homology": 6,
+    "chains": -2
+   },
+   {
+    "q": -1,
+    "homology": -7,
+    "chains": -1
+   }
+  ],
+  "12a_781": [
+   {
+    "q": 1,
+    "homology": -7,
+    "chains": -1
+   },
+   {
+    "q": 3,
+    "homology": 6,
+    "chains": -1
+   }
+  ],
+  "12a_782": [
+   {
+    "q": 1,
+    "homology": -2,
+    "chains": 2
+   },
+   {
+    "q": 3,
+    "homology": 6,
+    "chains": 1
+   }
+  ],
+  "12a_783": [
+   {
+    "q": 5,
+    "homology": -6,
+    "chains": 3
+   },
+   {
+    "q": 7,
+    "homology": 0,
+    "chains": 2
+   }
+  ],
+  "12a_784": [
+   {
+    "q": 1,
+    "homology": -5,
+    "chains": -1
+   }
+  ],
+  "12a_786": [
+   {
+    "q": 1,
+    "homology": -7,
+    "chains": -1
+   },
+   {
+    "q": 3,
+    "homology": 7,
+    "chains": -1
+   }
+  ],
+  "12a_787": [
+   {
+    "q": -5,
+    "homology": 3,
+    "chains": 5
+   },
+   {
+    "q": -3,
+    "homology": 2,
+    "chains": -1
+   },
+   {
+    "q": -1,
+    "homology": -4,
+    "chains": -1
+   }
+  ],
+  "12a_789": [
+   {
+    "q": 1,
+    "homology": -3,
+    "chains": 0
+   },
+   {
+    "q": 5,
+    "homology": 1,
+    "chains": 3
+   }
+  ],
+  "12a_790": [
+   {
+    "q": 5,
+    "homology": -4,
+    "chains": 0
+   }
+  ],
+  "12a_792": [
+   {
+    "q": 1,
+    "homology": 1,
+    "chains": 0
+   },
+   {
+    "q": 5,
+    "homology": 0,
+    "chains": 2
+   }
+  ],
+  "12a_794": [
+   {
+    "q": 15,
+    "homology": 1,
+    "chains": -1
+   }
+  ],
+  "12a_795": [
+   {
+    "q": 11,
+    "homology": -3,
+    "chains": 1
+   }
+  ],
+  "12a_797": [
+   {
+    "q": 9,
+    "homology": 1,
+    "chains": 0
+   },
+   {
+    "q": 11,
+    "homology": 0,
+    "chains": 1
+   }
+  ],
+  "12a_799": [
+   {
+    "q": 5,
+    "homology": 1,
+    "chains": 3
+   },
+   {
+    "q": 7,
+    "homology": 0,
+    "chains": 2
+   }
+  ],
+  "12a_80": [
+   {
+    "q": 1,
+    "homology": -9,
+    "chains": -1
+   },
+   {
+    "q": 3,
+    "homology": 5,
+    "chains": -2
+   }
+  ],
+  "12a_800": [
+   {
+    "q": 15,
+    "homology": -1,
+    "chains": -2
+   }
+  ],
+  "12a_805": [
+   {
+    "q": -7,
+    "homology": -3,
+    "chains": 2
+   },
+   {
+    "q": -5,
+    "homology": 3,
+    "chains": -2
+   }
+  ],
+  "12a_809": [
+   {
+    "q": 9,
+    "homology": 8,
+    "chains": -2
+   }
+  ],
+  "12a_81": [
+   {
+    "q": 3,
+    "homology": 2,
+    "chains": -2
+   },
+   {
+    "q": 5,
+    "homology": -7,
+    "chains": -2
+   }
+  ],
+  "12a_811": [
+   {
+    "q": 19,
+    "homology": -2,
+    "chains": 1
+   },
+   {
+    "q": 21,
+    "homology": 5,
+    "chains": 0
+   }
+  ],
+  "12a_812": [
+   {
+    "q": 11,
+    "homology": 8,
+    "chains": 3
+   }
+  ],
+  "12a_813": [
+   {
+    "q": 19,
+    "homology": -3,
+    "chains": 2
+   },
+   {
+    "q": 21,
+    "homology": 4,
+    "chains": 0
+   }
+  ],
+  "12a_814": [
+   {
+    "q": 17,
+    "homology": 3,
+    "chains": 2
+   },
+   {
+    "q": 19,
+    "homology": 0,
+    "chains": 1
+   }
+  ],
+  "12a_815": [
+   {
+    "q": -5,
+    "homology": 1,
+    "chains": 0
+   },
+   {
+    "q": -1,
+    "homology": 1,
+    "chains": 4
+   }
+  ],
+  "12a_816": [
+   {
+    "q": -3,
+    "homology": 3,
+    "chains": -1
+   },
+   {
+    "q": -1,
+    "homology": -5,
+    "chains": 0
+   }
+  ],
+  "12a_817": [
+   {
+    "q": 19,
+    "homology": -2,
+    "chains": 1
+   },
+   {
+    "q": 21,
+    "homology": 5,
+    "chains": 0
+   }
+  ],
+  "12a_819": [
+   {
+    "q": -1,
+    "homology": 0,
+    "chains": 3
+   },
+   {
+    "q": 1,
+    "homology": -3,
+    "chains": 3
+   }
+  ],
+  "12a_821": [
+   {
+    "q": -1,
+    "homology": 0,
+    "chains": 3
+   },
+   {
+    "q": 1,
+    "homology": 1,
+    "chains": 3
+   }
+  ],
+  "12a_822": [
+   {
+    "q": 13,
+    "homology": -3,
+    "chains": 2
+   },
+   {
+    "q": 15,
+    "homology": 3,
+    "chains": 0
+   }
+  ],
+  "12a_823": [
+   {
+    "q": 11,
+    "homology": 0,
+    "chains": 2
+   },
+   {
+    "q": 13,
+    "homology": 0,
+    "chains": 1
+   }
+  ],
+  "12a_824": [
+   {
+    "q": -5,
+    "homology": 1,
+    "chains": 0
+   },
+   {
+    "q": -1,
+    "homology": 0,
+    "chains": 4
+   }
+  ],
+  "12a_825": [
+   {
+    "q": -3,
+    "homology": 3,
+    "chains": -1
+   },
+   {
+    "q": -1,
+    "homology": -4,
+    "chains": 0
+   }
+  ],
+  "12a_826": [
+   {
+    "q": 1,
+    "homology": 0,
+    "chains": 3
+   }
+  ],
+  "12a_828": [
+   {
+    "q": 17,
+    "homology": -8,
+    "chains": 3
+   },
+   {
+    "q": 19,
+    "homology": -6,
+    "chains": 1
+   }
+  ],
+  "12a_833": [
+   {
+    "q": 3,
+    "homology": 3,
+    "chains": -4
+   },
+   {
+    "q": 5,
+    "homology": 1,
+    "chains": 3
+   },
+   {
+    "q": 7,
+    "homology": 3,
+    "chains": 2
+   }
+  ],
+  "12a_835": [
+   {
+    "q": -1,
+    "homology": 1,
+    "chains": 3
+   }
+  ],
+  "12a_836": [
+   {
+    "q": -5,
+    "homology": 0,
+    "chains": 5
+   },
+   {
+    "q": -3,
+    "homology": 0,
+    "chains": -1
+   }
+  ],
+  "12a_837": [
+   {
+    "q": -3,
+    "homology": 4,
+    "chains": -1
+   },
+   {
+    "q": -1,
+    "homology": -3,
+    "chains": 0
+   }
+  ],
+  "12a_841": [
+   {
+    "q": 11,
+    "homology": 4,
+    "chains": 1
+   },
+   {
+    "q": 15,
+    "homology": -1,
+    "chains": -5
+   }
+  ],
+  "12a_842": [
+   {
+    "q": -1,
+    "homology": 0,
+    "chains": -1
+   },
+   {
+    "q": 1,
+    "homology": -3,
+    "chains": 0
+   }
+  ],
+  "12a_843": [
+   {
+    "q": 11,
+    "homology": 2,
+    "chains": 1
+   },
+   {
+    "q": 15,
+    "homology": -1,
+    "chains": -3
+   }
+  ],
+  "12a_844": [
+   {
+    "q": 3,
+    "homology": 7,
+    "chains": -2
+   }
+  ],
+  "12a_846": [
+   {
+    "q": 3,
+    "homology": 5,
+    "chains": -2
+   }
+  ],
+  "12a_849": [
+   {
+    "q": -9,
+    "homology": 7,
+    "chains": -2
+   },
+   {
+    "q": -7,
+    "homology": -9,
+    "chains": -1
+   }
+  ],
+  "12a_85": [
+   {
+    "q": -11,
+    "homology": -6,
+    "chains": 0
+   },
+   {
+    "q": -9,
+    "homology": 5,
+    "chains": -1
+   }
+  ],
+  "12a_851": [
+   {
+    "q": 7,
+    "homology": 0,
+    "chains": 3
+   }
+  ],
+  "12a_854": [
+   {
+    "q": 3,
+    "homology": 5,
+    "chains": 1
+   },
+   {
+    "q": 5,
+    "homology": -2,
+    "chains": 2
+   }
+  ],
+  "12a_858": [
+   {
+    "q": -5,
+    "homology": -6,
+    "chains": 2
+   }
+  ],
+  "12a_860": [
+   {
+    "q": -11,
+    "homology": -6,
+    "chains": -2
+   },
+   {
+    "q": -9,
+    "homology": 2,
+    "chains": -1
+   }
+  ],
+  "12a_862": [
+   {
+    "q": -9,
+    "homology": 4,
+    "chains": -3
+   },
+   {
+    "q": -7,
+    "homology": -7,
+    "chains": -1
+   }
+  ],
+  "12a_863": [
+   {
+    "q": -11,
+    "homology": 0,
+    "chains": 4
+   },
+   {
+    "q": -9,
+    "homology": 0,
+    "chains": -2
+   },
+   {
+    "q": -7,
+    "homology": 0,
+    "chains": -1
+   }
+  ],
+  "12a_864": [
+   {
+    "q": -5,
+    "homology": -6,
+    "chains": -1
+   },
+   {
+    "q": -3,
+    "homology": 4,
+    "chains": -1
+   }
+  ],
+  "12a_869": [
+   {
+    "q": -9,
+    "homology": 5,
+    "chains": 2
+   },
+   {
+    "q": -7,
+    "homology": -3,
+    "chains": 3
+   }
+  ],
+  "12a_87": [
+   {
+    "q": -5,
+    "homology": -8,
+    "chains": -1
+   },
+   {
+    "q": -3,
+    "homology": 7,
+    "chains": -1
+   }
+  ],
+  "12a_870": [
+   {
+    "q": -7,
+    "homology": 0,
+    "chains": 3
+   },
+   {
+    "q": -5,
+    "homology": 2,
+    "chains": 3
+   }
+  ],
+  "12a_871": [
+   {
+    "q": -5,
+    "homology": 12,
+    "chains": 4
+   }
+  ],
+  "12a_876": [
+   {
+    "q": 19,
+    "homology": -3,
+    "chains": 1
+   },
+   {
+    "q": 21,
+    "homology": 1,
+    "chains": -1
+   }
+  ],
+  "12a_877": [
+   {
+    "q": 15,
+    "homology": 1,
+    "chains": -3
+   },
+   {
+    "q": 19,
+    "homology": 0,
+    "chains": 1
+   }
+  ],
+  "12a_878": [
+   {
+    "q": -1,
+    "homology": 2,
+    "chains": 3
+   }
+  ],
+  "12a_879": [
+   {
+    "q": -5,
+    "homology": 0,
+    "chains": 4
+   },
+   {
+    "q": -3,
+    "homology": 0,
+    "chains": -1
+   }
+  ],
+  "12a_881": [
+   {
+    "q": -5,
+    "homology": 1,
+    "chains": 0
+   }
+  ],
+  "12a_882": [
+   {
+    "q": -5,
+    "homology": -5,
+    "chains": 0
+   },
+   {
+    "q": -3,
+    "homology": 5,
+    "chains": 0
+   }
+  ],
+  "12a_886": [
+   {
+    "q": -5,
+    "homology": 10,
+    "chains": 1
+   }
+  ],
+  "12a_889": [
+   {
+    "q": -3,
+    "homology": 7,
+    "chains": 2
+   },
+   {
+    "q": -1,
+    "homology": -6,
+    "chains": 3
+   }
+  ],
+  "12a_892": [
+   {
+    "q": 9,
+    "homology": 7,
+    "chains": -3
+   }
+  ],
+  "12a_897": [
+   {
+    "q": 1,
+    "homology": 12,
+    "chains": 4
+   }
+  ],
+  "12a_898": [
+   {
+    "q": -5,
+    "homology": -7,
+    "chains": -1
+   },
+   {
+    "q": -3,
+    "homology": 7,
+    "chains": -1
+   }
+  ],
+  "12a_899": [
+   {
+    "q": -3,
+    "homology": 6,
+    "chains": -1
+   },
+   {
+    "q": -1,
+    "homology": -5,
+    "chains": -1
+   }
+  ],
+  "12a_904": [
+   {
+    "q": 5,
+    "homology": 7,
+    "chains": 2
+   },
+   {
+    "q": 7,
+    "homology": 1,
+    "chains": 3
+   }
+  ],
+  "12a_907": [
+   {
+    "q": 9,
+    "homology": 11,
+    "chains": -1
+   }
+  ],
+  "12a_909": [
+   {
+    "q": 7,
+    "homology": -2,
+    "chains": 1
+   },
+   {
+    "q": 9,
+    "homology": 2,
+    "chains": 0
+   }
+  ],
+  "12a_910": [
+   {
+    "q": 5,
+    "homology": 0,
+    "chains": 1
+   }
+  ],
+  "12a_911": [
+   {
+    "q": 5,
+    "homology": 7,
+    "chains": 2
+   }
+  ],
+  "12a_912": [
+   {
+    "q": 3,
+    "homology": 2,
+    "chains": 0
+   }
+  ],
+  "12a_916": [
+   {
+    "q": -5,
+    "homology": -6,
+    "chains": 0
+   },
+   {
+    "q": -3,
+    "homology": 6,
+    "chains": 0
+   }
+  ],
+  "12a_917": [
+   {
+    "q": -3,
+    "homology": 7,
+    "chains": -2
+   },
+   {
+    "q": -1,
+    "homology": -6,
+    "chains": 0
+   }
+  ],
+  "12a_919": [
+   {
+    "q": -3,
+    "homology": 8,
+    "chains": -1
+   },
+   {
+    "q": -1,
+    "homology": -10,
+    "chains": -1
+   }
+  ],
+  "12a_92": [
+   {
+    "q": -3,
+    "homology": 7,
+    "chains": -2
+   }
+  ],
+  "12a_920": [
+   {
+    "q": 7,
+    "homology": 0,
+    "chains": 2
+   },
+   {
+    "q": 9,
+    "homology": 4,
+    "chains": 1
+   }
+  ],
+  "12a_921": [
+   {
+    "q": 5,
+    "homology": -2,
+    "chains": 2
+   },
+   {
+    "q": 7,
+    "homology": 1,
+    "chains": 3
+   }
+  ],
+  "12a_923": [
+   {
+    "q": 13,
+    "homology": -1,
+    "chains": 1
+   },
+   {
+    "q": 15,
+    "homology": 4,
+    "chains": 0
+   }
+  ],
+  "12a_924": [
+   {
+    "q": 11,
+    "homology": 3,
+    "chains": 2
+   },
+   {
+    "q": 13,
+    "homology": 0,
+    "chains": 2
+   }
+  ],
+  "12a_926": [
+   {
+    "q": 3,
+    "homology": -1,
+    "chains": -3
+   },
+   {
+    "q": 5,
+    "homology": 3,
+    "chains": 2
+   },
+   {
+    "q": 7,
+    "homology": 4,
+    "chains": 2
+   },
+   {
+    "q": 9,
+    "homology": 2,
+    "chains": -3
+   }
+  ],
+  "12a_930": [
+   {
+    "q": 13,
+    "homology": -3,
+    "chains": 1
+   },
+   {
+    "q": 15,
+    "homology": 5,
+    "chains": 0
+   }
+  ],
+  "12a_931": [
+   {
+    "q": 11,
+    "homology": -3,
+    "chains": 2
+   }
+  ],
+  "12a_936": [
+   {
+    "q": -1,
+    "homology": -8,
+    "chains": 3
+   },
+   {
+    "q": 1,
+    "homology": 0,
+    "chains": 2
+   }
+  ],
+  "12a_937": [
+   {
+    "q": 13,
+    "homology": -1,
+    "chains": 0
+   }
+  ],
+  "12a_938": [
+   {
+    "q": 11,
+    "homology": 3,
+    "chains": 1
+   }
+  ],
+  "12a_939": [
+   {
+    "q": 5,
+    "homology": 0,
+    "chains": 2
+   },
+   {
+    "q": 7,
+    "homology": 9,
+    "chains": 2
+   }
+  ],
+  "12a_941": [
+   {
+    "q": 5,
+    "homology": -3,
+    "chains": 1
+   },
+   {
+    "q": 7,
+    "homology": 0,
+    "chains": 2
+   }
+  ],
+  "12a_944": [
+   {
+    "q": 1,
+    "homology": -9,
+    "chains": 0
+   },
+   {
+    "q": 3,
+    "homology": 5,
+    "chains": -1
+   }
+  ],
+  "12a_945": [
+   {
+    "q": 3,
+    "homology": 8,
+    "chains": -2
+   },
+   {
+    "q": 5,
+    "homology": -11,
+    "chains": -1
+   }
+  ],
+  "12a_946": [
+   {
+    "q": 13,
+    "homology": -4,
+    "chains": 1
+   },
+   {
+    "q": 15,
+    "homology": 3,
+    "chains": 1
+   }
+  ],
+  "12a_947": [
+   {
+    "q": 11,
+    "homology": 0,
+    "chains": 2
+   },
+   {
+    "q": 13,
+    "homology": -5,
+    "chains": 2
+   }
+  ],
+  "12a_949": [
+   {
+    "q": 5,
+    "homology": 11,
+    "chains": 2
+   }
+  ],
+  "12a_95": [
+   {
+    "q": 9,
+    "homology": 8,
+    "chains": -3
+   }
+  ],
+  "12a_952": [
+   {
+    "q": 13,
+    "homology": -4,
+    "chains": 1
+   }
+  ],
+  "12a_953": [
+   {
+    "q": 11,
+    "homology": 0,
+    "chains": 1
+   },
+   {
+    "q": 13,
+    "homology": 1,
+    "chains": 2
+   }
+  ],
+  "12a_957": [
+   {
+    "q": -9,
+    "homology": 8,
+    "chains": -2
+   },
+   {
+    "q": -7,
+    "homology": -11,
+    "chains": -2
+   }
+  ],
+  "12a_958": [
+   {
+    "q": -11,
+    "homology": -10,
+    "chains": -2
+   },
+   {
+    "q": -9,
+    "homology": 5,
+    "chains": -2
+   }
+  ],
+  "12a_96": [
+   {
+    "q": 15,
+    "homology": -1,
+    "chains": -3
+   },
+   {
+    "q": 17,
+    "homology": 0,
+    "chains": 2
+   },
+   {
+    "q": 21,
+    "homology": 2,
+    "chains": -3
+   }
+  ],
+  "12a_966": [
+   {
+    "q": 1,
+    "homology": -12,
+    "chains": -1
+   },
+   {
+    "q": 3,
+    "homology": 9,
+    "chains": -2
+   }
+  ],
+  "12a_968": [
+   {
+    "q": -1,
+    "homology": -9,
+    "chains": 2
+   },
+   {
+    "q": 1,
+    "homology": 0,
+    "chains": 3
+   }
+  ],
+  "12a_969": [
+   {
+    "q": 1,
+    "homology": -5,
+    "chains": 1
+   },
+   {
+    "q": 3,
+    "homology": 3,
+    "chains": 1
+   }
+  ],
+  "12a_97": [
+   {
+    "q": 17,
+    "homology": -2,
+    "chains": 2
+   }
+  ],
+  "12a_970": [
+   {
+    "q": -7,
+    "homology": -2,
+    "chains": 0
+   }
+  ],
+  "12a_971": [
+   {
+    "q": -5,
+    "homology": -5,
+    "chains": -1
+   }
+  ],
+  "12a_978": [
+   {
+    "q": 11,
+    "homology": 0,
+    "chains": 2
+   },
+   {
+    "q": 13,
+    "homology": 0,
+    "chains": 2
+   },
+   {
+    "q": 15,
+    "homology": 2,
+    "chains": -4
+   }
+  ],
+  "12a_98": [
+   {
+    "q": 3,
+    "homology": 8,
+    "chains": -2
+   }
+  ],
+  "12a_981": [
+   {
+    "q": -1,
+    "homology": -1,
+    "chains": 5
+   }
+  ],
+  "12a_982": [
+   {
+    "q": -3,
+    "homology": 7,
+    "chains": -1
+   },
+   {
+    "q": -1,
+    "homology": -8,
+    "chains": 0
+   }
+  ],
+  "12a_984": [
+   {
+    "q": -13,
+    "homology": -4,
+    "chains": -1
+   }
+  ],
+  "12a_985": [
+   {
+    "q": -11,
+    "homology": -5,
+    "chains": -1
+   },
+   {
+    "q": -9,
+    "homology": 5,
+    "chains": -1
+   }
+  ],
+  "12a_988": [
+   {
+    "q": -13,
+    "homology": 4,
+    "chains": 3
+   },
+   {
+    "q": -11,
+    "homology": 0,
+    "chains": -1
+   },
+   {
+    "q": -9,
+    "homology": 0,
+    "chains": -1
+   },
+   {
+    "q": -7,
+    "homology": -1,
+    "chains": 4
+   }
+  ],
+  "12a_989": [
+   {
+    "q": -9,
+    "homology": 5,
+    "chains": -2
+   },
+   {
+    "q": -7,
+    "homology": -7,
+    "chains": 0
+   }
+  ],
+  "12a_993": [
+   {
+    "q": 1,
+    "homology": -10,
+    "chains": -1
+   },
+   {
+    "q": 3,
+    "homology": 7,
+    "chains": -2
+   }
+  ],
+  "12a_997": [
+   {
+    "q": 5,
+    "homology": 9,
+    "chains": 2
+   }
+  ],
+  "12a_999": [
+   {
+    "q": -5,
+    "homology": -8,
+    "chains": 0
+   },
+   {
+    "q": -3,
+    "homology": 7,
+    "chains": 0
+   }
+  ],
+  "12n_100": [
+   {
+    "q": 17,
+    "homology": 4,
+    "chains": 0
+   }
+  ],
+  "12n_106": [
+   {
+    "q": 1,
+    "homology": 0,
+    "chains": 2
+   }
+  ],
+  "12n_108": [
+   {
+    "q": 11,
+    "homology": 1,
+    "chains": 0
+   }
+  ],
+  "12n_109": [
+   {
+    "q": -9,
+    "homology": 1,
+    "chains": -2
+   },
+   {
+    "q": -7,
+    "homology": -2,
+    "chains": 2
+   }
+  ],
+  "12n_111": [
+   {
+    "q": 5,
+    "homology": -2,
+    "chains": -1
+   }
+  ],
+  "12n_114": [
+   {
+    "q": 13,
+    "homology": 0,
+    "chains": 2
+   }
+  ],
+  "12n_116": [
+   {
+    "q": -9,
+    "homology": 2,
+    "chains": 1
+   }
+  ],
+  "12n_117": [
+   {
+    "q": 11,
+    "homology": 4,
+    "chains": 3
+   },
+   {
+    "q": 13,
+    "homology": -2,
+    "chains": 0
+   }
+  ],
+  "12n_12": [
+   {
+    "q": 5,
+    "homology": 1,
+    "chains": 0
+   }
+  ],
+  "12n_135": [
+   {
+    "q": -11,
+    "homology": -3,
+    "chains": -2
+   }
+  ],
+  "12n_136": [
+   {
+    "q": 17,
+    "homology": 1,
+    "chains": 2
+   }
+  ],
+  "12n_137": [
+   {
+    "q": 1,
+    "homology": -3,
+    "chains": 2
+   },
+   {
+    "q": 3,
+    "homology": 0,
+    "chains": -2
+   }
+  ],
+  "12n_144": [
+   {
+    "q": -7,
+    "homology": -2,
+    "chains": -1
+   },
+   {
+    "q": -5,
+    "homology": 1,
+    "chains": 3
+   }
+  ],
+  "12n_152": [
+   {
+    "q": 3,
+    "homology": 1,
+    "chains": 0
+   }
+  ],
+  "12n_154": [
+   {
+    "q": -1,
+    "homology": 1,
+    "chains": 2
+   }
+  ],
+  "12n_155": [
+   {
+    "q": 13,
+    "homology": 0,
+    "chains": -1
+   }
+  ],
+  "12n_158": [
+   {
+    "q": 1,
+    "homology": -4,
+    "chains": 0
+   }
+  ],
+  "12n_164": [
+   {
+    "q": 1,
+    "homology": -2,
+    "chains": -1
+   },
+   {
+    "q": 3,
+    "homology": 2,
+    "chains": 1
+   }
+  ],
+  "12n_165": [
+   {
+    "q": 5,
+    "homology": 1,
+    "chains": 3
+   }
+  ],
+  "12n_167": [
+   {
+    "q": -1,
+    "homology": 1,
+    "chains": 2
+   }
+  ],
+  "12n_17": [
+   {
+    "q": -5,
+    "homology": -2,
+    "chains": 0
+   }
+  ],
+  "12n_170": [
+   {
+    "q": -1,
+    "homology": -1,
+    "chains": 2
+   }
+  ],
+  "12n_177": [
+   {
+    "q": 19,
+    "homology": 1,
+    "chains": 2
+   }
+  ],
+  "12n_178": [
+   {
+    "q": -3,
+    "homology": 0,
+    "chains": -2
+   },
+   {
+    "q": -1,
+    "homology": -3,
+    "chains": 1
+   }
+  ],
+  "12n_180": [
+   {
+    "q": -1,
+    "homology": -3,
+    "chains": 0
+   }
+  ],
+  "12n_181": [
+   {
+    "q": 3,
+    "homology": 2,
+    "chains": 1
+   }
+  ],
+  "12n_182": [
+   {
+    "q": 3,
+    "homology": 2,
+    "chains": 1
+   }
+  ],
+  "12n_186": [
+   {
+    "q": -9,
+    "homology": 2,
+    "chains": 1
+   }
+  ],
+  "12n_189": [
+   {
+    "q": 5,
+    "homology": 1,
+    "chains": 0
+   },
+   {
+    "q": 7,
+    "homology": 1,
+    "chains": 3
+   }
+  ],
+  "12n_197": [
+   {
+    "q": 7,
+    "homology": -2,
+    "chains": 1
+   },
+   {
+    "q": 9,
+    "homology": 0,
+    "chains": -3
+   }
+  ],
+  "12n_2": [
+   {
+    "q": 3,
+    "homology": 2,
+    "chains": 1
+   },
+   {
+    "q": 5,
+    "homology": -3,
+    "chains": -2
+   }
+  ],
+  "12n_201": [
+   {
+    "q": 11,
+    "homology": -4,
+    "chains": 0
+   },
+   {
+    "q": 13,
+    "homology": -1,
+    "chains": 2
+   }
+  ],
+  "12n_204": [
+   {
+    "q": 11,
+    "homology": -2,
+    "chains": 0
+   },
+   {
+    "q": 13,
+    "homology": 1,
+    "chains": 3
+   }
+  ],
+  "12n_206": [
+   {
+    "q": -3,
+    "homology": 4,
+    "chains": 1
+   }
+  ],
+  "12n_216": [
+   {
+    "q": -7,
+    "homology": -1,
+    "chains": 1
+   }
+  ],
+  "12n_219": [
+   {
+    "q": 3,
+    "homology": 2,
+    "chains": 0
+   }
+  ],
+  "12n_224": [
+   {
+    "q": -3,
+    "homology": 1,
+    "chains": 0
+   }
+  ],
+  "12n_227": [
+   {
+    "q": -3,
+    "homology": 4,
+    "chains": 1
+   }
+  ],
+  "12n_237": [
+   {
+    "q": 11,
+    "homology": 0,
+    "chains": 2
+   }
+  ],
+  "12n_240": [
+   {
+    "q": 11,
+    "homology": 0,
+    "chains": 2
+   }
+  ],
+  "12n_252": [
+   {
+    "q": -3,
+    "homology": 2,
+    "chains": 1
+   }
+  ],
+  "12n_26": [
+   {
+    "q": 3,
+    "homology": 3,
+    "chains": 1
+   }
+  ],
+  "12n_262": [
+   {
+    "q": -3,
+    "homology": 2,
+    "chains": 1
+   }
+  ],
+  "12n_266": [
+   {
+    "q": 3,
+    "homology": 3,
+    "chains": 0
+   }
+  ],
+  "12n_269": [
+   {
+    "q": 3,
+    "homology": 1,
+    "chains": -3
+   }
+  ],
+  "12n_274": [
+   {
+    "q": 7,
+    "homology": 2,
+    "chains": 3
+   }
+  ],
+  "12n_277": [
+   {
+    "q": 3,
+    "homology": 2,
+    "chains": 1
+   }
+  ],
+  "12n_281": [
+   {
+    "q": 1,
+    "homology": 1,
+    "chains": -1
+   }
+  ],
+  "12n_290": [
+   {
+    "q": 11,
+    "homology": 1,
+    "chains": 3
+   }
+  ],
+  "12n_291": [
+   {
+    "q": -5,
+    "homology": -1,
+    "chains": 2
+   },
+   {
+    "q": -3,
+    "homology": 1,
+    "chains": -1
+   }
+  ],
+  "12n_295": [
+   {
+    "q": -7,
+    "homology": 2,
+    "chains": -1
+   },
+   {
+    "q": -5,
+    "homology": 4,
+    "chains": 3
+   }
+  ],
+  "12n_297": [
+   {
+    "q": 5,
+    "homology": -3,
+    "chains": -1
+   },
+   {
+    "q": 7,
+    "homology": 3,
+    "chains": 2
+   }
+  ],
+  "12n_299": [
+   {
+    "q": 13,
+    "homology": 1,
+    "chains": 3
+   }
+  ],
+  "12n_301": [
+   {
+    "q": 3,
+    "homology": 2,
+    "chains": 1
+   }
+  ],
+  "12n_304": [
+   {
+    "q": -3,
+    "homology": 1,
+    "chains": -1
+   }
+  ],
+  "12n_307": [
+   {
+    "q": -1,
+    "homology": -2,
+    "chains": -1
+   }
+  ],
+  "12n_308": [
+   {
+    "q": 17,
+    "homology": 1,
+    "chains": 0
+   }
+  ],
+  "12n_316": [
+   {
+    "q": 11,
+    "homology": 1,
+    "chains": 2
+   }
+  ],
+  "12n_317": [
+   {
+    "q": -1,
+    "homology": -1,
+    "chains": 0
+   },
+   {
+    "q": 1,
+    "homology": 0,
+    "chains": 3
+   }
+  ],
+  "12n_323": [
+   {
+    "q": -1,
+    "homology": -1,
+    "chains": 0
+   }
+  ],
+  "12n_324": [
+   {
+    "q": 7,
+    "homology": 0,
+    "chains": 2
+   }
+  ],
+  "12n_325": [
+   {
+    "q": -1,
+    "homology": 5,
+    "chains": 4
+   },
+   {
+    "q": 1,
+    "homology": -6,
+    "chains": -1
+   }
+  ],
+  "12n_330": [
+   {
+    "q": 3,
+    "homology": 0,
+    "chains": -2
+   },
+   {
+    "q": 5,
+    "homology": 0,
+    "chains": 2
+   }
+  ],
+  "12n_334": [
+   {
+    "q": -7,
+    "homology": 2,
+    "chains": 3
+   },
+   {
+    "q": -5,
+    "homology": 0,
+    "chains": 1
+   },
+   {
+    "q": -3,
+    "homology": 0,
+    "chains": -1
+   }
+  ],
+  "12n_335": [
+   {
+    "q": 3,
+    "homology": -2,
+    "chains": -3
+   }
+  ],
+  "12n_337": [
+   {
+    "q": -7,
+    "homology": 4,
+    "chains": 3
+   }
+  ],
+  "12n_339": [
+   {
+    "q": 3,
+    "homology": -1,
+    "chains": -2
+   }
+  ],
+  "12n_341": [
+   {
+    "q": 17,
+    "homology": -1,
+    "chains": 0
+   }
+  ],
+  "12n_344": [
+   {
+    "q": -11,
+    "homology": 0,
+    "chains": 1
+   },
+   {
+    "q": -9,
+    "homology": -1,
+    "chains": -2
+   }
+  ],
+  "12n_345": [
+   {
+    "q": 5,
+    "homology": 1,
+    "chains": 3
+   },
+   {
+    "q": 9,
+    "homology": 0,
+    "chains": -1
+   }
+  ],
+  "12n_348": [
+   {
+    "q": -7,
+    "homology": 1,
+    "chains": 0
+   },
+   {
+    "q": -5,
+    "homology": 1,
+    "chains": 3
+   }
+  ],
+  "12n_35": [
+   {
+    "q": 1,
+    "homology": -1,
+    "chains": 0
+   }
+  ],
+  "12n_350": [
+   {
+    "q": -7,
+    "homology": -2,
+    "chains": 0
+   },
+   {
+    "q": -5,
+    "homology": 1,
+    "chains": 4
+   }
+  ],
+  "12n_353": [
+   {
+    "q": -5,
+    "homology": 0,
+    "chains": 3
+   }
+  ],
+  "12n_356": [
+   {
+    "q": -1,
+    "homology": 0,
+    "chains": 1
+   }
+  ],
+  "12n_359": [
+   {
+    "q": -1,
+    "homology": 0,
+    "chains": -1
+   },
+   {
+    "q": 1,
+    "homology": 0,
+    "chains": 2
+   }
+  ],
+  "12n_36": [
+   {
+    "q": -7,
+    "homology": 2,
+    "chains": 0
+   },
+   {
+    "q": -5,
+    "homology": 0,
+    "chains": 3
+   }
+  ],
+  "12n_361": [
+   {
+    "q": 13,
+    "homology": 0,
+    "chains": 2
+   }
+  ],
+  "12n_367": [
+   {
+    "q": 1,
+    "homology": -4,
+    "chains": 1
+   },
+   {
+    "q": 3,
+    "homology": 1,
+    "chains": -3
+   }
+  ],
+  "12n_369": [
+   {
+    "q": 5,
+    "homology": -2,
+    "chains": 0
+   },
+   {
+    "q": 7,
+    "homology": 0,
+    "chains": 2
+   }
+  ],
+  "12n_375": [
+   {
+    "q": 11,
+    "homology": 0,
+    "chains": 1
+   }
+  ],
+  "12n_376": [
+   {
+    "q": 5,
+    "homology": 1,
+    "chains": 0
+   },
+   {
+    "q": 7,
+    "homology": 0,
+    "chains": 3
+   }
+  ],
+  "12n_378": [
+   {
+    "q": -5,
+    "homology": 0,
+    "chains": 1
+   },
+   {
+    "q": -3,
+    "homology": 1,
+    "chains": -2
+   }
+  ],
+  "12n_389": [
+   {
+    "q": 7,
+    "homology": 2,
+    "chains": -2
+   }
+  ],
+  "12n_39": [
+   {
+    "q": -3,
+    "homology": 2,
+    "chains": 0
+   }
+  ],
+  "12n_392": [
+   {
+    "q": 5,
+    "homology": 2,
+    "chains": 0
+   },
+   {
+    "q": 7,
+    "homology": 1,
+    "chains": 3
+   }
+  ],
+  "12n_395": [
+   {
+    "q": -13,
+    "homology": 2,
+    "chains": 3
+   },
+   {
+    "q": -11,
+    "homology": 0,
+    "chains": -1
+   }
+  ],
+  "12n_396": [
+   {
+    "q": -3,
+    "homology": 2,
+    "chains": 1
+   }
+  ],
+  "12n_399": [
+   {
+    "q": -3,
+    "homology": 1,
+    "chains": 0
+   }
+  ],
+  "12n_4": [
+   {
+    "q": -1,
+    "homology": 1,
+    "chains": 3
+   },
+   {
+    "q": 1,
+    "homology": -3,
+    "chains": 0
+   }
+  ],
+  "12n_406": [
+   {
+    "q": 17,
+    "homology": 2,
+    "chains": -1
+   }
+  ],
+  "12n_410": [
+   {
+    "q": 7,
+    "homology": -2,
+    "chains": 2
+   },
+   {
+    "q": 9,
+    "homology": 1,
+    "chains": -2
+   }
+  ],
+  "12n_415": [
+   {
+    "q": 3,
+    "homology": -2,
+    "chains": -3
+   },
+   {
+    "q": 5,
+    "homology": -1,
+    "chains": 2
+   }
+  ],
+  "12n_420": [
+   {
+    "q": 3,
+    "homology": 2,
+    "chains": 1
+   }
+  ],
+  "12n_43": [
+   {
+    "q": -1,
+    "homology": -1,
+    "chains": 0
+   }
+  ],
+  "12n_440": [
+   {
+    "q": -1,
+    "homology": 0,
+    "chains": 1
+   },
+   {
+    "q": 1,
+    "homology": 2,
+    "chains": 4
+   }
+  ],
+  "12n_447": [
+   {
+    "q": -1,
+    "homology": -1,
+    "chains": 0
+   },
+   {
+    "q": 1,
+    "homology": 0,
+    "chains": 3
+   }
+  ],
+  "12n_450": [
+   {
+    "q": 7,
+    "homology": 2,
+    "chains": -1
+   }
+  ],
+  "12n_453": [
+   {
+    "q": 17,
+    "homology": 4,
+    "chains": 0
+   }
+  ],
+  "12n_465": [
+   {
+    "q": 3,
+    "homology": 2,
+    "chains": 1
+   }
+  ],
+  "12n_479": [
+   {
+    "q": 7,
+    "homology": 0,
+    "chains": -1
+   }
+  ],
+  "12n_480": [
+   {
+    "q": -1,
+    "homology": 1,
+    "chains": 2
+   },
+   {
+    "q": 1,
+    "homology": 1,
+    "chains": -2
+   }
+  ],
+  "12n_481": [
+   {
+    "q": 1,
+    "homology": 0,
+    "chains": -1
+   }
+  ],
+  "12n_489": [
+   {
+    "q": 7,
+    "homology": -3,
+    "chains": 1
+   },
+   {
+    "q": 9,
+    "homology": 0,
+    "chains": -3
+   }
+  ],
+  "12n_49": [
+   {
+    "q": -1,
+    "homology": 1,
+    "chains": 3
+   },
+   {
+    "q": 1,
+    "homology": 0,
+    "chains": -1
+   }
+  ],
+  "12n_490": [
+   {
+    "q": -3,
+    "homology": -1,
+    "chains": -2
+   }
+  ],
+  "12n_492": [
+   {
+    "q": -1,
+    "homology": 2,
+    "chains": 3
+   },
+   {
+    "q": 1,
+    "homology": 1,
+    "chains": -1
+   }
+  ],
+  "12n_493": [
+   {
+    "q": -1,
+    "homology": 1,
+    "chains": -1
+   },
+   {
+    "q": 1,
+    "homology": 5,
+    "chains": 3
+   }
+  ],
+  "12n_496": [
+   {
+    "q": 11,
+    "homology": 0,
+    "chains": 5
+   },
+   {
+    "q": 13,
+    "homology": 3,
+    "chains": 1
+   }
+  ],
+  "12n_497": [
+   {
+    "q": -3,
+    "homology": 1,
+    "chains": -2
+   },
+   {
+    "q": -1,
+    "homology": -1,
+    "chains": 2
+   }
+  ],
+  "12n_50": [
+   {
+    "q": 7,
+    "homology": 1,
+    "chains": 2
+   }
+  ],
+  "12n_507": [
+   {
+    "q": -7,
+    "homology": 0,
+    "chains": -1
+   }
+  ],
+  "12n_517": [
+   {
+    "q": 3,
+    "homology": 0,
+    "chains": -2
+   }
+  ],
+  "12n_524": [
+   {
+    "q": 5,
+    "homology": -1,
+    "chains": 0
+   },
+   {
+    "q": 7,
+    "homology": 1,
+    "chains": 2
+   }
+  ],
+  "12n_531": [
+   {
+    "q": 1,
+    "homology": -2,
+    "chains": 2
+   },
+   {
+    "q": 3,
+    "homology": 1,
+    "chains": -2
+   }
+  ],
+  "12n_541": [
+   {
+    "q": -5,
+    "homology": -1,
+    "chains": 1
+   },
+   {
+    "q": -3,
+    "homology": 0,
+    "chains": -2
+   }
+  ],
+  "12n_542": [
+   {
+    "q": -9,
+    "homology": -1,
+    "chains": -4
+   }
+  ],
+  "12n_544": [
+   {
+    "q": 3,
+    "homology": -2,
+    "chains": -4
+   }
+  ],
+  "12n_545": [
+   {
+    "q": 11,
+    "homology": -1,
+    "chains": 0
+   }
+  ],
+  "12n_548": [
+   {
+    "q": -1,
+    "homology": 2,
+    "chains": 0
+   }
+  ],
+  "12n_553": [
+   {
+    "q": -3,
+    "homology": 0,
+    "chains": -2
+   }
+  ],
+  "12n_555": [
+   {
+    "q": -9,
+    "homology": 2,
+    "chains": -1
+   }
+  ],
+  "12n_556": [
+   {
+    "q": 3,
+    "homology": -1,
+    "chains": -2
+   }
+  ],
+  "12n_557": [
+   {
+    "q": 13,
+    "homology": -1,
+    "chains": 2
+   }
+  ],
+  "12n_567": [
+   {
+    "q": -1,
+    "homology": 4,
+    "chains": 1
+   }
+  ],
+  "12n_569": [
+   {
+    "q": -3,
+    "homology": 1,
+    "chains": -1
+   }
+  ],
+  "12n_573": [
+   {
+    "q": -1,
+    "homology": 1,
+    "chains": 2
+   }
+  ],
+  "12n_578": [
+   {
+    "q": -1,
+    "homology": 0,
+    "chains": 2
+   },
+   {
+    "q": 1,
+    "homology": -3,
+    "chains": 0
+   }
+  ],
+  "12n_583": [
+   {
+    "q": 3,
+    "homology": 0,
+    "chains": -1
+   }
+  ],
+  "12n_584": [
+   {
+    "q": 7,
+    "homology": 0,
+    "chains": 3
+   }
+  ],
+  "12n_586": [
+   {
+    "q": -3,
+    "homology": 0,
+    "chains": -3
+   }
+  ],
+  "12n_588": [
+   {
+    "q": -1,
+    "homology": 2,
+    "chains": 0
+   }
+  ],
+  "12n_595": [
+   {
+    "q": -9,
+    "homology": 0,
+    "chains": -3
+   },
+   {
+    "q": -7,
+    "homology": -1,
+    "chains": 2
+   }
+  ],
+  "12n_596": [
+   {
+    "q": -9,
+    "homology": 1,
+    "chains": -2
+   },
+   {
+    "q": -7,
+    "homology": -2,
+    "chains": 1
+   }
+  ],
+  "12n_598": [
+   {
+    "q": 5,
+    "homology": -2,
+    "chains": 1
+   },
+   {
+    "q": 7,
+    "homology": 1,
+    "chains": 4
+   }
+  ],
+  "12n_60": [
+   {
+    "q": 3,
+    "homology": 3,
+    "chains": 0
+   }
+  ],
+  "12n_604": [
+   {
+    "q": -11,
+    "homology": -2,
+    "chains": 0
+   }
+  ],
+  "12n_61": [
+   {
+    "q": 3,
+    "homology": 3,
+    "chains": 0
+   }
+  ],
+  "12n_612": [
+   {
+    "q": 5,
+    "homology": 3,
+    "chains": 2
+   }
+  ],
+  "12n_62": [
+   {
+    "q": 1,
+    "homology": -3,
+    "chains": -2
+   }
+  ],
+  "12n_627": [
+   {
+    "q": 1,
+    "homology": -4,
+    "chains": 1
+   },
+   {
+    "q": 3,
+    "homology": -2,
+    "chains": -3
+   }
+  ],
+  "12n_636": [
+   {
+    "q": 3,
+    "homology": 3,
+    "chains": 1
+   }
+  ],
+  "12n_656": [
+   {
+    "q": -9,
+    "homology": -1,
+    "chains": -4
+   },
+   {
+    "q": -7,
+    "homology": -2,
+    "chains": 1
+   }
+  ],
+  "12n_657": [
+   {
+    "q": 1,
+    "homology": -1,
+    "chains": 1
+   }
+  ],
+  "12n_659": [
+   {
+    "q": 11,
+    "homology": 1,
+    "chains": 0
+   },
+   {
+    "q": 13,
+    "homology": 2,
+    "chains": 3
+   }
+  ],
+  "12n_66": [
+   {
+    "q": 1,
+    "homology": -3,
+    "chains": -2
+   }
+  ],
+  "12n_666": [
+   {
+    "q": 11,
+    "homology": 2,
+    "chains": 0
+   }
+  ],
+  "12n_667": [
+   {
+    "q": 9,
+    "homology": 1,
+    "chains": 0
+   }
+  ],
+  "12n_669": [
+   {
+    "q": 7,
+    "homology": 1,
+    "chains": 0
+   },
+   {
+    "q": 9,
+    "homology": -1,
+    "chains": -3
+   }
+  ],
+  "12n_671": [
+   {
+    "q": 13,
+    "homology": -1,
+    "chains": 3
+   }
+  ],
+  "12n_672": [
+   {
+    "q": -9,
+    "homology": -1,
+    "chains": -2
+   },
+   {
+    "q": -7,
+    "homology": 2,
+    "chains": 3
+   }
+  ],
+  "12n_674": [
+   {
+    "q": 13,
+    "homology": 0,
+    "chains": 2
+   }
+  ],
+  "12n_677": [
+   {
+    "q": 11,
+    "homology": 0,
+    "chains": 2
+   },
+   {
+    "q": 13,
+    "homology": -2,
+    "chains": -1
+   }
+  ],
+  "12n_678": [
+   {
+    "q": 3,
+    "homology": 0,
+    "chains": -2
+   },
+   {
+    "q": 5,
+    "homology": 0,
+    "chains": 2
+   }
+  ],
+  "12n_682": [
+   {
+    "q": 13,
+    "homology": -1,
+    "chains": 3
+   }
+  ],
+  "12n_683": [
+   {
+    "q": -9,
+    "homology": 0,
+    "chains": -2
+   }
+  ],
+  "12n_687": [
+   {
+    "q": -9,
+    "homology": 0,
+    "chains": -3
+   }
+  ],
+  "12n_690": [
+   {
+    "q": -1,
+    "homology": 2,
+    "chains": 3
+   }
+  ],
+  "12n_695": [
+   {
+    "q": -3,
+    "homology": 0,
+    "chains": -2
+   },
+   {
+    "q": -1,
+    "homology": 1,
+    "chains": 2
+   }
+  ],
+  "12n_698": [
+   {
+    "q": -11,
+    "homology": 3,
+    "chains": 4
+   }
+  ],
+  "12n_707": [
+   {
+    "q": -9,
+    "homology": 0,
+    "chains": -2
+   },
+   {
+    "q": -7,
+    "homology": 3,
+    "chains": 4
+   }
+  ],
+  "12n_710": [
+   {
+    "q": 3,
+    "homology": -1,
+    "chains": -3
+   },
+   {
+    "q": 5,
+    "homology": -1,
+    "chains": 1
+   }
+  ],
+  "12n_711": [
+   {
+    "q": 1,
+    "homology": -4,
+    "chains": 1
+   }
+  ],
+  "12n_712": [
+   {
+    "q": -5,
+    "homology": -1,
+    "chains": 1
+   },
+   {
+    "q": -3,
+    "homology": 1,
+    "chains": -3
+   }
+  ],
+  "12n_713": [
+   {
+    "q": -3,
+    "homology": 3,
+    "chains": 1
+   }
+  ],
+  "12n_715": [
+   {
+    "q": -3,
+    "homology": 1,
+    "chains": -2
+   }
+  ],
+  "12n_724": [
+   {
+    "q": 11,
+    "homology": 1,
+    "chains": 2
+   }
+  ],
+  "12n_727": [
+   {
+    "q": 3,
+    "homology": 3,
+    "chains": 1
+   }
+  ],
+  "12n_733": [
+   {
+    "q": 9,
+    "homology": 0,
+    "chains": -4
+   }
+  ],
+  "12n_734": [
+   {
+    "q": 11,
+    "homology": 0,
+    "chains": 3
+   }
+  ],
+  "12n_735": [
+   {
+    "q": 11,
+    "homology": -1,
+    "chains": 0
+   }
+  ],
+  "12n_741": [
+   {
+    "q": -5,
+    "homology": -1,
+    "chains": 1
+   },
+   {
+    "q": -3,
+    "homology": 2,
+    "chains": -2
+   }
+  ],
+  "12n_743": [
+   {
+    "q": -3,
+    "homology": 2,
+    "chains": 1
+   },
+   {
+    "q": -1,
+    "homology": -2,
+    "chains": -1
+   }
+  ],
+  "12n_744": [
+   {
+    "q": 11,
+    "homology": 0,
+    "chains": -1
+   },
+   {
+    "q": 13,
+    "homology": 2,
+    "chains": 3
+   }
+  ],
+  "12n_745": [
+   {
+    "q": -3,
+    "homology": -2,
+    "chains": -3
+   },
+   {
+    "q": -1,
+    "homology": -5,
+    "chains": 1
+   }
+  ],
+  "12n_754": [
+   {
+    "q": 1,
+    "homology": -4,
+    "chains": 2
+   },
+   {
+    "q": 3,
+    "homology": 0,
+    "chains": -2
+   }
+  ],
+  "12n_755": [
+   {
+    "q": 5,
+    "homology": 5,
+    "chains": 3
+   }
+  ],
+  "12n_756": [
+   {
+    "q": 3,
+    "homology": 3,
+    "chains": 1
+   },
+   {
+    "q": 5,
+    "homology": -2,
+    "chains": -1
+   }
+  ],
+  "12n_759": [
+   {
+    "q": 5,
+    "homology": -1,
+    "chains": 3
+   }
+  ],
+  "12n_767": [
+   {
+    "q": -7,
+    "homology": -2,
+    "chains": -1
+   }
+  ],
+  "12n_771": [
+   {
+    "q": -9,
+    "homology": 4,
+    "chains": 1
+   }
+  ],
+  "12n_773": [
+   {
+    "q": -9,
+    "homology": 1,
+    "chains": -1
+   }
+  ],
+  "12n_778": [
+   {
+    "q": 7,
+    "homology": 0,
+    "chains": 2
+   }
+  ],
+  "12n_779": [
+   {
+    "q": 3,
+    "homology": 1,
+    "chains": -4
+   }
+  ],
+  "12n_781": [
+   {
+    "q": 1,
+    "homology": -2,
+    "chains": 1
+   }
+  ],
+  "12n_787": [
+   {
+    "q": 3,
+    "homology": 0,
+    "chains": -1
+   },
+   {
+    "q": 5,
+    "homology": 0,
+    "chains": -1
+   },
+   {
+    "q": 7,
+    "homology": 0,
+    "chains": 2
+   }
+  ],
+  "12n_788": [
+   {
+    "q": 5,
+    "homology": 0,
+    "chains": 3
+   }
+  ],
+  "12n_789": [
+   {
+    "q": -3,
+    "homology": 3,
+    "chains": 1
+   }
+  ],
+  "12n_791": [
+   {
+    "q": 9,
+    "homology": 4,
+    "chains": 2
+   }
+  ],
+  "12n_794": [
+   {
+    "q": -1,
+    "homology": 1,
+    "chains": -1
+   },
+   {
+    "q": 1,
+    "homology": 0,
+    "chains": 2
+   }
+  ],
+  "12n_796": [
+   {
+    "q": 13,
+    "homology": -1,
+    "chains": 0
+   }
+  ],
+  "12n_803": [
+   {
+    "q": 11,
+    "homology": -4,
+    "chains": -2
+   }
+  ],
+  "12n_804": [
+   {
+    "q": 5,
+    "homology": 1,
+    "chains": -1
+   },
+   {
+    "q": 7,
+    "homology": -1,
+    "chains": 2
+   }
+  ],
+  "12n_805": [
+   {
+    "q": 3,
+    "homology": 1,
+    "chains": -1
+   }
+  ],
+  "12n_811": [
+   {
+    "q": 9,
+    "homology": 0,
+    "chains": -1
+   }
+  ],
+  "12n_817": [
+   {
+    "q": -1,
+    "homology": 1,
+    "chains": 2
+   }
+  ],
+  "12n_818": [
+   {
+    "q": 3,
+    "homology": 2,
+    "chains": -1
+   }
+  ],
+  "12n_820": [
+   {
+    "q": -15,
+    "homology": 1,
+    "chains": -1
+   }
+  ],
+  "12n_823": [
+   {
+    "q": -11,
+    "homology": -1,
+    "chains": 3
+   }
+  ],
+  "12n_824": [
+   {
+    "q": 1,
+    "homology": 0,
+    "chains": -1
+   }
+  ],
+  "12n_826": [
+   {
+    "q": 7,
+    "homology": 2,
+    "chains": -1
+   }
+  ],
+  "12n_831": [
+   {
+    "q": 5,
+    "homology": 3,
+    "chains": 4
+   },
+   {
+    "q": 7,
+    "homology": 2,
+    "chains": -1
+   }
+  ],
+  "12n_832": [
+   {
+    "q": -9,
+    "homology": 2,
+    "chains": 0
+   },
+   {
+    "q": -7,
+    "homology": 0,
+    "chains": 4
+   }
+  ],
+  "12n_833": [
+   {
+    "q": -5,
+    "homology": -3,
+    "chains": -1
+   },
+   {
+    "q": -3,
+    "homology": 4,
+    "chains": 2
+   }
+  ],
+  "12n_847": [
+   {
+    "q": 5,
+    "homology": 0,
+    "chains": -1
+   },
+   {
+    "q": 7,
+    "homology": 0,
+    "chains": 3
+   },
+   {
+    "q": 9,
+    "homology": -2,
+    "chains": -3
+   }
+  ],
+  "12n_848": [
+   {
+    "q": 9,
+    "homology": 3,
+    "chains": 1
+   }
+  ],
+  "12n_855": [
+   {
+    "q": 1,
+    "homology": 0,
+    "chains": 2
+   }
+  ],
+  "12n_865": [
+   {
+    "q": -3,
+    "homology": 3,
+    "chains": 0
+   }
+  ],
+  "12n_875": [
+   {
+    "q": 5,
+    "homology": -2,
+    "chains": 0
+   }
+  ],
+  "12n_876": [
+   {
+    "q": 5,
+    "homology": 0,
+    "chains": 1
+   }
+  ],
+  "12n_883": [
+   {
+    "q": 3,
+    "homology": 1,
+    "chains": -2
+   },
+   {
+    "q": 5,
+    "homology": -3,
+    "chains": 0
+   }
+  ],
+  "12n_887": [
+   {
+    "q": 9,
+    "homology": 1,
+    "chains": -4
+   }
+  ],
+  "12n_90": [
+   {
+    "q": -11,
+    "homology": -3,
+    "chains": -2
+   }
+  ],
+  "12n_92": [
+   {
+    "q": 1,
+    "homology": -2,
+    "chains": 2
+   }
+  ],
+  "12n_94": [
+   {
+    "q": 13,
+    "homology": 1,
+    "chains": 2
+   }
+  ],
+  "12n_95": [
+   {
+    "q": -9,
+    "homology": 1,
+    "chains": -2
+   },
+   {
+    "q": -7,
+    "homology": -3,
+    "chains": 1
+   }
+  ]
+ }
+}

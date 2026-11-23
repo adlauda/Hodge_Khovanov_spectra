@@ -1,0 +1,39 @@
+{
+ "method": "flint.fmpz_mat.rank (exact over Q)",
+ "flint_version": "0.9.0",
+ "blocks": [
+  {
+   "name": "L10n32",
+   "h": -1,
+   "q": 0,
+   "dimension": 376,
+   "d2_exactly_zero": true,
+   "rank_out_over_Q": 294,
+   "rank_in_over_Q": 82,
+   "betti_over_Q": 0,
+   "seconds": 0.5
+  },
+  {
+   "name": "L9n9",
+   "h": -5,
+   "q": -14,
+   "dimension": 426,
+   "d2_exactly_zero": true,
+   "rank_out_over_Q": 251,
+   "rank_in_over_Q": 175,
+   "betti_over_Q": 0,
+   "seconds": 0.2
+  },
+  {
+   "name": "L11n71",
+   "h": -5,
+   "q": -14,
+   "dimension": 1545,
+   "d2_exactly_zero": true,
+   "rank_out_over_Q": 1031,
+   "rank_in_over_Q": 514,
+   "betti_over_Q": 0,
+   "seconds": 1.26
+  }
+ ]
+}

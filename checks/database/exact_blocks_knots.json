@@ -1,0 +1,72 @@
+{
+ "method": "flint.fmpz_mat.rank (exact over Q)",
+ "flint_version": "0.9.0",
+ "blocks": [
+  {
+   "name": "8_20",
+   "h": 0,
+   "q": -3,
+   "dimension": 165,
+   "d2_exactly_zero": true,
+   "rank_out_over_Q": 53,
+   "rank_in_over_Q": 112,
+   "betti_over_Q": 0,
+   "seconds": 0.6
+  },
+  {
+   "name": "9_46",
+   "h": -1,
+   "q": -1,
+   "dimension": 180,
+   "d2_exactly_zero": true,
+   "rank_out_over_Q": 135,
+   "rank_in_over_Q": 45,
+   "betti_over_Q": 0,
+   "seconds": 0.06
+  },
+  {
+   "name": "9_46",
+   "h": 0,
+   "q": -1,
+   "dimension": 270,
+   "d2_exactly_zero": true,
+   "rank_out_over_Q": 134,
+   "rank_in_over_Q": 135,
+   "betti_over_Q": 1,
+   "seconds": 0.07
+  },
+  {
+   "name": "11n_81",
+   "h": 6,
+   "q": 17,
+   "dimension": 502,
+   "d2_exactly_zero": true,
+   "rank_out_over_Q": 296,
+   "rank_in_over_Q": 206,
+   "betti_over_Q": 0,
+   "seconds": 0.26
+  },
+  {
+   "name": "13a_4874",
+   "h": 10,
+   "q": 31,
+   "dimension": 621,
+   "d2_exactly_zero": true,
+   "rank_out_over_Q": 420,
+   "rank_in_over_Q": 200,
+   "betti_over_Q": 1,
+   "seconds": 1.89
+  },
+  {
+   "name": "10_153",
+   "h": -1,
+   "q": -3,
+   "dimension": 709,
+   "d2_exactly_zero": true,
+   "rank_out_over_Q": 307,
+   "rank_in_over_Q": 402,
+   "betti_over_Q": 0,
+   "seconds": 0.47
+  }
+ ]
+}

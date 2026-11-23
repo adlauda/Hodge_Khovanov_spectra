@@ -1,0 +1,11 @@
+{
+ "database": "databases/twisted_unknot_research.db",
+ "table": "twisted_unknots",
+ "diagrams": 13,
+ "rows": 663,
+ "diagram_q_pairs": 117,
+ "diagrams_with_null_betti": 0,
+ "diagrams_failing": 0,
+ "diagram_q_pairs_failing": 0,
+ "failures": {}
+}

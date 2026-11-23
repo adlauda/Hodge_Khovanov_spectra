@@ -10,14 +10,18 @@ in `Paper/Current/`. The numerical data and verification programs are listed bel
 
 - `Paper/Current/` - September 2026 manuscript snapshot and supporting files.
 - [`checks/`](checks/) - exact checks of the alternating and split-union formulas and two spectral gaps for the knot diagram `9_46`.
+- [`checks/database/`](checks/database/) - November 2026 verification of the stored Betti numbers and gaps against
+  KnotInfo, LinkInfo and exact ranks, with the programs, batch files and results.
 - [`Paper/Current/reproducibility/`](Paper/Current/reproducibility/) - plotting script, numerical tables,
   database cleanup script and recovery record, and computational diagnostics.
-- `src/spectral_kh/` - Khovanov complex and Hodge Laplacian implementation.
+- `src/spectral_kh/` - Khovanov complex and Hodge Laplacian implementation, with exact-rank Betti numbers in `exact_rank.py`.
+- `tests/` - regression tests for the Betti numbers and gaps of small knots.
 - `scripts/` - database generation scripts for knots, links, 14-crossing knots,
   and twisted unknots.
 - `visualization/` - earlier plotting scripts, retained for reference.
 - `data/` - input planar-diagram tables.
-- `databases/` - SQLite result databases used by the plotting scripts.
+- `databases/` - SQLite result databases used by the plotting script. The knot, link and twisted-unknot databases
+  were verified and repaired in November 2026; each has a `.REPAIR.json` record beside it.
 - `outputs/plots/` - earlier figure files, retained for reference.
 
 ## Current numerical figures
@@ -65,6 +69,12 @@ python checks/check_split.py
 python checks/check_gap_9_46.py
 ```
 
+The regression tests for the engine's Betti numbers and gaps run with
+
+```bash
+python tests/test_exact_rank.py
+```
+
 The first script compares the spanning-tree and orientation formulas with a
 direct rational Khovanov cube computation on eleven connected alternating
 diagrams. The second checks the split-union formulas on three examples.
@@ -81,10 +91,22 @@ without rerunning the full computation. The Python scripts in `scripts/` are the
 database-generation entry points retained for reference and reruns.
 
 `databases/knot_research.db` contains 12,965 knots and 1,401,192 bidegree rows,
-with one row per knot and bidegree. The cleanup preserves retained row IDs
-and adds a unique index to prevent duplicate bidegrees. The selection rule,
-checksums, and removed-row recovery record are in
-`Paper/Current/reproducibility/DATABASE-CLEANUP.json`.
+with one row per knot and bidegree. It was made in two steps. A cleanup removed
+duplicate rows, preserving retained row IDs and adding a unique index; its
+selection rule, checksums, and removed-row recovery record are in
+`Paper/Current/reproducibility/DATABASE-CLEANUP.json`. A repair in November
+2026 then corrected 1,774 Betti numbers on 810 twelve-crossing knots that an
+early eigensolver had undercounted, rebuilt those knots' Khovanov polynomials,
+and stored every Betti number as an integer. Every Betti number in the file
+now agrees with KnotInfo. No spectral gap changed. `link_research.db` and
+`twisted_unknot_research.db` were checked the same way; their values were
+already correct and only flags and storage types changed. Each database lists
+its changes in the tables `row_repairs` and `polynomial_repairs`, and the full
+account is in
+[`NUMERICAL-REVIEW.md`](Paper/Current/reproducibility/NUMERICAL-REVIEW.md).
+
+The files before the repair are at commit
+`9a06f279dc323ec97d996e21b98ee915020f32a6`.
 
 The original database remains available at commit
 `ccfce9a3eaa33f6663ff1e21b158d73aa34b3bea`. To repeat the cleanup, provide that

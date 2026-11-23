@@ -1,0 +1,101 @@
+{
+ "database": "databases/knot_research_14_20261007.db",
+ "table": "knots",
+ "diagrams": 2155,
+ "rows": 277468,
+ "diagram_q_pairs": 32725,
+ "diagrams_with_null_betti": 0,
+ "diagrams_failing": 2,
+ "diagram_q_pairs_failing": 17,
+ "failures": {
+  "14ah_00002": [
+   {
+    "q": 11,
+    "homology": 0,
+    "chains": -17270
+   },
+   {
+    "q": 13,
+    "homology": 1,
+    "chains": -38246
+   },
+   {
+    "q": 15,
+    "homology": 0,
+    "chains": -57288
+   },
+   {
+    "q": 17,
+    "homology": 0,
+    "chains": -45870
+   },
+   {
+    "q": 19,
+    "homology": 0,
+    "chains": 52206
+   },
+   {
+    "q": 21,
+    "homology": 0,
+    "chains": 22242
+   },
+   {
+    "q": 23,
+    "homology": 1,
+    "chains": 5709
+   },
+   {
+    "q": 25,
+    "homology": -2,
+    "chains": -1045
+   }
+  ],
+  "14ah_00010": [
+   {
+    "q": 11,
+    "homology": 0,
+    "chains": -11444
+   },
+   {
+    "q": 9,
+    "homology": 2,
+    "chains": -1777
+   },
+   {
+    "q": 7,
+    "homology": 0,
+    "chains": 70
+   },
+   {
+    "q": 13,
+    "homology": 1,
+    "chains": -31296
+   },
+   {
+    "q": 15,
+    "homology": -1,
+    "chains": -46284
+   },
+   {
+    "q": 17,
+    "homology": 0,
+    "chains": -39103
+   },
+   {
+    "q": 19,
+    "homology": 0,
+    "chains": 45753
+   },
+   {
+    "q": 21,
+    "homology": 0,
+    "chains": 17598
+   },
+   {
+    "q": 23,
+    "homology": 2,
+    "chains": 3075
+   }
+  ]
+ }
+}

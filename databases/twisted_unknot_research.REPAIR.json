@@ -1,0 +1,29 @@
+{
+ "created_utc": "2026-11-23T05:18:50.272761+00:00",
+ "source": "databases/twisted_unknot_research.db at commit 9a06f279dc323ec97d996e21b98ee915020f32a6",
+ "source_commit": "9a06f279dc323ec97d996e21b98ee915020f32a6",
+ "source_sha256": "72656193c687f42556a48c6466432c0891fe5d6f353f294be548a23febef07e3",
+ "entity_table": "twisted_unknots",
+ "bidegree_rows": 663,
+ "blob_betti_values_rewritten_as_integers": 141,
+ "betti_storage_types_after": {
+  "integer": 663
+ },
+ "rows_flagged_truncated_in_source": 141,
+ "rows_repaired": 141,
+ "rows_left_untouched": [],
+ "rows_still_flagged_truncated": 0,
+ "repaired_rows_with_betti_changed": 0,
+ "repaired_rows_with_gap_changed_beyond_1e-9_relative": 0,
+ "repaired_rows_with_gap_changed_beyond_1e-6_relative": 0,
+ "repaired_rows_with_gap_null_status_changed": 0,
+ "polynomials_rebuilt": 0,
+ "pd_codes_filled_from_input_table": 0,
+ "diagrams_without_pd_code_after": 0,
+ "polynomials_inconsistent_with_stored_betti": [],
+ "rows_changed_outside_repair_log": 0,
+ "integrity_check": "ok",
+ "foreign_key_violations": 0,
+ "output": "databases/twisted_unknot_research.db",
+ "output_sha256": "82d58cc63059f46ad61e1c149208f60c8f00a1b203f428b26109a18e73ac3c40"
+}

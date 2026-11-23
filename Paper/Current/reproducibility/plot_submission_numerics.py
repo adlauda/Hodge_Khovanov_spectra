@@ -2,8 +2,12 @@
 
 Run from any directory. Input SQLite databases are opened read-only. The knot
 database is a checked local derivative made by clean_knot_database.py; the other
-databases are unchanged snapshots from SOURCE_COMMIT. The manifest records
-source and working-copy SHA-256 hashes. New PNGs and derived tables are written under
+databases start from unchanged snapshots from SOURCE_COMMIT. The knot, link
+and twisted-unknot files in the repository's databases/ folder are repaired
+copies of those (made by checks/database/apply_repairs.py); each is used after
+checking against its REPAIR.json record that it derives from the expected file
+and that the repair was complete. The manifest
+records source and working-copy SHA-256 hashes. New PNGs and derived tables are written under
 this submission directory. 'Complete' means the source database contains a
 non-NULL khovanov_polynomial, not an independent proof of numerical correctness.
 """
@@ -24,6 +28,7 @@ import pandas as pd
 ROOT = Path(__file__).resolve().parent
 REPO_ROOT = ROOT.parents[2]
 REPO_DATABASES = REPO_ROOT / "databases"
+REPAIRED = REPO_DATABASES
 SNAPSHOTS = ROOT / "snapshots"
 if not SNAPSHOTS.exists():
     SNAPSHOTS = ROOT.parents[1] / "Backup/2026-09-08-R4/reproducibility/snapshots"
@@ -76,6 +81,26 @@ def load_database(filename, table, foreign_key):
         if not path.is_file():
             path = REPO_DATABASES / filename
         expected_digest = SOURCE_SHA256[filename]
+    repair = None
+    record_path = REPAIRED / filename.replace(".db", ".REPAIR.json")
+    if record_path.is_file():
+        record = json.loads(record_path.read_text(encoding="utf-8"))
+        if record["source_sha256"] != expected_digest:
+            raise ValueError(f"Repair record for {filename} derives from an unexpected file")
+        if (record["rows_left_untouched"] or record["rows_still_flagged_truncated"]
+                or record["rows_changed_outside_repair_log"]
+                or record["polynomials_inconsistent_with_stored_betti"]
+                or record["integrity_check"] != "ok" or record["foreign_key_violations"]):
+            raise ValueError(f"Repair of {filename} is incomplete")
+        path = REPAIRED / filename
+        expected_digest = record["output_sha256"]
+        repair = {"record": Path(os.path.relpath(record_path, ROOT)).as_posix(),
+                  "repaired_from_sha256": record["source_sha256"],
+                  **{k: record[k] for k in (
+                      "rows_repaired", "repaired_rows_with_betti_changed",
+                      "repaired_rows_with_gap_changed_beyond_1e-9_relative",
+                      "polynomials_rebuilt", "blob_betti_values_rewritten_as_integers",
+                      "pd_codes_filled_from_input_table")}}
     if not path.is_file():
         raise FileNotFoundError(f"Required numerical input not found: {path}")
     with path.open("rb") as source_file:
@@ -128,6 +153,8 @@ def load_database(filename, table, foreign_key):
     }
     if derivation:
         info["local_derivative"] = derivation
+    if repair:
+        info["repair"] = repair
     return frame, info
 
 

@@ -6,6 +6,12 @@ from collections import defaultdict
 from scipy import sparse
 from scipy.sparse.linalg import eigsh
 from scipy.sparse.linalg import splu
+import warnings
+
+try:
+    from . import exact_rank
+except ImportError:  # module run or imported outside the package
+    import exact_rank
 
 # =================================================================
 # CLASS: Smoothing
@@ -395,8 +401,8 @@ class KhovanovEngine:
     # -----------------------------------------------------------------  
     def compute_khovanov_polynomial(self):
         """
-        Calculates homology using the Laplacian spectrum (harmonic representatives)
-        rather than rank-nullity on differentials for improved numerical stability.
+        Poincare polynomial of the Khovanov homology, with Betti numbers
+        from exact modular ranks of the differentials.
         """
         betti_numbers = {}
         
@@ -407,20 +413,17 @@ class KhovanovEngine:
         for q in all_q:
             for h in all_h:
                 # Skip if the chain group is empty
-                dim = self.get_dim(h, q)
+                dim = len(self.chain_groups.get((h, q), []))
                 if dim == 0:
                     continue
                     
-                # Use your adaptive spectrum logic (Sonar Pinger)
-                # 1e-7 is a very safe threshold given your 10^-12 gap
+                # Exact-rank Betti number; tol only matters for blocks too
+                # large for exact ranks (see get_low_spectrum_adaptive).
                 betti, _ = self.get_low_spectrum_adaptive(h, q, tol=1e-7)
                 
                 if betti > 0:
                     betti_numbers[(h, q)] = betti
         
-        # Use the helper function to turn the dict into the string
-        return format_kh_poly(betti_numbers)
-
         return self._format_polynomial(betti_numbers)
 
     def _format_polynomial(self, betti_dict):
@@ -558,7 +561,34 @@ class KhovanovEngine:
         # This requires O(dim^2) memory and O(dim^3) time.
         return np.linalg.eigvalsh(laplacian.toarray())
     
-    def get_low_spectrum_adaptive(self, h, q, tol=1e-9):
+    def get_low_spectrum_adaptive(self, h, q, tol=1e-9, rank_max=None):
+        """
+        Betti number and the two smallest positive Laplacian eigenvalues.
+
+        The Betti number is dim - rank(d_out) - rank(d_in) from exact modular
+        ranks, and the eigenvalues are read at the index that rank dictates
+        (see exact_rank.py).  No eigenvalue is classified as zero by a
+        threshold, so `tol` is not used on this path.
+
+        Bidegrees whose differentials exceed `rank_max` rows or columns
+        (default exact_rank.RANK_MAX) fall back to the threshold method
+        below and emit a RuntimeWarning: there the Betti number is a count of
+        eigenvalues below `tol` and should be confirmed independently.
+        """
+        if len(self.chain_groups.get((h, q), [])) == 0:
+            return 0, []
+        try:
+            betti, gaps = exact_rank.low_spectrum(
+                self, h, q, count=2,
+                rank_max=exact_rank.RANK_MAX if rank_max is None else rank_max)
+            return betti, np.array(gaps)
+        except exact_rank.BlockTooLarge as exc:
+            warnings.warn(f"{exc}; using the threshold eigensolver, whose Betti "
+                          f"number is not rank-verified", RuntimeWarning, stacklevel=2)
+            return self._low_spectrum_threshold(h, q, tol)
+
+    def _low_spectrum_threshold(self, h, q, tol=1e-9):
+        """Historical threshold method; kept for blocks too large for exact ranks."""
         laplacian = self.compute_laplacian(h, q)
         dim = laplacian.shape[0]
         

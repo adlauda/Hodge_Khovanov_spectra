@@ -18,10 +18,13 @@ new log so it can be checked against the updated source.
 
 Keep `figures`, the two `.bib` files, `quantumarticle.cls`, and
 `schmidhuber.sty` alongside the manuscript. The numerical summaries and scripts
-are in `reproducibility`. In the GitHub checkout, the cleaned knot database is
-at `../../databases/knot_research.db`; in the Dropbox working folder it is at
-`reproducibility/data/knot_research.db`. Its cleanup record is
-`reproducibility/DATABASE-CLEANUP.json`. Run
+are in `reproducibility`. In the GitHub checkout, the knot database at
+`../../databases/knot_research.db` is the cleaned database after the November
+2026 repair of its Betti numbers, which changed no spectral gap; in the Dropbox
+working folder the cleaned database is at
+`reproducibility/data/knot_research.db`. The cleanup record is
+`reproducibility/DATABASE-CLEANUP.json` and the repair is described in
+`reproducibility/NUMERICAL-REVIEW.md`. Run
 `python reproducibility/plot_submission_numerics.py` to regenerate the four
 numerical figures and their summary tables. The script supports both layouts.
 The databases are not needed to compile the paper.

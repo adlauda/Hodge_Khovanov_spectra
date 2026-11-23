@@ -1,0 +1,11 @@
+{
+ "database": "databases/link_research.db",
+ "table": "links",
+ "diagrams": 1424,
+ "rows": 110646,
+ "diagram_q_pairs": 17004,
+ "diagrams_with_null_betti": 0,
+ "diagrams_failing": 0,
+ "diagram_q_pairs_failing": 0,
+ "failures": {}
+}

@@ -1,0 +1,29 @@
+{
+ "created_utc": "2026-11-23T02:45:34.522552+00:00",
+ "source": "databases/knot_research.db at commit 9a06f279dc323ec97d996e21b98ee915020f32a6",
+ "source_commit": "9a06f279dc323ec97d996e21b98ee915020f32a6",
+ "source_sha256": "f06d7982b8aba372d2f33935db7da0b78d036dccb53c345c7d93da681d7cb3a7",
+ "entity_table": "knots",
+ "bidegree_rows": 1401192,
+ "blob_betti_values_rewritten_as_integers": 1183182,
+ "betti_storage_types_after": {
+  "integer": 1401192
+ },
+ "rows_flagged_truncated_in_source": 7439,
+ "rows_repaired": 7439,
+ "rows_left_untouched": [],
+ "rows_still_flagged_truncated": 0,
+ "repaired_rows_with_betti_changed": 1774,
+ "repaired_rows_with_gap_changed_beyond_1e-9_relative": 0,
+ "repaired_rows_with_gap_changed_beyond_1e-6_relative": 0,
+ "repaired_rows_with_gap_null_status_changed": 0,
+ "polynomials_rebuilt": 810,
+ "pd_codes_filled_from_input_table": 7930,
+ "diagrams_without_pd_code_after": 0,
+ "polynomials_inconsistent_with_stored_betti": [],
+ "rows_changed_outside_repair_log": 0,
+ "integrity_check": "ok",
+ "foreign_key_violations": 0,
+ "output": "databases/knot_research.db",
+ "output_sha256": "37c52286e3db942f90cc05d1d150fa088c30615a02284ed1c8f9cb508367a431"
+}

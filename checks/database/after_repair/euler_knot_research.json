@@ -1,0 +1,11 @@
+{
+ "database": "databases/knot_research.db",
+ "table": "knots",
+ "diagrams": 12965,
+ "rows": 1401192,
+ "diagram_q_pairs": 182147,
+ "diagrams_with_null_betti": 0,
+ "diagrams_failing": 0,
+ "diagram_q_pairs_failing": 0,
+ "failures": {}
+}
