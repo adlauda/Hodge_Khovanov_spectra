@@ -12,7 +12,12 @@ dependencies = [
     "pandas",
     "scipy",
     "matplotlib",
-    "seaborn",
+]
+
+[project.optional-dependencies]
+checks = [
+    "python-flint",
+    "database_knotinfo",
 ]
 
 [tool.setuptools.packages.find]

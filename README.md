@@ -18,11 +18,13 @@ in `Paper/Current/`. The numerical data and verification programs are listed bel
 - `tests/` - regression tests for the Betti numbers and gaps of small knots.
 - `scripts/` - database generation scripts for knots, links, 14-crossing knots,
   and twisted unknots.
-- `visualization/` - earlier plotting scripts, retained for reference.
-- `data/` - input planar-diagram tables.
+- `visualization/` - earlier plotting scripts, retained for reference; the paper's figures do not use them.
+- `data/` - input planar-diagram tables: `knotinfo.csv` and `linkinfo.csv` (KnotInfo and LinkInfo diagrams),
+  `knots14_pd.csv` (46,969 fourteen-crossing diagrams), `TU_knots.csv` (twisted unknots), and in
+  `crossings/14/` the Dowker-Thistlethwaite tables the fourteen-crossing diagrams were converted from.
 - `databases/` - SQLite result databases used by the plotting script. The knot, link and twisted-unknot databases
   were verified and repaired in November 2026; each has a `.REPAIR.json` record beside it.
-- `outputs/plots/` - earlier figure files, retained for reference.
+- `outputs/plots/` - earlier figure files, retained for reference; they are not the paper's figures.
 
 ## Current numerical figures
 
@@ -46,7 +48,9 @@ python -m pip install -e .
 ```
 
 The database-generation scripts import the installed `spectral_kh` package
-directly. No repository-specific environment setup script is required.
+directly. No repository-specific environment setup script is required. The
+programs in `checks/database/` also use `python-flint` and the KnotInfo tables
+of `database_knotinfo`; install them with `python -m pip install -e ".[checks]"`.
 
 ## Generate the current numerical figures
 
@@ -88,7 +92,10 @@ integer arithmetic to bound the first positive eigenvalue in bidegrees
 
 The SQLite databases are included so readers can inspect the numerical data
 without rerunning the full computation. The Python scripts in `scripts/` are the
-database-generation entry points retained for reference and reruns.
+database-generation entry points retained for reference and reruns. They
+create and write two columns, `log_torsion` and `compute_time`, that the
+published files omit (see below), so run them on a new database file, not on
+the files in `databases/`.
 
 `databases/knot_research.db` contains 12,965 knots and 1,401,192 bidegree rows,
 with one row per knot and bidegree. It was made in two steps. A cleanup removed

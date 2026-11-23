@@ -1,37 +1,41 @@
-# Current manuscript
+# Manuscript
 
-Edit [main.tex](main.tex). It contains the entire paper, including the preamble,
-authors, sections, diagram macros, and appendix.
+"Quantum computing and Khovanov homology", September 2026 version.
 
-Read [main.pdf](main.pdf). Run `build.ps1` in PowerShell after editing to rebuild
-this PDF and its bibliography. In a LaTeX editor, select `main.tex` and use
-pdfLaTeX + BibTeX. The `build` folder holds generated compilation files.
+- [`main.pdf`](main.pdf) is the compiled manuscript.
+- [`main.tex`](main.tex) is the complete source: preamble, sections, diagram
+  macros and appendix.
 
-On another computer, let Dropbox finish downloading the whole `Current` folder
-before opening `main.tex`. In the editor, compile with pdfLaTeX, run BibTeX,
-then run pdfLaTeX twice. The equivalent terminal commands, run from this folder,
-are `pdflatex main.tex`, `bibtex main`, and `pdflatex main.tex` twice.
+## Compiling
 
-The 12 September edit addresses the probability-command error reported by
-the synced TeX Live 2024 log. If the error persists after syncing, retain the
-new log so it can be checked against the updated source.
+Keep `figures/`, the two `.bib` files, `quantumarticle.cls` and
+`schmidhuber.sty` beside `main.tex`. From this folder run
 
-Keep `figures`, the two `.bib` files, `quantumarticle.cls`, and
-`schmidhuber.sty` alongside the manuscript. The numerical summaries and scripts
-are in `reproducibility`. In the GitHub checkout, the knot database at
-`../../databases/knot_research.db` is the cleaned database after the November
-2026 repair of its Betti numbers, which changed no spectral gap; in the Dropbox
-working folder the cleaned database is at
-`reproducibility/data/knot_research.db`. The cleanup record is
-`reproducibility/DATABASE-CLEANUP.json` and the repair is described in
-`reproducibility/NUMERICAL-REVIEW.md`. Run
-`python reproducibility/plot_submission_numerics.py` to regenerate the four
-numerical figures and their summary tables. The script supports both layouts.
+```
+pdflatex main.tex
+bibtex main
+pdflatex main.tex
+pdflatex main.tex
+```
+
+On Windows, `build.ps1` runs the same steps in a `build/` subfolder, stops on
+undefined references or overfull boxes, and copies the result to `main.pdf`.
+
 The databases are not needed to compile the paper.
 
-This is the single-file R5 manuscript, promoted to the stable current location
-on 11 September 2026. Its text was unchanged during the folder reorganization.
-Sascha's opening and the mathematical corrections are retained.
+## Numerical figures and data
 
-Earlier drafts and exports remain in the Dropbox `Paper/Backup` folder.
-GitHub carries this current version; future edits belong here.
+The four numerical figures in `figures/` are produced from the databases in
+`../../databases/` by
+
+```
+python reproducibility/plot_submission_numerics.py
+```
+
+[`reproducibility/NUMERICAL-REVIEW.md`](reproducibility/NUMERICAL-REVIEW.md)
+describes where the data come from, how they were verified, and their limits.
+
+The manuscript cites the repository at commit `ccfce9a3eaa3`. The knot
+database has since had duplicate rows removed and 1,774 Betti numbers
+corrected. Neither step changed a spectral gap, and the figures are
+pixel-identical before and after the correction.

@@ -25,7 +25,7 @@ called "the source files" below.
 | `recompute_rows.py` | Recomputes stored bidegrees: Betti number from exact modular ranks, gap read at the index the rank dictates, with a second independent gap computation. | NumPy, SciPy, `spectral_kh` |
 | `apply_repairs.py` | Builds a repaired database copy from recomputed rows that pass every acceptance test, with a log of each old and new value. | standard library |
 | `slim_database.py` | Writes a copy of a database without the `log_torsion` and `compute_time` columns, and optionally without named indexes, and verifies that nothing else changed. | standard library |
-| `slurm/*.sbatch` | The batch files as submitted against the source files (CARC Discovery; 8 CPUs and 32 GB per task). | |
+| `slurm/*.sbatch` | Slurm batch files for the recomputation, with site-specific options removed (8 CPUs and 32 GB per task). | |
 
 The KnotInfo and LinkInfo tables are those shipped with the Python package
 `database_knotinfo` (`knotinfo_data_complete.csv`, SHA-256 `ed4447ff…`, and
@@ -47,7 +47,7 @@ On the source files:
 | `before_repair/euler_*.json` | Euler check. 804 knots fail in `knot_research.db`; no link or twisted unknot fails. |
 | `euler_knot_research_14*.json` | Euler check of the two 14-crossing databases, which were not repaired. Only the partial records fail. |
 | `exact_blocks_knots.json`, `exact_blocks_links.json` | Exact rational ranks for nine small frontier blocks, including `13a_4874` at (10, 31). |
-| `recompute/knots_*.jsonl` | One line per recomputed row: 7,439 rows of 1,389 knots. The `knots_debug_*` files come from the workers that ran on the `debug` partition; together with `knots_0` to `knots_39` they cover each knot once. |
+| `recompute/knots_*.jsonl` | One line per recomputed row: 7,439 rows of 1,389 knots. The `knots_debug_*` files come from five extra workers that ran the same program with `--shards 5 --reverse` in a short-job queue; together with `knots_0` to `knots_39` they cover each knot once. |
 | `recompute/links.jsonl` | 88 rows of 24 links. |
 | `recompute/twisted_unknots.jsonl` | 141 rows of the diagrams `TU_10` to `TU_13`. |
 
@@ -80,7 +80,7 @@ Each repaired database also carries the tables `row_repairs`,
 
 ## Rerunning
 
-From the repository root, with the package installed (`pip install -e .`):
+From the repository root, with the package installed (`pip install -e ".[checks]"`):
 
 ```bash
 KI=$(python -c "import database_knotinfo, os; print(os.path.dirname(database_knotinfo.__file__))")/csv_data
@@ -102,16 +102,21 @@ To repeat the repair itself, first extract the source files:
 
 ```bash
 SRC=9a06f279dc323ec97d996e21b98ee915020f32a6
+mkdir $OUT/source
 for n in knot_research link_research twisted_unknot_research; do
-    git show $SRC:databases/$n.db > $OUT/$n.source.db
+    git show $SRC:databases/$n.db > $OUT/source/$n.db
 done
 
-# Recompute the truncated rows (about 330 core-hours in total; see slurm/)
-python checks/database/recompute_rows.py --db $OUT/knot_research.source.db \
+# Recompute the truncated rows (about 400 core-hours in total; see slurm/)
+python checks/database/recompute_rows.py --db $OUT/source/knot_research.db \
     --shard 0 --shards 40 --out $OUT/knots_0.jsonl
 
+# The same as a batch job, for all three databases
+DB=$OUT/source sbatch --export=ALL checks/database/slurm/recompute_truncated.sbatch
+DB=$OUT/source sbatch --export=ALL checks/database/slurm/recompute_twisted.sbatch
+
 # Or build the repaired copy from the recorded results
-python checks/database/apply_repairs.py --source $OUT/knot_research.source.db \
+python checks/database/apply_repairs.py --source $OUT/source/knot_research.db \
     --output $OUT/knot_research.db --report $OUT/knot_research.REPAIR.json \
     --recomputed "checks/database/recompute/knots_*.jsonl" \
     --knotinfo $KI/knotinfo_data_complete.csv --pd-csv data/knotinfo.csv

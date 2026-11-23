@@ -525,25 +525,7 @@ class KhovanovEngine:
         return L_up + L_down
     
     # ---------------------------------------------------------
-    # -- Calculate spectrum of Laplacian -- 
-    # OLD Version that truncated to 60 eigenvalues
-    #def get_spectrum(self, h, q):
-    #    laplacian = self.compute_laplacian(h, q)
-    #    
-    #    # Ensure we are treating it as a sparse matrix if it's large
-    #    if laplacian.shape[0] > 100:
-    #        try:
-    #            # 'SM' finds the smallest magnitude eigenvalues (near zero)
-    #            # which are the most important for homology
-    #            evs = eigsh(laplacian, k=min(laplacian.shape[0]-1, 50), 
-    #                        which='SM', return_eigenvectors=False)
-    #        except:
-    #            evs = np.linalg.eigvalsh(laplacian.toarray() if hasattr(laplacian, "toarray") else laplacian)
-    #    else:
-    #        evs = np.linalg.eigvalsh(laplacian.toarray() if hasattr(laplacian, "toarray") else laplacian)
-    #            
-    #    return evs
-        
+    # -- Calculate spectrum of Laplacian --
     def get_spectrum(self, h, q):
         """
         Computes the full spectrum of the Laplacian for bidegree (h, q).
@@ -604,7 +586,6 @@ class KhovanovEngine:
             gaps = evs[evs >= tol]
             return betti, gaps[:2] if len(gaps) > 0 else []
 
-        # 2. Adaptive sparse solver for large matrices
         # 2. Adaptive sparse solver for large matrices
         k_search = 10
         while k_search < dim:
@@ -667,7 +648,7 @@ class KhovanovEngine:
 
     def get_homology_ranks(self, tolerance=1e-7):
         """
-        Helper for students to see the Betti numbers in a grid format.
+        Betti numbers by bidegree, from the dense spectrum and a threshold.
         """
         ranks = {}
         for (h, q) in self.get_active_bidegrees():
@@ -677,7 +658,7 @@ class KhovanovEngine:
                 ranks[(h, q)] = rank
         return ranks
     # -----------------------------------------------------------------
-    # Diagram invariants for comparisong to spectral gap
+    # Diagram invariants for comparison to spectral gap
     # -----------------------------------------------------------------
     def get_turaev_genus(self):
         """
@@ -730,6 +711,8 @@ def compute_bidegree_spectrum(args):
     return (h, q, sorted(spectrum, reverse=True), duration)
 
 if __name__ == '__main__':
+    from multiprocessing import Pool
+
     # --- SETUP PHASE ---
     setup_start = time.perf_counter()
     
@@ -766,7 +749,7 @@ if __name__ == '__main__':
 
 
 # =================================================================
-# MULTIPROCESSING WORKERS (Used by driver.py)
+# MULTIPROCESSING WORKERS
 # =================================================================
 
 _worker_engine = None
@@ -777,7 +760,6 @@ def initialize_worker(pd_code):
 
 def compute_single_spectrum_worker(bidegree):
     h, q = bidegree
-    # FIX: Using the correct method name 'compute_laplacian'
     L = _worker_engine.compute_laplacian(h, q)
     
     # L is a sparse matrix here
