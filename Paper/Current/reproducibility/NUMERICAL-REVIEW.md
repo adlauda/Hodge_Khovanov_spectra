@@ -351,9 +351,9 @@ bidegrees.
 | `alternating_distinguished_bidegrees.png` | Complete alternating records compared with exact distinguished-bidegree formulas; diagrams absent from the data are marked as formulas. |
 
 The figures fit no asymptotic curves and make no confidence-interval claim
-for their quantile bands. The earlier figures in `outputs/plots/` are kept for
-reference only: their titles say "Global Worst-Case", and their means pool
-the repeated bidegree rows that the cleanup later removed.
+for their quantile bands. They replace earlier unified plots, removed from the
+repository in November 2026, whose means pooled the repeated bidegree rows
+that the cleanup later removed.
 
 ## Files in this folder
 

@@ -18,13 +18,11 @@ in `Paper/Current/`. The numerical data and verification programs are listed bel
 - `tests/` - regression tests for the Betti numbers and gaps of small knots.
 - `scripts/` - database generation scripts for knots, links, 14-crossing knots,
   and twisted unknots.
-- `visualization/` - earlier plotting scripts, retained for reference; the paper's figures do not use them.
 - `data/` - input planar-diagram tables: `knotinfo.csv` and `linkinfo.csv` (KnotInfo and LinkInfo diagrams),
   `knots14_pd.csv` (46,969 fourteen-crossing diagrams), `TU_knots.csv` (twisted unknots), and in
   `crossings/14/` the Dowker-Thistlethwaite tables the fourteen-crossing diagrams were converted from.
 - `databases/` - SQLite result databases used by the plotting script. The knot, link and twisted-unknot databases
   were verified and repaired in November 2026; each has a `.REPAIR.json` record beside it.
-- `outputs/plots/` - earlier figure files, retained for reference; they are not the paper's figures.
 
 ## Current numerical figures
 
