@@ -1,8 +1,12 @@
 """Write a smaller copy of a result database without selected bidegree columns.
 
 The published databases omit ``log_torsion`` and ``compute_time``, which no
-figure, table or check in this repository reads.  Every other column, table
-and index is kept.
+figure, table or check in this repository reads.  Every other column and
+table is kept.  ``--drop-index`` also removes named indexes, which hold no
+data of their own; the published ``knot_research.db`` omits
+``unique_knot_bidegree``, which can be rebuilt with
+
+    CREATE UNIQUE INDEX unique_knot_bidegree ON bidegrees(knot_id, h, q);
 
 Non-destructive: the source is opened read-only and copied; the script refuses
 to overwrite an existing output or report.  After dropping the columns it
@@ -45,6 +49,8 @@ def main():
     ap.add_argument("--report", required=True)
     ap.add_argument("--drop", nargs="+", default=list(DEFAULT_DROP),
                     help="columns of the bidegrees table to omit")
+    ap.add_argument("--drop-index", nargs="*", default=[],
+                    help="indexes to omit; they must exist in the source")
     args = ap.parse_args()
     for path in (args.output, args.report):
         if os.path.exists(path):
@@ -59,6 +65,11 @@ def main():
             dropped[column] = con.execute(
                 f"select count(*) from bidegrees where {column} is not null").fetchone()[0]
             con.execute(f"alter table bidegrees drop column {column}")
+    for index in args.drop_index:
+        if not con.execute("select 1 from sqlite_master where type='index' and name=?",
+                           (index,)).fetchone():
+            raise SystemExit(f"no index named {index}")
+        con.execute(f'drop index "{index}"')
     con.execute("vacuum")
 
     # Every remaining column of every table must be unchanged.
@@ -88,9 +99,10 @@ def main():
         rows[table] = n_out
     indexes = [r[0] for r in con.execute(
         "select name from main.sqlite_master where type='index' order by name")]
-    if indexes != [r[0] for r in con.execute(
-            "select name from src.sqlite_master where type='index' order by name")]:
-        raise SystemExit("index list changed")
+    source_indexes = [r[0] for r in con.execute(
+        "select name from src.sqlite_master where type='index' order by name")]
+    if sorted(indexes + args.drop_index) != source_indexes:
+        raise SystemExit("index list changed unexpectedly")
     integrity = con.execute("pragma main.integrity_check").fetchone()[0]
     con.execute("detach src")
     con.close()
@@ -104,6 +116,7 @@ def main():
         "columns_dropped_from_bidegrees": list(dropped),
         "non_null_values_dropped": dropped,
         "rows_per_table": rows,
+        "indexes_dropped": args.drop_index,
         "indexes_kept": indexes,
         "remaining_columns_identical_to_source": True,
         "integrity_check": integrity,

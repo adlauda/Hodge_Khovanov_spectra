@@ -134,14 +134,16 @@ To reduce the size of the published files,
 `checks/database/slim_database.py` removed two columns of the `bidegrees`
 table from every database in `databases/`: `compute_time`, and `log_torsion`
 where present (the fourteen-crossing databases never had it). No figure,
-table or check in this repository reads either column. The script verified
-that every remaining column of every table, and the list of indexes, is
-identical before and after. Each file has a `.SLIM.json` record beside it
+table or check in this repository reads either column. It also removed the
+index `unique_knot_bidegree` from `knot_research.db`; the index holds no data
+of its own, and the file still has exactly one row per knot and bidegree. The
+script verified that every remaining column of every table is identical
+before and after, and that no other index changed. Each file has a `.SLIM.json` record beside it
 with both checksums.
 
 | File | Before | After | SHA-256 after |
 |---|---|---|---|
-| `knot_research.db` | 84.2 MB | 72.1 MB | `3cfd6618…` |
+| `knot_research.db` | 84.2 MB | 51.5 MB | `b8362ff5…` |
 | `knot_research_14.db` | 21.5 MB | 18.0 MB | `191fc2be…` |
 | `knot_research_14_20261007.db` | 21.7 MB | 16.3 MB | `01b7d6ef…` |
 | `link_research.db` | 8.1 MB | 6.5 MB | `c8255715…` |
@@ -159,6 +161,10 @@ with both checksums.
   cleaned knot database; they remain in the file at commit `ccfce9a3eaa3`.
 - The KnotInfo, LinkInfo and Euler checks in `checks/database/after_repair/`
   were rerun on the files after the column removal, with the same results.
+- Without the index nothing in `knot_research.db` prevents a duplicate row
+  from being inserted, and lookups by knot scan the table. Before merging new
+  results into the file or querying it knot by knot, rebuild the index with
+  `CREATE UNIQUE INDEX unique_knot_bidegree ON bidegrees(knot_id, h, q);`.
 - The database drivers in `scripts/` still create and write both columns.
   `scripts/merge_missing_knot_results.py` writes `compute_time` and needs a
   database that has it.
@@ -222,7 +228,8 @@ remain explicitly recorded for possible independent recomputation.
 The cleaned `knot_research.db` has 1,401,192 bidegree rows and no duplicate groups.
 Every retained row, knot metadata row, and merge-log entry is unchanged.
 A unique index on `(knot_id,h,q)` prevents new duplicate rows; it replaces
-the redundant single-column `knot_id` index. The original published database
+the redundant single-column `knot_id` index. *The published file omits this
+index since 2026-11-23; see "Column removal".* The original published database
 remains available at the pinned commit and in the Dropbox backup snapshots.
 `DATABASE-CLEANUP.json` records the source and output checksums, every removed
 row ID and its retained replacement, and the conflicting Betti records.

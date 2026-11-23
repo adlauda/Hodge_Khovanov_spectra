@@ -1,7 +1,7 @@
 {
   "repository": "https://github.com/adlauda/Hodge_Khovanov_spectra",
   "commit": "ccfce9a3eaa33f6663ff1e21b158d73aa34b3bea",
-  "generated_utc": "2026-11-23T16:29:29.367620+00:00",
+  "generated_utc": "2026-11-23T16:36:21.198701+00:00",
   "selection_policy": "Only diagrams marked complete with a positive stored gap enter distribution statistics. Partial diagrams are counted but excluded. No eigensolver was run.",
   "sources": [
     {
@@ -10,9 +10,9 @@
       "source_url": "https://raw.githubusercontent.com/adlauda/Hodge_Khovanov_spectra/ccfce9a3eaa33f6663ff1e21b158d73aa34b3bea/databases/knot_research.db",
       "source_sha256": "918832fc674a8b92aeef88f464bad18c4a21478ef90fefa2e57f52aed1d1e21a",
       "working_file": "../../../databases/knot_research.db",
-      "working_sha256": "3cfd66185e87e70edf24bf20d612507a4224032a3af8fa99112ed0e7786338cf",
-      "sha256": "3cfd66185e87e70edf24bf20d612507a4224032a3af8fa99112ed0e7786338cf",
-      "bytes": 75640832,
+      "working_sha256": "b8362ff55c32ba5a92c6bc2481837bd5bcc716315a5cb50ee250b90fa589e489",
+      "sha256": "b8362ff55c32ba5a92c6bc2481837bd5bcc716315a5cb50ee250b90fa589e489",
+      "bytes": 53964800,
       "registered_diagrams": 12965,
       "marked_complete": 12965,
       "with_any_blocks": 12965,

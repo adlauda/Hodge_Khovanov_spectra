@@ -24,7 +24,7 @@ called "the source files" below.
 | `exact_block_betti.py` | Exact rational Betti number of single bidegrees by integer rank. | python-flint |
 | `recompute_rows.py` | Recomputes stored bidegrees: Betti number from exact modular ranks, gap read at the index the rank dictates, with a second independent gap computation. | NumPy, SciPy, `spectral_kh` |
 | `apply_repairs.py` | Builds a repaired database copy from recomputed rows that pass every acceptance test, with a log of each old and new value. | standard library |
-| `slim_database.py` | Writes a copy of a database without the `log_torsion` and `compute_time` columns and verifies that nothing else changed. | standard library |
+| `slim_database.py` | Writes a copy of a database without the `log_torsion` and `compute_time` columns, and optionally without named indexes, and verifies that nothing else changed. | standard library |
 | `slurm/*.sbatch` | The batch files as submitted against the source files (CARC Discovery; 8 CPUs and 32 GB per task). | |
 
 The KnotInfo and LinkInfo tables are those shipped with the Python package
@@ -56,7 +56,7 @@ On the repaired files now in `databases/`:
 | File | Content |
 |---|---|
 | `databases/*.REPAIR.json` | Source and output checksums, counts of rows repaired and changed, and the post-conditions. |
-| `databases/*.SLIM.json` | Checksums before and after the removal of the `log_torsion` and `compute_time` columns on 2026-11-23, for all five databases. |
+| `databases/*.SLIM.json` | Checksums before and after the removal of the `log_torsion` and `compute_time` columns on 2026-11-23, for all five databases. For `knot_research.db` the index `unique_knot_bidegree` was removed as well. |
 | `after_repair/knotinfo_comparison.json` | All 12,965 knots and 1,401,192 rows agree with KnotInfo. |
 | `after_repair/linkinfo_comparison.json` | All 1,424 links agree with LinkInfo. |
 | `after_repair/euler_*.json` | No diagram fails the Euler check. |
@@ -124,7 +124,8 @@ reproduces the published file:
 
 ```bash
 python checks/database/slim_database.py --source $OUT/knot_research.db \
-    --output $OUT/knot_research.slim.db --report $OUT/knot_research.SLIM.json
+    --output $OUT/knot_research.slim.db --report $OUT/knot_research.SLIM.json \\
+    --drop-index unique_knot_bidegree
 sha256sum $OUT/knot_research.slim.db databases/knot_research.db
 ```
  Pass

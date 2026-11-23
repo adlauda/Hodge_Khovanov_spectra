@@ -92,7 +92,7 @@ database-generation entry points retained for reference and reruns.
 
 `databases/knot_research.db` contains 12,965 knots and 1,401,192 bidegree rows,
 with one row per knot and bidegree. It was made in two steps. A cleanup removed
-duplicate rows, preserving retained row IDs and adding a unique index; its
+duplicate rows, preserving retained row IDs; its
 selection rule, checksums, and removed-row recovery record are in
 `Paper/Current/reproducibility/DATABASE-CLEANUP.json`. A repair in November
 2026 then corrected 1,774 Betti numbers on 810 twelve-crossing knots that an
@@ -109,7 +109,10 @@ The files before the repair are at commit
 `9a06f279dc323ec97d996e21b98ee915020f32a6`.
 
 To keep the files small, the `log_torsion` and `compute_time` columns have
-been removed from every database in `databases/`. Bidegree labels, chain
+been removed from every database in `databases/`, and `knot_research.db` is
+stored without its `(knot_id, h, q)` index. Run
+`CREATE UNIQUE INDEX unique_knot_bidegree ON bidegrees(knot_id, h, q);` on
+your copy before adding rows or making many per-knot queries. Bidegree labels, chain
 dimensions, Betti numbers, spectral gaps and all other tables are unchanged,
 and each file has a `.SLIM.json` record with its checksums. The files with
 those columns are at commit `5d61309a76522d5e8c59197de1d6e72fe861979c`.

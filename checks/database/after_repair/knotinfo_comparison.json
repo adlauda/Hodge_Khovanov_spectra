@@ -1,6 +1,6 @@
 {
  "database": "databases/knot_research.db",
- "database_sha256": "3cfd66185e87e70edf24bf20d612507a4224032a3af8fa99112ed0e7786338cf",
+ "database_sha256": "b8362ff55c32ba5a92c6bc2481837bd5bcc716315a5cb50ee250b90fa589e489",
  "knotinfo_sha256": "ed4447ff81dc50e2561764760d631356186c34e2dd35f89cc84e0a4d8fedd3d0",
  "knots_in_database": 12965,
  "duplicate_bidegree_rows_seen": 0,
