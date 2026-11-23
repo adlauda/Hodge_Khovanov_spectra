@@ -1,7 +1,8 @@
 # Database verification and repair, November 2026
 
 This folder holds the programs, batch files and results of the check of the
-stored Betti numbers and spectral gaps carried out on 2026-11-22. The account
+stored Betti numbers and spectral gaps carried out on 2026-11-22, and of the
+comparison of the 14-crossing Betti numbers with khoca on 2026-11-23. The account
 of what was found is in
 [`NUMERICAL-REVIEW.md`](../../Paper/Current/reproducibility/NUMERICAL-REVIEW.md);
 this page says what each file is and how to rerun it.
@@ -20,6 +21,7 @@ called "the source files" below.
 |---|---|---|
 | `compare_knotinfo.py` | Compares every stored knot Betti number with KnotInfo's integral Khovanov homology. | standard library, KnotInfo CSV |
 | `compare_linkinfo.py` | Compares every stored link Betti table with LinkInfo's Khovanov polynomials, over orientations and mirrors. | standard library, LinkInfo CSV |
+| `compare_khoca.py` | Compares every stored Betti number of a knot database with the rational Khovanov homology computed by the independent program khoca. Used for the 14-crossing databases, which KnotInfo does not cover. | khoca, py |
 | `euler_check.py` | Checks that homology and chains have the same Euler characteristic for every diagram and quantum degree. | standard library |
 | `exact_block_betti.py` | Exact rational Betti number of single bidegrees by integer rank. | python-flint |
 | `recompute_rows.py` | Recomputes stored bidegrees: Betti number from exact modular ranks, gap read at the index the rank dictates, with a second independent gap computation. | NumPy, SciPy, `spectral_kh` |
@@ -46,6 +48,7 @@ On the source files:
 | `before_repair/linkinfo_comparison.json` | All 1,424 links agree. |
 | `before_repair/euler_*.json` | Euler check. 804 knots fail in `knot_research.db`; no link or twisted unknot fails. |
 | `euler_knot_research_14*.json` | Euler check of the two 14-crossing databases, which were not repaired. Only the partial records fail. |
+| `khoca_knot_research_14*.json` | Comparison of the two 14-crossing databases with khoca 1.5, run on 2026-11-23. Every stored Betti number agrees: 275,896 rows (2,133 complete and 21 partial knots) and 277,468 rows (2,153 complete and 2 partial knots). |
 | `exact_blocks_knots.json`, `exact_blocks_links.json` | Exact rational ranks for nine small frontier blocks, including `13a_4874` at (10, 31). |
 | `recompute/knots_*.jsonl` | One line per recomputed row: 7,439 rows of 1,389 knots. The `knots_debug_*` files come from five extra workers that ran the same program with `--shards 5 --reverse` in a short-job queue; together with `knots_0` to `knots_39` they cover each knot once. |
 | `recompute/links.jsonl` | 88 rows of 24 links. |

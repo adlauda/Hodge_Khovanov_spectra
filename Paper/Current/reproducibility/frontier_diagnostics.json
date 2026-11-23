@@ -1,6 +1,6 @@
 {
   "description": "Reformatted existing floating-point recomputation record; no new eigensolver run. Residuals are diagnostics, not rigorous gap enclosures.",
-  "source": "Paper/Working/Khovanov homology/repo_additions/certification/results.json",
+  "source": "An earlier local recomputation record (SHA-256 73736d545eb63e15be35f9ed82cd246040260990f88570b19155f4c6be901747), which is not part of this repository.",
   "limitations": [
     "The archived script did not record an explicit exact check of d_out d_in = 0.",
     "A modular rank sum equal to dimension proves characteristic-zero acyclicity for an integer chain complex. Positive modular nullity only bounds characteristic-zero nullity from above.",

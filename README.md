@@ -21,6 +21,9 @@ in `Paper/Current/`. The numerical data and verification programs are listed bel
 - `data/` - input planar-diagram tables: `knotinfo.csv` and `linkinfo.csv` (KnotInfo and LinkInfo diagrams),
   `knots14_pd.csv` (46,969 fourteen-crossing diagrams), `TU_knots.csv` (twisted unknots), and in
   `crossings/14/` the Dowker-Thistlethwaite tables the fourteen-crossing diagrams were converted from.
+  The program that did the conversion in March 2026 was not kept;
+  `scripts/crossings/14/check_14_pd_table.py` confirms that each of the 46,969 diagrams has the
+  Dowker-Thistlethwaite code listed under its name, up to mirror image.
 - `databases/` - SQLite result databases used by the plotting script. The knot, link and twisted-unknot databases
   were verified and repaired in November 2026; each has a `.REPAIR.json` record beside it.
 
@@ -47,8 +50,8 @@ python -m pip install -e .
 
 The database-generation scripts import the installed `spectral_kh` package
 directly. No repository-specific environment setup script is required. The
-programs in `checks/database/` also use `python-flint` and the KnotInfo tables
-of `database_knotinfo`; install them with `python -m pip install -e ".[checks]"`.
+programs in `checks/database/` also use `python-flint`, the KnotInfo tables
+of `database_knotinfo`, and the Khovanov homology program `khoca`; install them with `python -m pip install -e ".[checks]"`.
 
 ## Generate the current numerical figures
 
@@ -133,3 +136,21 @@ complete, and 277,468 bidegree rows, with one row per knot and bidegree and
 Betti numbers stored as integers. `14ah_00002` and `14ah_00010` are still
 partial. The paper's figures and tables do not use this file; they use
 `databases/knot_research_14.db`, whose values are unchanged.
+
+What is and is not verified for the 14-crossing data:
+
+- **Diagrams.** The 14-crossing knots are a random selection of about 2,150
+  of the 46,969 diagrams in `data/knots14_pd.csv`, not a complete census.
+  Each diagram in that table matches its Dowker-Thistlethwaite code.
+- **Betti numbers.** KnotInfo has no Khovanov data at 14 crossings, so the
+  stored Betti numbers were compared with the independent program `khoca`.
+  All 2,133 complete knots (275,896 rows) of `knot_research_14.db` and all
+  2,153 complete knots (277,468 rows) of the snapshot agree, as do the rows
+  already stored for the partial knots. Results are in
+  `checks/database/khoca_knot_research_14*.json`.
+- **Spectral gaps.** The 14-crossing gaps were not recomputed. They are
+  floating-point values from the original run with no second computation
+  behind them.
+- **Partial knots.** 21 knots in `knot_research_14.db` and 2 in the snapshot
+  have no Khovanov polynomial stored and lack some bidegrees. The figures
+  leave them out.

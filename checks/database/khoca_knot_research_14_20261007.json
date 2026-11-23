@@ -1,0 +1,103 @@
+{
+ "database": "databases/knot_research_14_20261007.db",
+ "sha256": "01b7d6ef747ba1188d56eb590c2fec3a7367eacd2c0ce9dae232ed1f1e7e6733",
+ "reference": "khoca 1.5, rational coefficients",
+ "convention": "khoca term t^a q^b compared with stored bidegree (h, q) = (-a, b)",
+ "diagrams": 2155,
+ "complete_diagrams": 2153,
+ "complete_diagrams_agreeing": 2153,
+ "partial_diagrams": 2,
+ "partial_diagrams_with_all_stored_rows_agreeing": 2,
+ "rows_compared": 277468,
+ "rows_disagreeing": 0,
+ "rows_with_null_betti": 0,
+ "errors": 0,
+ "disagreeing_diagrams": [],
+ "partial_diagram_records": [
+  {
+   "name": "14ah_00002",
+   "complete": false,
+   "rows_compared": 93,
+   "row_mismatches": [],
+   "null_betti_rows": 0,
+   "total_rank": 36,
+   "homology_without_row": [
+    {
+     "h": 7,
+     "q": 23,
+     "khoca": 1
+    },
+    {
+     "h": 8,
+     "q": 25,
+     "khoca": 2
+    }
+   ]
+  },
+  {
+   "name": "14ah_00010",
+   "complete": false,
+   "rows_compared": 43,
+   "row_mismatches": [],
+   "null_betti_rows": 0,
+   "total_rank": 52,
+   "homology_without_row": [
+    {
+     "h": 7,
+     "q": 23,
+     "khoca": 2
+    },
+    {
+     "h": 7,
+     "q": 25,
+     "khoca": 3
+    },
+    {
+     "h": 8,
+     "q": 25,
+     "khoca": 2
+    },
+    {
+     "h": 8,
+     "q": 27,
+     "khoca": 2
+    },
+    {
+     "h": 9,
+     "q": 27,
+     "khoca": 2
+    },
+    {
+     "h": 9,
+     "q": 29,
+     "khoca": 2
+    },
+    {
+     "h": 10,
+     "q": 29,
+     "khoca": 1
+    },
+    {
+     "h": 10,
+     "q": 31,
+     "khoca": 2
+    },
+    {
+     "h": 11,
+     "q": 31,
+     "khoca": 1
+    },
+    {
+     "h": 11,
+     "q": 33,
+     "khoca": 1
+    },
+    {
+     "h": 12,
+     "q": 35,
+     "khoca": 1
+    }
+   ]
+  }
+ ]
+}

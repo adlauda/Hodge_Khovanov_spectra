@@ -20,7 +20,8 @@ unless stated otherwise.
   found to be too small and were corrected. No spectral gap changed, and the
   figures regenerated afterwards are pixel-identical to the earlier ones.
 - The spectral gaps are double-precision values without validated error
-  bounds. The fourteen-crossing data have no independent reference.
+  bounds. The fourteen-crossing Betti numbers agree with the independent
+  program khoca; the fourteen-crossing gaps have no second computation.
 
 ## Provenance of the databases
 
@@ -68,7 +69,11 @@ fourteen-crossing computation. The manuscript does not use it.
   `data/knots14_pd.csv`, a table of 46,969 planar diagrams (19,536 `14ah` and
   27,433 `14nh`), using `DataFrame.sample` with a fixed seed over the entries
   not yet finished. Every PD code in the database equals its entry in that
-  table. This is random selection from the supplied table, which is not the
+  table. The table was converted in March 2026 from the Dowker-Thistlethwaite
+  codes in `data/crossings/14/` by a program that was not kept;
+  `scripts/crossings/14/check_14_pd_table.py` reads a Dowker-Thistlethwaite
+  code off each diagram from every base point and confirms that all 46,969
+  diagrams carry the code listed under their name, up to mirror image. This is random selection from the supplied table, which is not the
   same as uniform sampling over knot types, and the completed subset need not
   keep the inclusion probabilities of the draws. The script performs no
   hyperbolicity test.
@@ -296,8 +301,15 @@ rational Betti number is `dim - rank_Q(A) - rank_Q(B)`.
 - **Rows below dimension 4,000** were written from a dense full spectrum and
   were not recomputed. Their Betti numbers are covered by the KnotInfo and
   LinkInfo comparisons; their gaps rest on the dense eigensolver.
-- **The fourteen-crossing databases** were not recomputed. KnotInfo has no
-  Khovanov data at 14 crossings, so there is no independent reference. All
+- **The fourteen-crossing databases** were not recomputed, so their gaps
+  rest on the original floating-point run alone. KnotInfo has no Khovanov
+  data at 14 crossings; the Betti numbers were instead compared on 2026-11-23
+  with khoca 1.5 (Lewark and Lobb), an independent program based on
+  Bar-Natan's tangle algorithm, over the rationals
+  (`checks/database/compare_khoca.py`). Every stored Betti number agrees:
+  275,896 rows of `knot_research_14.db` and 277,468 rows of the snapshot,
+  covering all 2,133 and 2,153 complete records and the stored rows of the
+  partial ones. All
   complete records pass the Euler check, and only the partial records fail it:
   21 in `knot_research_14.db`, and 2 (`14ah_00002`, `14ah_00010`) in the
   2026-10-07 snapshot. Their Betti values are stored as blobs in

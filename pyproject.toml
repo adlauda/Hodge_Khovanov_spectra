@@ -18,6 +18,8 @@ dependencies = [
 checks = [
     "python-flint",
     "database_knotinfo",
+    "khoca",
+    "py",
 ]
 
 [tool.setuptools.packages.find]
